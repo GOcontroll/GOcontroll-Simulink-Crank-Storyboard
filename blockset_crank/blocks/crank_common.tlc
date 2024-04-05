@@ -1,0 +1,7 @@
+%function CrankCommonBlockTypeSetup() void
+	%if EXISTS(::_crank_common_setup) == 0
+		%assign ::_crank_common_setup = 1
+		%<LibAddToCommonIncludes("greio.h")>
+		%<LibAddToCommonIncludes("string.h")>
+	%endif
+%endfunction
