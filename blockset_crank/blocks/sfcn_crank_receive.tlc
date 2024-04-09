@@ -60,9 +60,9 @@
 	%assign nbuffer_len = LibBlockParameterValue(nbuff_len, 0)
 	
 	%openfile tmpBuf
-	gre_io_t *%<handle>; //channel handle
-	gre_io_serialized_data_t *%<nbuffer>; //serialized buffer
-	void *%<event_data>; //deserialized data
+	gre_io_t *%<handle>; %% receive channel handle, one per receive channel
+	gre_io_serialized_data_t *%<nbuffer>; %% serialized receive buffer
+	void *%<event_data>; %% deserialized data to pass to deserialize blocks
 	%closefile tmpBuf
 
 	%assign srcFile = LibGetModelDotCFile()
@@ -92,7 +92,7 @@
 		while ((n = gre_io_receive(%<handle>, &%<nbuffer>)) > 0){
 			gre_io_unserialize(%<nbuffer>, &event_addr, &event_name, &event_fmt, &%<event_data>);
 			if (!event_name) {
-				continue; // no event name
+				continue; %% no event name
 			}
 
 			%foreach eventnum = SIZE(events,1)
@@ -107,7 +107,7 @@
 				%endif
 			%endforeach
 			else {
-				continue; // no matching event found
+				continue; %% no matching event found
 			}
 			%% Call a function to process the received message via function-call subsystem
 			%foreach callIdx = NumSFcnSysOutputCalls

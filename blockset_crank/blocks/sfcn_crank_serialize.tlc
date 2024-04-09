@@ -54,16 +54,16 @@
 		%assign handle = "gre_%<block.SFcnParamSettings.channel>"
 		
 		%openfile tmpBuf
-			gre_io_t *%<handle>; //channel handle, one per channel
+			gre_io_t *%<handle>; %% send channel handle, one per send channel
 		%closefile tmpBuf
 		
 		%assign srcFile = LibGetModelDotCFile()
 		%<LibSetSourceFileSection(srcFile, "UserTop", tmpBuf)>
 	%endif
 	%openfile tmpBuf
-		gre_io_serialized_data_t *%<nbuffer> = NULL; //serialized buffer, one per event
+		gre_io_serialized_data_t *%<nbuffer> = NULL; %% serialized send buffer, one per event
 
-		%<event_name>_event_t %<event_data>; //deserialized data, one per event
+		%<event_name>_event_t %<event_data>; %% deserialized data to send, one per event
 	%closefile tmpBuf
 		
 	%assign srcFile = LibGetModelDotCFile()
