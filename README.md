@@ -56,6 +56,9 @@ Then place any number of Crank deserialize event blocks in this subsystem to get
 ### Sending events from Simulink
 Place a Crank serialize event block and select the desired event to serialize.
 
+Copy the model from examples to the root of your project, this model is made to work with the ThermostatIO example from Crank.  
+This is also the project that the example header file comes from so you can move that to your project aswell.
+
 ### Notes
 
 The first startup might take some time as it needs to compile some MEX files.

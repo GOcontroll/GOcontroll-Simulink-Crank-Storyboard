@@ -30,4 +30,12 @@
 
 function [version] = blockset_crank_version()
 
-version = "Crank v0.0.1";
+version = "Crank v0.0.2";
+
+%% V0.0.2 Update 10-4-2024
+%% fixed deserialize name number
+%% fixed deserialize for events containing no data
+%% fixed sample time for receive and serialize blocks
+%% fixed event name matching in the receive block
+%% fixed channels in receive and serialize
+%% added example model

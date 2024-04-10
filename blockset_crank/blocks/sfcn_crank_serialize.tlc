@@ -59,6 +59,8 @@
 		
 		%assign srcFile = LibGetModelDotCFile()
 		%<LibSetSourceFileSection(srcFile, "UserTop", tmpBuf)>
+
+		%<handle> = gre_io_open("%<block.SFcnParamSettings.channel>", GRE_IO_TYPE_WRONLY | GRE_IO_FLAG_NONBLOCK);
 	%endif
 	%openfile tmpBuf
 		gre_io_serialized_data_t *%<nbuffer> = NULL; %% serialized send buffer, one per event
@@ -68,7 +70,7 @@
 		
 	%assign srcFile = LibGetModelDotCFile()
 	%<LibSetSourceFileSection(srcFile, "UserTop", tmpBuf)>
-
+	
 	memset(&%<event_data>, 0, sizeof(%<event_data>));
 %endfunction
 

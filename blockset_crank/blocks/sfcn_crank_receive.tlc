@@ -45,11 +45,11 @@
 
 %function BlockInstanceSetup(block, system) void
 	%assign channel = "::gre_%<block.SFcnParamSettings.channel>"
-	%if EXISTS(%<channel>)
+	%if EXISTS(%<channel>) == 0
+		%assign %<channel> = 1
+	%else
 		%assign error = "Can't make more than one crank channel receive block for the same channel %<channel>"
 		%<LibBlockReportError(block, error)>
-	%else
-		%assign %<channel> = 1
 	%endif
 %endfunction
 
@@ -67,8 +67,7 @@
 
 	%assign srcFile = LibGetModelDotCFile()
 	%<LibSetSourceFileSection(srcFile, "UserTop", tmpBuf)>
-
-	%<handle> = gre_io_open("%<block.SFcnParamSettings.channel>", GRE_IO_TYPE_RDONLY, GRE_IO_FLAG_NONBLOCK);
+	%<handle> = gre_io_open("%<block.SFcnParamSettings.channel>", GRE_IO_TYPE_RDONLY | GRE_IO_FLAG_NONBLOCK);
 	%<nbuffer> = gre_io_size_buffer(NULL, %<nbuffer_len>);
 %endfunction
 
@@ -87,7 +86,6 @@
 		char *event_addr;
 		char *event_name;
 		char *event_fmt;
-
 		int32_t n = 0;
 		while ((n = gre_io_receive(%<handle>, &%<nbuffer>)) > 0){
 			gre_io_unserialize(%<nbuffer>, &event_addr, &event_name, &event_fmt, &%<event_data>);
@@ -97,11 +95,11 @@
 
 			%foreach eventnum = SIZE(events,1)
 				%if eventnum == 0
-					if (strcmp(event_name, "%<events[eventnum]>")) {
+					if (strcmp(event_name, "%<events[eventnum]>") == 0) {
 						%<event> = %<eventnum>;
 					}
 				%else
-					else if (strcmp(event_name, "%<events[eventnum]>")) {
+					else if (strcmp(event_name, "%<events[eventnum]>") == 0) {
 						%<event> = %<eventnum>;
 					}
 				%endif
@@ -109,6 +107,7 @@
 			else {
 				continue; %% no matching event found
 			}
+			event_name = NULL;
 			%% Call a function to process the received message via function-call subsystem
 			%foreach callIdx = NumSFcnSysOutputCalls
 				%if LibIsEqual(SFcnSystemOutputCall[callIdx].BlockToCall,"unconnected")
