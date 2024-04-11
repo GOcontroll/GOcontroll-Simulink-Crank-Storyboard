@@ -3,7 +3,7 @@ A GOcontroll-Simulink extension blockset for working with a Crank Storyboard UI
 
 ## Setup
 
-Create a project using the regular [GOcontroll-Simulink](https://github.com/GOcontroll/GOcontroll-Simulink) template.  
+Create a project using the regular [GOcontroll-Simulink](https://github.com/GOcontroll/GOcontroll-Simulink/tree/2023b) template.  
 Make a copy or a symbolic link of the blockset_crank folder at the root level of this template so it is next to the regular blockset directory:
 ``` text
 .
@@ -62,3 +62,5 @@ This is also the project that the example header file comes from so you can move
 ### Notes
 
 The first startup might take some time as it needs to compile some MEX files.
+This blockset is made using 2023b, it might work with 2024a.
+This means that it should be used with the 2023b branch of the GOcontroll-Simulink base blockset.
