@@ -6,7 +6,7 @@ function events = processCrankHeader(file)
 	events.field_types = double([]);
 	events.field_names = string([]);
 	c_types = ["double","float","int8_t","uint8_t","int16_t","uint16_t","int32_t","uint32_t"];
-	m_types = [ 0 		 1 		  2 	   3 		 4 		   5 		  6 		7];
+	m_types = [ 0        1       2        3         4         5          6         7];
 	type_map = containers.Map(c_types, m_types);
 	lines = splitlines(file);
 	lines = strtrim(lines); % flatten the file
@@ -16,7 +16,7 @@ function events = processCrankHeader(file)
 		if contains(lines(i),'EVENT')
 			event_num = event_num + 1;
 			events.names(event_num) = string(extractBetween(lines(i),'"','"'));
-			events.fmts(event_num) = string("");
+			events.fmts(event_num) = "";
 			i = i + 1;
 			field_num = 0;
 			while  i <= length(lines) && ~contains(lines(i),'EVENT')

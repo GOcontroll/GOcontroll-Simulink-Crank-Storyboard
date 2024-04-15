@@ -83,7 +83,6 @@ static void mdlInitializeSizes(SimStruct *S) {
 }
 
 static void mdlInitializeSampleTimes(SimStruct *S) {
-	ssSetNumSampleTimes(S, 1);
 	ssSetSampleTime(S, 0, mxGetPr(ssGetSFcnParam(S, PARAM_TSAMP))[0]);
 	ssSetOffsetTime(S, 0, 0);
 }
