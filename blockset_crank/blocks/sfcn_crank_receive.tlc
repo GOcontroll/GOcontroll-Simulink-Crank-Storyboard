@@ -60,9 +60,11 @@
 	%assign nbuffer_len = LibBlockParameterValue(nbuff_len, 0)
 	
 	%openfile tmpBuf
-	gre_io_t *%<handle>; %% receive channel handle, one per receive channel
-	gre_io_serialized_data_t *%<nbuffer>; %% serialized receive buffer
-	void *%<event_data>; %% deserialized data to pass to deserialize blocks
+		%%check if channel name is not too long
+		static_assert(sizeof("%<block.SFcnParamSettings.channel>") <= GRE_IO_MAX_NAME_LEN, "The Crank channel name must be shorter than GRE_IO_MAX_NAME_LEN which is defined in greio.h");
+		gre_io_t *%<handle>; %% receive channel handle, one per receive channel
+		gre_io_serialized_data_t *%<nbuffer>; %% serialized receive buffer
+		void *%<event_data>; %% deserialized data to pass to deserialize blocks
 	%closefile tmpBuf
 
 	%assign srcFile = LibGetModelDotCFile()
@@ -109,13 +111,15 @@
 			}
 			event_name = NULL;
 			%% Call a function to process the received message via function-call subsystem
-			%foreach callIdx = NumSFcnSysOutputCalls
-				%if LibIsEqual(SFcnSystemOutputCall[callIdx].BlockToCall,"unconnected")
-					%continue
-				%endif
-				%% call the downstream system
-				%<LibBlockExecuteFcnCall(block, callIdx)>\
-			%endforeach
+			switch (%<event>) {
+				%foreach callIdx = NumSFcnSysOutputCalls
+					%if LibIsEqual(SFcnSystemOutputCall[callIdx].BlockToCall,"unconnected")
+						%continue
+					%endif
+					%% call the downstream system
+					%<LibBlockExecuteFcnCall(block, callIdx)>\
+				%endforeach
+			}
 		}
 	}
 %endfunction

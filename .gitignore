@@ -1,3 +1,4 @@
 example_code/*.c
 *.mex*
 crank_files/
+.vscode*

@@ -30,8 +30,13 @@
 
 function [version] = blockset_crank_version()
 
-version = "Crank v0.0.2";
+version = "Crank v0.0.3";
 
+%% V0.0.3 Update 17-4-2024
+%% added a channel name check length at compile time, to avoid possible runtime confusion
+%% increased efficiency of event match by using a switch instead of a set of ifs
+%% this does remove the ability to deserialize the event twice, but why would you do that?
+%%
 %% V0.0.2 Update 10-4-2024
 %% fixed deserialize name number
 %% fixed deserialize for events containing no data

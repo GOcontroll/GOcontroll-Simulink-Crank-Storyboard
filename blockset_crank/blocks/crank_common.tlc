@@ -3,5 +3,6 @@
 		%assign ::_crank_common_setup = 1
 		%<LibAddToCommonIncludes("greio.h")>
 		%<LibAddToCommonIncludes("string.h")>
+		%<LibAddToCommonIncludes("assert.h")>
 	%endif
 %endfunction

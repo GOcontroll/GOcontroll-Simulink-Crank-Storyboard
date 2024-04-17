@@ -54,6 +54,8 @@
 		%assign handle = "gre_%<block.SFcnParamSettings.channel>"
 		
 		%openfile tmpBuf
+			%%check if channel name is not too long
+			static_assert(sizeof("%<block.SFcnParamSettings.channel>") <= GRE_IO_MAX_NAME_LEN, "The Crank channel name must be shorter than GRE_IO_MAX_NAME_LEN which is defined in greio.h");
 			gre_io_t *%<handle>; %% send channel handle, one per send channel
 		%closefile tmpBuf
 		
