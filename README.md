@@ -34,11 +34,9 @@ typedef struct {
 If an event has no data attached to it you only have to put in the first #define, see the example file.  
 
 It might be nice to split your receive channel events and your send channel events into 2 seperate header files.  
+It will make deserializing more efficient.  
 
 ## Usage
-
-Start matlab in your project and open your simulink model, the librarySetup.m script will now load this addon into your simulink library.  
-Your library browser should now show a GOcontroll Crank library.
 
 ### Receiving events in Simulink
 Place a Crank receive channel block, then attach a function call subsystem to it and have the event be an input to this subsystem.  
