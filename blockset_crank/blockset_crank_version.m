@@ -30,8 +30,17 @@
 
 function [version] = blockset_crank_version()
 
-version = "Crank v0.0.3";
+version = 'Crank v0.0.6';
 
+%% V0.0.6 Update 30-4-2024
+%% now compiles the mex files using a callback function of the block library
+%% V0.0.5 Update 30-4-2024
+%% the crank blockset is now useable via a standard matlab toolbox, only auto mex compilation is missing
+%% 1.0.0 will be the first one actually published to the matlab file sharing platform
+%%
+%% V0.0.4 Update 17-4-2024
+%% added a mechanism to automatically recompile the mex files when an update has happened.
+%%
 %% V0.0.3 Update 17-4-2024
 %% added a channel name check length at compile time, to avoid possible runtime confusion
 %% increased efficiency of event match by using a switch instead of a set of ifs

@@ -1,0 +1,182 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration build-checksum="845711398" file="/home/maud/Documents/GitHub/GOcontroll-Simulink-Crank-Storyboard/ToolboxPackagingConfiguration.prj" location="/home/maud/Documents/GitHub/GOcontroll-Simulink-Crank-Storyboard" name="ToolboxPackagingConfiguration" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>Crank-Storyboard-Simulink</param.appname>
+    <param.authnamewatermark>GOcontroll</param.authnamewatermark>
+    <param.email>info@gocontroll.com</param.email>
+    <param.company>GOcontroll B.V.</param.company>
+    <param.summary>Handle the Crank Storyboard backend in Simulink</param.summary>
+    <param.description>This toolbox enables communication to and from a Crank Storyboard UI in Simulink.
+This toolbox is not created/maintained by Crank themselves, it is created/maintained by GOcontroll B.V. as a community effort.</param.description>
+    <param.screenshot />
+    <param.version>0.0.5</param.version>
+    <param.output>${PROJECT_ROOT}/Crank-Storyboard-Simulink.mltbx</param.output>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Simulink</item>
+      <item>Embedded Coder</item>
+      <item>MATLAB Coder</item>
+      <item>Simulink Coder</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>2</item>
+      <item>65</item>
+      <item>135</item>
+      <item>14</item>
+    </param.products.id>
+    <param.products.version>
+      <item>23.2</item>
+      <item>23.2</item>
+      <item>23.2</item>
+      <item>23.2</item>
+      <item>23.2</item>
+    </param.products.version>
+    <param.platforms />
+    <param.guid>4ca4cec3-2b78-4500-a1cb-653f5267658f</param.guid>
+    <param.exclude.filters>% List files contained in your toolbox folder that you would like to exclude
+% from packaging.  Excludes should be listed relative to the toolbox folder.
+% Some examples of how to specify excludes are provided below:
+%
+% A single file in the toolbox folder:
+% .svn
+%
+% A single file in a subfolder of the toolbox folder:
+% example/.svn
+%
+% All files in a subfolder of the toolbox folder:
+% example/*
+%
+% All files of a certain name in all subfolders of the toolbox folder:
+% **/.svn
+%
+% All files matching a pattern in all subfolders of the toolbox folder:
+% **/*.bak
+%
+resources/project/*
+.SimulinkProject/*
+_SimulinkProject/*
+resources/.Project/*
+resources/_Project/*
+**/*.prj
+**/.git
+.vscode
+.vscode/settings.json
+Crank-Storyboard-Simulink.mltbx
+blockset_crank/blocks/crank_mex_version.mexa64
+blockset_crank/blocks/sfcn_crank_deserialize.mexa64
+blockset_crank/blocks/sfcn_crank_receive.mexa64
+blockset_crank/blocks/sfcn_crank_serialize.mexa64
+crank_files
+crank_files/Makefile
+crank_files/ThermostatIO_events.h
+crank_files/greio.h
+crank_files/libgreio.a
+doc
+example_code/thermostat_backend.c</param.exclude.filters>
+    <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
+    <param.examples />
+    <param.demosxml />
+    <param.apps />
+    <param.registered.apps />
+    <param.docs />
+    <param.getting.started.guide />
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <param.exported.on.package>false</param.exported.on.package>
+    <param.required.addons />
+    <param.matlab.project.id>840c900b-071c-499e-a02e-1a9233ca2345</param.matlab.project.id>
+    <param.matlab.project.name>GOcontroll-Simulink-Crank-Storyboard</param.matlab.project.name>
+    <param.release.start>R2023b</param.release.start>
+    <param.release.end>R2023b</param.release.end>
+    <param.release.current.only>true</param.release.current.only>
+    <param.compatiblity.windows>true</param.compatiblity.windows>
+    <param.compatiblity.macos>true</param.compatiblity.macos>
+    <param.compatiblity.linux>true</param.compatiblity.linux>
+    <param.compatiblity.matlabonline>false</param.compatiblity.matlabonline>
+    <param.installation.map />
+    <param.additional.sw.names />
+    <param.additional.sw.licenses />
+    <param.additional.sw.win.url />
+    <param.additional.sw.mac.url />
+    <param.additional.sw.linux.url />
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.screenshot />
+      <param.output />
+      <param.platforms />
+      <param.exclude.pcodedmfiles />
+      <param.examples />
+      <param.demosxml />
+      <param.apps />
+      <param.registered.apps />
+      <param.docs />
+      <param.getting.started.guide />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+      <param.exported.on.package />
+      <param.required.addons />
+      <param.compatiblity.windows />
+      <param.compatiblity.macos />
+      <param.compatiblity.linux />
+      <param.additional.sw.names />
+      <param.additional.sw.licenses />
+      <param.additional.sw.win.url />
+      <param.additional.sw.mac.url />
+      <param.additional.sw.linux.url />
+    </unset>
+    <fileset.rootdir>
+      <file>${PROJECT_ROOT}</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}/.gitattributes</file>
+      <file>${PROJECT_ROOT}/.gitignore</file>
+      <file>${PROJECT_ROOT}/LICENSE</file>
+      <file>${PROJECT_ROOT}/README.md</file>
+      <file>${PROJECT_ROOT}/blockset_crank</file>
+      <file>${PROJECT_ROOT}/example_code</file>
+      <file>${PROJECT_ROOT}/examples</file>
+      <file>${PROJECT_ROOT}/resources</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}" name="Crank-Storyboard-Simulink.mltbx" optional="false">/home/maud/Documents/GitHub/GOcontroll-Simulink-Crank-Storyboard/Crank-Storyboard-Simulink.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/home/maud/.local/share/MATLAB/R2023b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>5.15.0-105-generic</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

@@ -3,35 +3,25 @@ A GOcontroll-Simulink extension blockset for working with a Crank Storyboard UI
 
 ## Setup
 
-Create a project using the regular [GOcontroll-Simulink](https://github.com/GOcontroll/GOcontroll-Simulink/tree/2023b) template.  
-Make a copy or a symbolic link of the blockset_crank folder at the root level of this template so it is next to the regular blockset directory:
+Download the addon from the matlab addon explorer.
+
+Create a crank_files folder in your project root:
 ``` text
 .
 ├── blockset
-├── blockset_crank
-├── GOcontroll_Linux.slx
-├── GOcontroll_Linux_startup.m
-├── librarySetup.m
-```
-Next create a crank_files folder in your project root:
-``` text
-.
-├── blockset
-├── blockset_crank
 ├── crank_files
 ├── GOcontroll_Linux.slx
 ├── GOcontroll_Linux_startup.m
 ├── librarySetup.m
 ```
-This folder will contain your Crank related files, greio.h, greio.a, event descriptions and a Makefile.  
+This folder will contain your Crank related files, greio.h, greio.a and event descriptions. You will have to provide these 
 ``` text
 ./crank_files
-├── Makefile
 ├── event_definitions.h
 ├── crank_header.h
 ├── crank_lib.a
 ```
-An example Makefile can be found in the example_code folder, An example of the event description file can also be found here.  
+An example of the event description file can be found in the example_code directory.  
 The format of an event in this file is important for the parser and should look like this:
 ``` h
 #define <EVENT_NAME>_EVENT "<event_name>"
@@ -53,6 +43,7 @@ Your library browser should now show a GOcontroll Crank library.
 ### Receiving events in Simulink
 Place a Crank receive channel block, then attach a function call subsystem to it and have the event be an input to this subsystem.  
 Then place any number of Crank deserialize event blocks in this subsystem to get the event info.
+
 ### Sending events from Simulink
 Place a Crank serialize event block and select the desired event to serialize.
 
@@ -63,4 +54,3 @@ This is also the project that the example header file comes from so you can move
 
 The first startup might take some time as it needs to compile some MEX files.
 This blockset is made using 2023b, it might work with 2024a.
-This means that it should be used with the 2023b branch of the GOcontroll-Simulink base blockset.

@@ -30,6 +30,8 @@
 
 #define S_FUNCTION_NAME sfcn_crank_serialize
 
+#define SOURCEFILES "__SFB__LIB_PATH $(START_DIR)/crank_files/greio.a__SFB__INC_PATH $(START_DIR)/crank_files"
+
 #include "header.c"
 
 #include "simstruc.h"
