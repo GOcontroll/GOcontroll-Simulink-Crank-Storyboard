@@ -2,8 +2,12 @@
 A GOcontroll-Simulink extension blockset for working with a Crank Storyboard UI
 
 ## Setup
-
-Download the addon from the matlab addon explorer.
+Notice: If you are working with multiple Matlab versions on your system, It is recommended to change the default addon location.  
+This can be done in the home tab of **Matlab** -> **preferences** (environment section) -> **MATLAB** -> **Add-Ons**.  
+Change the installation folder to something like "MATLAB*your matlab version*_addons", do this for all your Matlab installations.  
+This way it is easier to maintain version compatibility between toolboxes and Matlab. For more info see [the help page](https://nl.mathworks.com/help/matlab/matlab_env/get-add-ons.html).  
+  
+Download the Crank-Storyboard-Simulink add-on from the Matlab add-on explorer.
 
 Create a crank_files folder in your project root:
 ``` text
@@ -14,7 +18,8 @@ Create a crank_files folder in your project root:
 ├── GOcontroll_Linux_startup.m
 ├── librarySetup.m
 ```
-This folder will contain your Crank related files, greio.h, greio.a and event descriptions. You will have to provide these 
+This toolbox does not provide the appropriate Crank header/library, you will have to provide this yourself.  
+The crank_files folder will contain your Crank related files, greio.h, greio.a and event descriptions.  
 ``` text
 ./crank_files
 ├── event_definitions.h

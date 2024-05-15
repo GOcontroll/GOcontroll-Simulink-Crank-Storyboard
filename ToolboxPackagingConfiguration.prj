@@ -72,7 +72,46 @@ crank_files/ThermostatIO_events.h
 crank_files/greio.h
 crank_files/libgreio.a
 doc
-example_code/thermostat_backend.c</param.exclude.filters>
+example_code/
+slprj
+slprj/_jitprj
+slprj/_jitprj/jitEngineAccessInfo.mat
+slprj/_jitprj/s34nY2OHVoUU83GEy3wopGD.l
+slprj/_jitprj/s34nY2OHVoUU83GEy3wopGD.mat
+slprj/_jitprj/sRgpUuvgoO4CWHil6Hv0SDB.l
+slprj/_jitprj/sRgpUuvgoO4CWHil6Hv0SDB.mat
+slprj/_jitprj/sgWPYyG7gsJXDPxs4gkyQoD.l
+slprj/_jitprj/sgWPYyG7gsJXDPxs4gkyQoD.mat
+slprj/_jitprj/srXn8lBLeEBFGcvYEN4DcuC.l
+slprj/_jitprj/srXn8lBLeEBFGcvYEN4DcuC.mat
+slprj/_sfprj
+slprj/_sfprj/EMLReport
+slprj/_sfprj/EMLReport/emlReportAccessInfo.mat
+slprj/_sfprj/EMLReport/s34nY2OHVoUU83GEy3wopGD
+slprj/_sfprj/EMLReport/s34nY2OHVoUU83GEy3wopGD.mat
+slprj/_sfprj/EMLReport/sRgpUuvgoO4CWHil6Hv0SDB
+slprj/_sfprj/EMLReport/sRgpUuvgoO4CWHil6Hv0SDB.mat
+slprj/_sfprj/EMLReport/sgWPYyG7gsJXDPxs4gkyQoD
+slprj/_sfprj/EMLReport/sgWPYyG7gsJXDPxs4gkyQoD.mat
+slprj/_sfprj/EMLReport/srXn8lBLeEBFGcvYEN4DcuC
+slprj/_sfprj/EMLReport/srXn8lBLeEBFGcvYEN4DcuC.mat
+slprj/_sfprj/GOcontroll_Crank_Example
+slprj/_sfprj/GOcontroll_Crank_Example/_self
+slprj/_sfprj/GOcontroll_Crank_Example/_self/sfun
+slprj/_sfprj/GOcontroll_Crank_Example/_self/sfun/info
+slprj/_sfprj/GOcontroll_Crank_Example/_self/sfun/info/binfo.mat
+slprj/_sfprj/GOcontroll_Crank_Example/amsi_serial.mat
+slprj/_sfprj/precompile
+slprj/_sfprj/precompile/1pjlSwedCtuW9LRP4kMs9.mat
+slprj/_sfprj/precompile/GnSWelV2jDOeZ5N1Zp8A0E.mat
+slprj/_sfprj/precompile/Y9gm0vWg4dtraTO2MTZtXH.mat
+slprj/_sfprj/precompile/autoInferAccessInfo.mat
+slprj/_sfprj/precompile/jG3oxuET4VPYusFwBdo98C.mat
+slprj/ert_linux
+slprj/ert_linux/GOcontroll_Crank_Example
+slprj/ert_linux/GOcontroll_Crank_Example/tmwinternal
+slprj/ert_linux/GOcontroll_Crank_Example/tmwinternal/minfo.mat
+slprj/sl_proj.tmw</param.exclude.filters>
     <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
     <param.examples />
     <param.demosxml />
@@ -135,8 +174,6 @@ example_code/thermostat_backend.c</param.exclude.filters>
       <file>${PROJECT_ROOT}/LICENSE</file>
       <file>${PROJECT_ROOT}/README.md</file>
       <file>${PROJECT_ROOT}/blockset_crank</file>
-      <file>${PROJECT_ROOT}/example_code</file>
-      <file>${PROJECT_ROOT}/examples</file>
       <file>${PROJECT_ROOT}/resources</file>
     </fileset.rootfiles>
     <fileset.depfun.included />
