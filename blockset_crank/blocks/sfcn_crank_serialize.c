@@ -33,7 +33,6 @@
 #define SOURCEFILES "__SFB__LIB_PATH $(START_DIR)/crank_files/greio.a__SFB__INC_PATH $(START_DIR)/crank_files"
 
 #include "header.c"
-
 #include "simstruc.h"
 
 #define PARAM_NAME_TSAMP "tsamp"
@@ -41,7 +40,9 @@
 #define PARAM_NAME_EVENT_NAME "event_name"
 #define PARAM_NAME_INPUT_NAMES "input_names"
 #define PARAM_NAME_INPUT_DATATYPES "input_datatypes"
+#define PARAM_NAME_INPUT_SIZES "input_sizes"
 #define PARAM_NAME_HEADER "header"
+
 
 enum params {
 	PARAM_TSAMP,
@@ -49,6 +50,7 @@ enum params {
 	PARAM_EVENT_NAME,
 	PARAM_INPUT_NAMES,
 	PARAM_INPUT_DATATYPES,
+	PARAM_INPUT_SIZES,
 	PARAM_HEADER,
 	PARAM_COUNT,
 };
@@ -68,6 +70,7 @@ static void mdlInitializeSizes(SimStruct *S) {
 	ssSetSFcnParamTunable(S,PARAM_EVENT_NAME,false);
 	ssSetSFcnParamTunable(S,PARAM_INPUT_NAMES,false);
 	ssSetSFcnParamTunable(S,PARAM_INPUT_DATATYPES,false);
+	ssSetSFcnParamTunable(S,PARAM_INPUT_SIZES,false);
 	ssSetSFcnParamTunable(S,PARAM_HEADER,false);
 
 	int_T num_signals = (int_T)mxGetNumberOfElements(ssGetSFcnParam(S, PARAM_INPUT_DATATYPES)); // number of struct elements
@@ -77,8 +80,12 @@ static void mdlInitializeSizes(SimStruct *S) {
 	if (!ssSetNumOutputPorts(S, OUT_COUNT))
 		return;
 
+	//should be the same length otherwise funky stuff happens
+	if ((int_T)mxGetNumberOfElements(ssGetSFcnParam(S,PARAM_INPUT_SIZES)) != num_signals)
+		return;
+
 	for (int_T i = 0; i < num_signals; i++) {
-		AddInputPort(S,i,(int_T)mxGetPr(ssGetSFcnParam(S, PARAM_INPUT_DATATYPES))[i]);
+		AddInputVectorPort(S,i,(int_T)mxGetPr(ssGetSFcnParam(S, PARAM_INPUT_DATATYPES))[i],(int_T)mxGetPr(ssGetSFcnParam(S, PARAM_INPUT_SIZES))[i]);
 	}
 	
 	SetStandardOptions(S);

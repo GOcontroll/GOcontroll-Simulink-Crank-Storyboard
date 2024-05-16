@@ -111,15 +111,13 @@
 			}
 			event_name = NULL;
 			%% Call a function to process the received message via function-call subsystem
-			switch (%<event>) {
-				%foreach callIdx = NumSFcnSysOutputCalls
-					%if LibIsEqual(SFcnSystemOutputCall[callIdx].BlockToCall,"unconnected")
-						%continue
-					%endif
-					%% call the downstream system
-					%<LibBlockExecuteFcnCall(block, callIdx)>\
-				%endforeach
-			}
+			%foreach callIdx = NumSFcnSysOutputCalls
+				%if LibIsEqual(SFcnSystemOutputCall[callIdx].BlockToCall,"unconnected")
+					%continue
+				%endif
+				%% call the downstream system
+				%<LibBlockExecuteFcnCall(block, callIdx)>\
+			%endforeach
 		}
 	}
 %endfunction

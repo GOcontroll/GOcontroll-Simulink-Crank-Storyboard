@@ -30,10 +30,14 @@
 
 function [version] = blockset_crank_version()
 
-version = 'Crank v0.0.6';
+version = 'Crank v0.0.7';
 
+%% V0.0.7 Update 16-5-2024
+%% event fields can now be arrays
+%%
 %% V0.0.6 Update 30-4-2024
 %% now compiles the mex files using a callback function of the block library
+%%
 %% V0.0.5 Update 30-4-2024
 %% the crank blockset is now useable via a standard matlab toolbox, only auto mex compilation is missing
 %% 1.0.0 will be the first one actually published to the matlab file sharing platform

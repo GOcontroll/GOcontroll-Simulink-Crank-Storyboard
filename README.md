@@ -6,7 +6,9 @@ Notice: If you are working with multiple Matlab versions on your system, It is r
 This can be done in the home tab of **Matlab** -> **preferences** (environment section) -> **MATLAB** -> **Add-Ons**.  
 Change the installation folder to something like "MATLAB*your matlab version*_addons", do this for all your Matlab installations.  
 This way it is easier to maintain version compatibility between toolboxes and Matlab. For more info see [the help page](https://nl.mathworks.com/help/matlab/matlab_env/get-add-ons.html).  
-  
+
+To install, for now download the latest version from the github releases page.
+In the future:
 Download the Crank-Storyboard-Simulink add-on from the Matlab add-on explorer.
 
 Create a crank_files folder in your project root:

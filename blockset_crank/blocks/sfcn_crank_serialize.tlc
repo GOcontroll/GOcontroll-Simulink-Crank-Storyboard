@@ -90,7 +90,13 @@
 
 	{
 		%foreach innum = SIZE(input_names, 1)
+			%if LibBlockInputSignalWidth(innum) > 1
+				%foreach index = LibBlockInputSignalWidth(innum)
+					%<event_data>.%<input_names[innum]>[%<index>] = %<LibBlockInputSignal(innum, "", "", index)>;
+				%endforeach
+			%else
 				%<event_data>.%<input_names[innum]> = %<LibBlockInputSignal(innum, "", "", 0)>;
+			%endif
 		%endforeach
 		%assign fmt = FEVAL("upper", event_name)
 		%<nbuffer> = gre_io_serialize(%<nbuffer>, NULL, "%<event_name>",%<fmt>_FMT, &%<event_data>, sizeof(%<event_data>));

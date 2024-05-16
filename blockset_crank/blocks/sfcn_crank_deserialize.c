@@ -33,7 +33,6 @@
 #define SOURCEFILES "__SFB__LIB_PATH $(START_DIR)/crank_files/greio.a__SFB__INC_PATH $(START_DIR)/crank_files"
 
 #include "header.c"
-
 #include "simstruc.h"
 
 #define PARAM_NAME_CHANNEL "channel"
@@ -41,6 +40,7 @@
 #define PARAM_NAME_EVENT_NAME "event_name"
 #define PARAM_NAME_OUTPUT_NAMES "output_names"
 #define PARAM_NAME_OUTPUT_DATATYPES "output_datatypes"
+#define PARAM_NAME_OUTPUT_SIZES "output_sizes"
 
 enum params {
 	PARAM_CHANNEL,
@@ -48,6 +48,7 @@ enum params {
 	PARAM_EVENT_NAME,
 	PARAM_OUTPUT_NAMES,
 	PARAM_OUTPUT_DATATYPES,
+	PARAM_OUTPUT_SIZES,
 	PARAM_COUNT,
 };
 
@@ -71,6 +72,7 @@ static void mdlInitializeSizes(SimStruct *S) {
 	ssSetSFcnParamTunable(S,PARAM_EVENT_NAME,false);
 	ssSetSFcnParamTunable(S,PARAM_OUTPUT_NAMES,false);
 	ssSetSFcnParamTunable(S,PARAM_OUTPUT_DATATYPES,false);
+	ssSetSFcnParamTunable(S,PARAM_OUTPUT_SIZES,false);
 
 	int_T num_signals = (int_T)mxGetNumberOfElements(ssGetSFcnParam(S, PARAM_OUTPUT_DATATYPES)); // number of struct elements
 
@@ -79,12 +81,17 @@ static void mdlInitializeSizes(SimStruct *S) {
 	if (!ssSetNumOutputPorts(S, num_signals + 1)) // number of struct elements plus function call
 		return;
 
-	AddOutputPort(S, OUT_FCN_CALL, SS_FCN_CALL);
-	for (int_T i = 0; i < num_signals; i++) {
-		AddOutputPort(S,i+1,(int_T)mxGetPr(ssGetSFcnParam(S, PARAM_OUTPUT_DATATYPES))[i]); // set output datatypes, first port is FCN call so offset by one
-	}
-
 	AddInputPort(S, IN_EVENT_NUM, SS_UINT32);
+
+	AddOutputPort(S, OUT_FCN_CALL, SS_FCN_CALL);
+
+	//should be the same length otherwise funky stuff happens
+	if ((int_T)mxGetNumberOfElements(ssGetSFcnParam(S,PARAM_OUTPUT_SIZES)) != num_signals)
+		return;
+
+	for (int_T i = 0; i < num_signals; i++) {
+		AddOutputVectorPort(S,i+1,(int_T)mxGetPr(ssGetSFcnParam(S, PARAM_OUTPUT_DATATYPES))[i], (int_T)mxGetPr(ssGetSFcnParam(S, PARAM_OUTPUT_SIZES))[i]); // set output datatypes, first port is FCN call so offset by one
+	}
 	
 	SetStandardOptions(S);
 }

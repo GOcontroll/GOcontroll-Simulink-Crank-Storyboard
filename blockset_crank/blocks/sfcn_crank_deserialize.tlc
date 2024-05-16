@@ -64,14 +64,18 @@
 	%assign event_num_in = LibBlockInputSignal(0, "", "", 0)
 
 	
-	%% if (%<event_num_set> == %<event_num_in>) {
-	case %<event_num_set>:
-		{ %%scope the definition of *data so it doesnt interfere with the other cases
+	if (%<event_num_set> == %<event_num_in>){ %%scope the definition of *data so it doesnt interfere with the other cases
 		%if SIZE(output_names, 1)
 			%<event_name>_event_t *data = (%<event_name>_event_t *)%<event_data>;
 			
 			%foreach outnum = SIZE(output_names, 1)
-				%<LibBlockOutputSignal(outnum + 1, "", "", 0)> = data->%<output_names[outnum]>;
+				%if LibBlockOutputSignalWidth(outnum + 1) > 1
+					%foreach index = LibBlockOutputSignalWidth(outnum + 1)
+						%<LibBlockOutputSignal(outnum + 1, "", "", index)> = data->%<output_names[outnum]>[%<index>];
+					%endforeach
+				%else
+					%<LibBlockOutputSignal(outnum + 1, "", "", 0)> = data->%<output_names[outnum]>;
+				%endif
 			%endforeach
 		%endif
 		
@@ -84,7 +88,7 @@
 			%<LibBlockExecuteFcnCall(block, callIdx)>\
 		%endforeach
 		break;
-		}
+	}
 	
 %endfunction
 
