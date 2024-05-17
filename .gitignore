@@ -1,5 +1,9 @@
 example_code/*.c
+slprj/
+*_rtw
 *.mex*
+*.elf
+*.slxc
 crank_files/
 .vscode*
 *.mltbx

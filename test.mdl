@@ -49,8 +49,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2024-05-16T17:16:23Z</dcterms:created>
   <dc:creator>maud</dc:creator>
   <cp:lastModifiedBy>maud</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-05-16T18:35:17Z</dcterms:modified>
-  <cp:revision>1.1</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-05-17T07:18:59Z</dcterms:modified>
+  <cp:revision>1.2</cp:revision>
   <cp:version>R2023b</cp:version>
 </cp:coreProperties>
 
@@ -117,7 +117,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:1.1&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:1.2&gt;</P>
     </ConfigManagerSettings>
     <EditorSettings>
       <P Name="ShowLineDimensions">on</P>
@@ -813,7 +813,7 @@ __MWOPC_PART_BEGIN__ /simulink/configSet0.xml
         <P Name="PostCodeGenCommand"/>
         <P Name="GenerateReport">off</P>
         <P Name="RTWVerbose">on</P>
-        <P Name="RetainRTWFile">off</P>
+        <P Name="RetainRTWFile">on</P>
         <P Name="RTWBuildHooks" Class="double">[]</P>
         <P Name="ProfileTLC">off</P>
         <P Name="TLCDebug">off</P>
@@ -833,7 +833,7 @@ __MWOPC_PART_BEGIN__ /simulink/configSet0.xml
         <P Name="CustomFFTCallback"/>
         <P Name="CustomInitializer"/>
         <P Name="CustomTerminator"/>
-        <P Name="Toolchain">Linaro Toolchain v4.8</P>
+        <P Name="Toolchain">Linaro AArch64 Linux v6.3.1</P>
         <P Name="BuildConfiguration">Faster Builds</P>
         <P Name="CustomToolchainOptions" Class="double">[]</P>
         <P Name="IncludeHyperlinkInReport">off</P>
@@ -1254,8 +1254,8 @@ To Constant</P>
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="bc1c9ea7-12ef-49ea-ad85-24006d62a2f3">
-    <Interface type="Interface" uuid="390dc1cb-b98e-4c01-b97a-27f1e232c7ee"/>
+  <System type="System" uuid="4b7c2b22-7a0b-4465-b705-3ccf0c0d6ee2">
+    <Interface type="Interface" uuid="f56e10ef-a200-4c77-a180-b0a6642d2b96"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/ScheduleCore.xml
@@ -1392,7 +1392,6 @@ Subsystem/toggle ac/toggle ac</P>
   <P Name="zoomFactor">0.267</P>
   <P Name="screen">[1 1 3200 1200 1.25]</P>
   <P Name="viewObj">18</P>
-  <subviewS/>
   <P Name="ssIdHighWaterMark">7</P>
   <P Name="decomposition">CLUSTER_CHART</P>
   <P Name="chartFileNumber">2</P>
@@ -1528,7 +1527,6 @@ Subsystem/toggle units/toggle units</P>
   <P Name="zoomFactor">0.351</P>
   <P Name="screen">[1 1 3200 1200 1.25]</P>
   <P Name="viewObj">27</P>
-  <subviewS/>
   <P Name="ssIdHighWaterMark">7</P>
   <P Name="decomposition">CLUSTER_CHART</P>
   <P Name="chartFileNumber">3</P>
@@ -1665,7 +1663,6 @@ Subsystem/toggle fan/toggle fan</P>
   <P Name="zoomFactor">0.211</P>
   <P Name="screen">[1 1 3200 1200 1.25]</P>
   <P Name="viewObj">36</P>
-  <subviewS/>
   <P Name="ssIdHighWaterMark">7</P>
   <P Name="decomposition">CLUSTER_CHART</P>
   <P Name="chartFileNumber">4</P>
@@ -1801,7 +1798,6 @@ Subsystem/toggle timer/toggle timer</P>
   <P Name="zoomFactor">0.267</P>
   <P Name="screen">[1 1 3200 1200 1.25]</P>
   <P Name="viewObj">9</P>
-  <subviewS/>
   <P Name="ssIdHighWaterMark">7</P>
   <P Name="decomposition">CLUSTER_CHART</P>
   <P Name="chartFileNumber">1</P>
@@ -2041,14 +2037,9 @@ __MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_root.xml.rels
 __MWOPC_PART_BEGIN__ /simulink/systems/system_1.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
-  <P Name="Location">[0, 27, 3840, 2160]</P>
+  <P Name="Location">[3912, 0, 7680, 2160]</P>
   <P Name="Open">on</P>
-  <P Name="ZoomFactor">150</P>
-  <Block BlockType="Constant" Name="Constant" SID="124">
-    <P Name="Position">[1830, 650, 1860, 680]</P>
-    <P Name="ZOrder">461</P>
-    <P Name="Value">int16(1)</P>
-  </Block>
+  <P Name="ZoomFactor">241</P>
   <Block BlockType="Reference" Name="Crank receive channel" SID="2">
     <PortCounts out="2"/>
     <P Name="Position">[960, 749, 1140, 836]</P>
@@ -2060,7 +2051,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_1.xml
     <P Name="SourceProductName">Crank Storyboard</P>
     <InstanceData>
       <P Name="MultithreadedSim">auto</P>
-      <P Name="field_sizes">[2 1 0 0 0 0;1 1 0 0 0 0;2 1 1 1 1 1]</P>
+      <P Name="field_sizes">[1 1 0 0 0 0;1 1 0 0 0 0;1 1 1 1 1 1]</P>
       <P Name="field_names">[&quot;num&quot; &quot;unit&quot; string(missing) string(missing) string(missing) string(missing);&quot;num&quot; &quot;unit&quot; string(missing) string(missing) string(missing) string(missing);&quot;target_temperature&quot; &quot;current_temperature&quot; &quot;ac&quot; &quot;fan&quot; &quot;timer&quot; &quot;units&quot;]</P>
       <P Name="num_fields">[2 2 6 0 0 0 0]</P>
       <P Name="field_types">[5 5 0 0 0 0;5 5 0 0 0 0;4 4 3 3 3 3]</P>
@@ -2071,7 +2062,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_1.xml
       <P Name="header_text">#define DECREASE_TEMPERATURE_EVENT &quot;decrease_temperature&quot;
 #define DECREASE_TEMPERATURE_FMT &quot;2u1 num 2u1 unit&quot;
 typedef struct {
-	uint16_t 		num[2];
+	uint16_t 		num;
 	uint16_t 		unit;
 } decrease_temperature_event_t;
 
@@ -2085,7 +2076,7 @@ typedef struct {
 #define THERMOSTAT_UPDATE_EVENT &quot;thermostat_update&quot;
 #define THERMOSTAT_UPDATE_FMT &quot;2s1 target_temperature 2s1 current_temperature 1u1 ac 1u1 fan 1u1 timer 1u1 units&quot;
 typedef struct {
-	int16_t 		target_temperature[2];
+	int16_t 		target_temperature;
 	int16_t 		current_temperature;
 	uint8_t 		ac;
 	uint8_t 		fan;
@@ -2119,13 +2110,13 @@ typedef struct {
     <InstanceData>
       <P Name="MultithreadedSim">auto</P>
       <P Name="field_types">[5 5 0 0 0 0;5 5 0 0 0 0;4 4 3 3 3 3]</P>
-      <P Name="field_sizes">[1 1 0 0 0 0;1 1 0 0 0 0;2 1 1 1 1 1]</P>
+      <P Name="field_sizes">[1 1 0 0 0 0;1 1 0 0 0 0;1 1 1 1 1 1]</P>
       <P Name="tsamp">0.02</P>
       <P Name="channel">&apos;thermostat_frontend&apos;</P>
       <P Name="event_name">thermostat_update</P>
       <P Name="input_names">[&quot;target_temperature&quot;,&quot;current_temperature&quot;,&quot;ac&quot;,&quot;fan&quot;,&quot;timer&quot;,&quot;units&quot;]</P>
       <P Name="input_datatypes">[4 4 3 3 3 3]</P>
-      <P Name="input_sizes">[2 1 1 1 1 1]</P>
+      <P Name="input_sizes">[1 1 1 1 1 1]</P>
       <P Name="header">&apos;ThermostatIO_events.h&apos;</P>
       <P Name="header_text">#define DECREASE_TEMPERATURE_EVENT &quot;decrease_temperature&quot;
 #define DECREASE_TEMPERATURE_FMT &quot;2u1 num 2u1 unit&quot;
@@ -2144,7 +2135,7 @@ typedef struct {
 #define THERMOSTAT_UPDATE_EVENT &quot;thermostat_update&quot;
 #define THERMOSTAT_UPDATE_FMT &quot;2s1 target_temperature 2s1 current_temperature 1u1 ac 1u1 fan 1u1 timer 1u1 units&quot;
 typedef struct {
-	int16_t 		target_temperature[2];
+	int16_t 		target_temperature;
 	int16_t 		current_temperature;
 	uint8_t 		ac;
 	uint8_t 		fan;
@@ -2201,11 +2192,6 @@ typedef struct {
       </Port>
     </PortProperties>
     <System Ref="system_88"/>
-  </Block>
-  <Block BlockType="Concatenate" Name="Vector&#xA;Concatenate" SID="123">
-    <PortCounts in="2" out="1"/>
-    <P Name="Position">[1920, 741, 1925, 779]</P>
-    <P Name="ZOrder">460</P>
   </Block>
   <Line>
     <P Name="ZOrder">1</P>
@@ -2273,22 +2259,9 @@ typedef struct {
   </Line>
   <Line>
     <P Name="Name">target_temp</P>
-    <P Name="ZOrder">13</P>
-    <P Name="Labels">[-1, 0]</P>
+    <P Name="ZOrder">18</P>
+    <P Name="Labels">[1, 0]</P>
     <P Name="Src">88#out:1</P>
-    <P Name="Points">[49, 0; 0, -25]</P>
-    <P Name="Dst">123#in:2</P>
-  </Line>
-  <Line>
-    <P Name="ZOrder">12</P>
-    <P Name="Src">124#out:1</P>
-    <P Name="Points">[14, 0; 0, 85]</P>
-    <P Name="Dst">123#in:1</P>
-  </Line>
-  <Line>
-    <P Name="ZOrder">14</P>
-    <P Name="Src">123#out:1</P>
-    <P Name="Points">[38, 0; 0, 35]</P>
     <P Name="Dst">3#in:1</P>
   </Line>
   <Annotation SID="121">
@@ -2313,7 +2286,7 @@ should not be very significant.</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">9</P>
+    <P Name="ZOrder">17</P>
     <P Name="FontSize">12</P>
   </Annotation>
   <Annotation SID="120">
@@ -2327,21 +2300,7 @@ will be executed once for every event.</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">11</P>
-    <P Name="FontSize">12</P>
-  </Annotation>
-  <Annotation SID="119">
-    <P Name="Name">Handle the temperature changing over
-time. </P>
-    <P Name="Position">[1610, 745, 1840, 820]</P>
-    <P Name="InternalMargins">[0, 0, 0, 0]</P>
-    <P Name="FixedHeight">on</P>
-    <P Name="FixedWidth">on</P>
-    <P Name="ForegroundColor">[0.901961, 0.901961, 1.000000]</P>
-    <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
-    <P Name="DropShadow">on</P>
-    <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">12</P>
+    <P Name="ZOrder">19</P>
     <P Name="FontSize">12</P>
   </Annotation>
   <Annotation SID="118">
@@ -2359,7 +2318,7 @@ channel name and it is ready to go.</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">10</P>
+    <P Name="ZOrder">18</P>
     <P Name="FontSize">12</P>
   </Annotation>
 </System>
@@ -2713,9 +2672,9 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_25.xml
 __MWOPC_PART_BEGIN__ /simulink/systems/system_4.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
-  <P Name="Location">[0, 27, 3840, 2160]</P>
+  <P Name="Location">[3912, 0, 7680, 2160]</P>
   <P Name="Open">on</P>
-  <P Name="ZoomFactor">60</P>
+  <P Name="ZoomFactor">80</P>
   <Block BlockType="Inport" Name="event" SID="5">
     <P Name="Position">[-60, 233, -30, 247]</P>
     <P Name="ZOrder">-1</P>
@@ -2763,7 +2722,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4.xml
       <P Name="event_num">0</P>
       <P Name="output_names">[&quot;num&quot;,&quot;unit&quot;]</P>
       <P Name="output_datatypes">[5 5]</P>
-      <P Name="output_sizes">[2 1]</P>
+      <P Name="output_sizes">[1 1]</P>
     </InstanceData>
   </Block>
   <Block BlockType="Reference" Name="Crank deserialize event2" SID="9">
@@ -2854,15 +2813,6 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4.xml
     <P Name="Position">[540, 182, 590, 533]</P>
     <P Name="ZOrder">17</P>
     <P Name="InitialOutput">single(16)</P>
-  </Block>
-  <Block BlockType="Selector" Name="Selector" SID="125">
-    <PortCounts in="1" out="1"/>
-    <P Name="Position">[290, 396, 330, 434]</P>
-    <P Name="ZOrder">195</P>
-    <P Name="InputPortWidth">2</P>
-    <P Name="IndexOptions">Index vector (dialog)</P>
-    <P Name="Indices">[1]</P>
-    <P Name="OutputSizes">1</P>
   </Block>
   <Block BlockType="Terminator" Name="Terminator" SID="37">
     <P Name="Position">[290, 435, 310, 455]</P>
@@ -3022,11 +2972,6 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4.xml
     <P Name="Dst">40#trigger</P>
   </Line>
   <Line>
-    <P Name="ZOrder">15</P>
-    <P Name="Src">8#out:2</P>
-    <P Name="Dst">125#in:1</P>
-  </Line>
-  <Line>
     <P Name="ZOrder">16</P>
     <P Name="Src">40#out:1</P>
     <P Name="Dst">36#in:2</P>
@@ -3136,8 +3081,8 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4.xml
     <P Name="Dst">38#in:1</P>
   </Line>
   <Line>
-    <P Name="ZOrder">38</P>
-    <P Name="Src">125#out:1</P>
+    <P Name="ZOrder">39</P>
+    <P Name="Src">8#out:2</P>
     <P Name="Dst">40#in:1</P>
   </Line>
   <Annotation SID="87">
@@ -3158,7 +3103,7 @@ valid header file has been select there.</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">3</P>
+    <P Name="ZOrder">5</P>
     <P Name="FontSize">12</P>
   </Annotation>
   <Annotation SID="86">
@@ -3178,7 +3123,7 @@ the value. In this case the value is 16 of datatype single.</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">4</P>
+    <P Name="ZOrder">6</P>
     <P Name="FontSize">12</P>
   </Annotation>
 </System>
@@ -4253,7 +4198,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
 <System>
   <P Name="Location">[0, 27, 3840, 2160]</P>
   <P Name="Open">on</P>
-  <P Name="ZoomFactor">400</P>
+  <P Name="ZoomFactor">459</P>
   <P Name="ReportName">simulink-default.rpt</P>
   <P Name="SIDHighWatermark">125</P>
   <Block BlockType="SubSystem" Name="Crank Example" SID="1">
@@ -4271,7 +4216,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
   <Object PropName="BdWindowsInfo" ObjectID="1" ClassName="Simulink.BDWindowsInfo">
     <Object PropName="WindowsInfo" ObjectID="2" ClassName="Simulink.WindowInfo">
       <P Name="IsActive" Class="logical">1</P>
-      <P Name="Location" Class="double">[0.0, 27.0, 3840.0, 2133.0]</P>
+      <P Name="Location" Class="double">[3912.0, 0.0, 3768.0, 2160.0]</P>
       <Object PropName="ModelBrowserInfo" ObjectID="3" ClassName="Simulink.ModelBrowserInfo">
         <P Name="Visible" Class="logical">1</P>
         <P Name="DockPosition" Class="char">Left</P>
@@ -4289,30 +4234,30 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="IsTabbed" Class="logical">1</P>
           <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
           <P Name="LoadSaveID" Class="char">0</P>
-          <P Name="Extents" Class="double">[3016.0, 1649.0]</P>
-          <P Name="ZoomFactor" Class="double">4.0</P>
-          <P Name="Offset" Class="double">[1132.4999999999995, 503.25]</P>
-          <P Name="SceneRectInView" Class="double">[1132.4999999999995, 503.25, 754.0, 412.25]</P>
+          <P Name="Extents" Class="double">[3740.0, 1863.0]</P>
+          <P Name="ZoomFactor" Class="double">4.589448150394178</P>
+          <P Name="Offset" Class="double">[1095.2889799154329, 503.25]</P>
+          <P Name="SceneRectInView" Class="double">[1095.2889799154329, 503.25, 814.9127906976745, 405.93115750528546]</P>
         </Object>
         <Object ObjectID="6">
-          <P Name="IsActive" Class="logical">0</P>
-          <P Name="IsTabbed" Class="logical">1</P>
-          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">1</P>
-          <P Name="Extents" Class="double">[2387.0, 1649.0]</P>
-          <P Name="ZoomFactor" Class="double">1.5</P>
-          <P Name="Offset" Class="double">[704.21970318289834, 157.64144563897423]</P>
-          <P Name="SceneRectInView" Class="double">[704.21970318289834, 157.64144563897423, 1591.3333333333333, 1099.3333333333333]</P>
-        </Object>
-        <Object ObjectID="7">
           <P Name="IsActive" Class="logical">1</P>
           <P Name="IsTabbed" Class="logical">1</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
+          <P Name="LoadSaveID" Class="char">1</P>
+          <P Name="Extents" Class="double">[3095.0, 1031.0]</P>
+          <P Name="ZoomFactor" Class="double">2.4111635220125787</P>
+          <P Name="Offset" Class="double">[938.19367460058686, 517.20280404303878]</P>
+          <P Name="SceneRectInView" Class="double">[938.19367460058686, 517.20280404303878, 1283.6126507988263, 427.59439191392238]</P>
+        </Object>
+        <Object ObjectID="7">
+          <P Name="IsActive" Class="logical">0</P>
+          <P Name="IsTabbed" Class="logical">1</P>
+          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
           <P Name="LoadSaveID" Class="char">4</P>
-          <P Name="Extents" Class="double">[2387.0, 285.0]</P>
-          <P Name="ZoomFactor" Class="double">0.6</P>
-          <P Name="Offset" Class="double">[-2521.4427121911945, -1132.3588856161032]</P>
-          <P Name="SceneRectInView" Class="double">[-2521.4427121911945, -1132.3588856161032, 3978.3333333333335, 475.0]</P>
+          <P Name="Extents" Class="double">[3095.0, 1031.0]</P>
+          <P Name="ZoomFactor" Class="double">0.8</P>
+          <P Name="Offset" Class="double">[-1467.7253600090357, -299.96345191773219]</P>
+          <P Name="SceneRectInView" Class="double">[-1467.7253600090357, -299.96345191773219, 3868.75, 1288.75]</P>
         </Object>
         <Object ObjectID="8">
           <P Name="IsActive" Class="logical">0</P>
@@ -4325,20 +4270,8 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="SceneRectInView" Class="double">[-374.60416666666669, -225.16666666666663, 1005.3333333333334, 549.66666666666663]</P>
         </Object>
       </Array>
-      <Array PropName="DockComponentsInfo" Type="Simulink.DockComponentInfo" Dimension="1*3">
+      <Array PropName="DockComponentsInfo" Type="Simulink.DockComponentInfo" Dimension="1*2">
         <Object ObjectID="9">
-          <P Name="Type" Class="char">LibraryBrowser2 LibraryBrowserStudioComponent</P>
-          <P Name="ID" Class="char">untitled</P>
-          <P Name="Visible" Class="logical">1</P>
-          <P Name="CreateCallback" Class="char"/>
-          <P Name="UserData" Class="char"/>
-          <P Name="Floating" Class="logical">0</P>
-          <P Name="DockPosition" Class="char">Left</P>
-          <P Name="Width" Class="int32">304</P>
-          <P Name="Height" Class="int32">1896</P>
-          <P Name="Minimized" Class="char">Unset</P>
-        </Object>
-        <Object ObjectID="10">
           <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
           <P Name="ID" Class="char">Property Inspector</P>
           <P Name="Visible" Class="logical">1</P>
@@ -4350,7 +4283,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Height" Class="int32">480</P>
           <P Name="Minimized" Class="char">On</P>
         </Object>
-        <Object ObjectID="11">
+        <Object ObjectID="10">
           <P Name="Type" Class="char">Simulink:Editor:ReferencedFiles</P>
           <P Name="ID" Class="char">Referenced Files</P>
           <P Name="Visible" Class="logical">0</P>
@@ -4364,7 +4297,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Minimized" Class="char">Unset</P>
         </Object>
       </Array>
-      <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAAE0AAAHhPwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABiAP////wAAAB5AAAHhAAAALQA////+gAAAAECAAAAAvsAAABgAFMAaQBtAHUAbABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZQBzAAAAAAD/////AAAAiQD////7AAAAbABMAGkAYgByAGEAcgB5AEIAcgBvAHcAcwBlAHIAMgAgAEwAaQBiAHIAYQByAHkAQgByAG8AdwBzAGUAcgBTAHQAdQBkAGkAbwBDAG8AbQBwAG8AbgBlAG4AdAAvAHUAbgB0AGkAdABsAGUAZAEAAAAA/////wAAALQA////AAAAAQAABAkAAAeE/AIAAAAB/AAAAHkAAAeEAAAAIAD////6AAAAAQIAAAAC+wAAAFQARwBMAFUARQAyADoAUAByAG8AcABlAHIAdAB5AEkAbgBzAHAAZQBjAHQAbwByAC8AUAByAG8AcABlAHIAdAB5ACAASQBuAHMAcABlAGMAdABvAHIAAAAAAP////8AAAGsAP////v/////AQAAAAD/////AAAAIAD///8AAAADAAAJeQAABiT8AQAAAAH8AAABWAAACXkAAAFZAP////oAAAAAAQAAAAL7/////wEAAAAA/////wAAAVkA////+/////8AAAAAAP////8AAAEEAP///wAACXkAAAFaAAAAAQAAAAIAAAABAAAAAvwAAAADAAAAAAAAAAEAAAA2AGMAbwBsAGwAYQBwAHMAaQBiAGwAZQBQAGEAbgBlAGwAVABvAG8AbABCAGEAcgBMAGUAZgB0AwAAAAD/////AAAAAAAAAAAAAAABAAAAAQAAADgAYwBvAGwAbABhAHAAcwBpAGIAbABlAFAAYQBuAGUAbABUAG8AbwBsAEIAYQByAFIAaQBnAGgAdAMAAAAA/////wAAAAAAAAAAAAAAAwAAAAEAAAA6AGMAbwBsAGwAYQBwAHMAaQBiAGwAZQBQAGEAbgBlAGwAVABvAG8AbABCAGEAcgBCAG8AdAB0AG8AbQEAAAAA/////wAAAAAAAAAA</P>
+      <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAAE0AAAHhPwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABiAP////wAAAB5AAAHhAAAAAAA////+gAAAAECAAAAAvsAAABgAFMAaQBtAHUAbABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZQBzAAAAAAD/////AAAAiQD////7AAAAbABMAGkAYgByAGEAcgB5AEIAcgBvAHcAcwBlAHIAMgAgAEwAaQBiAHIAYQByAHkAQgByAG8AdwBzAGUAcgBTAHQAdQBkAGkAbwBDAG8AbQBwAG8AbgBlAG4AdAAvAHUAbgB0AGkAdABsAGUAZAEAAAAA/////wAAAAAAAAAAAAAAAQAAAjcAAAef/AIAAAAB/AAAAHkAAAefAAAAIAD////6AAAAAQIAAAAC+wAAAFQARwBMAFUARQAyADoAUAByAG8AcABlAHIAdAB5AEkAbgBzAHAAZQBjAHQAbwByAC8AUAByAG8AcABlAHIAdAB5ACAASQBuAHMAcABlAGMAdABvAHIAAAAAAP////8AAAGsAP////v/////AQAAAAD/////AAAAIAD///8AAAADAAAMPQAAA1X8AQAAAAL8AAABWAAACXkAAAAAAP////r/////AQAAAAD8AAAAHgAADD0AAAFZAP////oAAAAAAQAAAAL7/////wEAAAAA/////wAAAVkA////+/////8AAAAAAP////8AAAEEAP///wAADD0AAAREAAAAAQAAAAIAAAABAAAAAvwAAAADAAAAAAAAAAEAAAA2AGMAbwBsAGwAYQBwAHMAaQBiAGwAZQBQAGEAbgBlAGwAVABvAG8AbABCAGEAcgBMAGUAZgB0AwAAAAD/////AAAAAAAAAAAAAAABAAAAAQAAADgAYwBvAGwAbABhAHAAcwBpAGIAbABlAFAAYQBuAGUAbABUAG8AbwBsAEIAYQByAFIAaQBnAGgAdAMAAAAA/////wAAAAAAAAAAAAAAAwAAAAEAAAA6AGMAbwBsAGwAYQBwAHMAaQBiAGwAZQBQAGEAbgBlAGwAVABvAG8AbABCAGEAcgBCAG8AdAB0AG8AbQEAAAAA/////wAAAAAAAAAA</P>
       <Array PropName="PersistedApps" Type="Cell" Dimension="0*1"/>
       <P Name="WindowUuid" Class="char">ad1e1868-e3b4-4fec-9788-43d6f7569919</P>
     </Object>
