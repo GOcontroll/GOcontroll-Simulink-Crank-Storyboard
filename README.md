@@ -1,5 +1,6 @@
 # GOcontroll-Simulink-Crank-Storyboard
-A GOcontroll-Simulink extension blockset for working with a Crank Storyboard UI
+A Simulink toolbox for working with a Crank Storyboard UI.  
+Currently only targets that use the elf format can be used, see the open issue.
 
 ## Setup
 Notice: If you are working with multiple Matlab versions on your system, It is recommended to change the default addon location.  
@@ -41,21 +42,54 @@ typedef struct {
 If an event has no data attached to it you only have to put in the first #define, see the example file.  
 
 It might be nice to split your receive channel events and your send channel events into 2 seperate header files.  
-It will make deserializing more efficient.  
+It will make deserializing more efficient as it doesn't have to try to strncmp event that will never be deserialized.  
 
 ## Usage
 
 ### Receiving events in Simulink
 Place a Crank receive channel block, then attach a function call subsystem to it and have the event be an input to this subsystem.  
+
+![Crank receive block in the model](images/crank_receive.png)  
+
+Open the block, set the channel name, buffer size and import the header file containing the events.  
+  
+![Crank receive block mask](images/crank_receive_mask.png)  
+
 Then place any number of Crank deserialize event blocks in this subsystem to get the event info.
 
-### Sending events from Simulink
-Place a Crank serialize event block and select the desired event to serialize.
+![Crank deserialize blocks in the model](images/crank_deserialize.png)  
 
-Copy the model from examples to the root of your project, this model is made to work with the ThermostatIO example from Crank.  
-This is also the project that the example header file comes from so you can move that to your project aswell.
+After connecting the event line (this allows the deserialize block to find the events loaded into the receive block), open the block and set the event to decode.  
+
+![Crank deserialize block mask](images/crank_deserialize_mask.png)
+
+This will automatically adjust the outputs of the block to the right signals.
+
+### Sending events from Simulink
+Place a Crank serialize event block.  
+
+![Crank serialize block in the model](images/crank_serialize.png)  
+
+Open the block, set the channel name and import the header file containing the events to be serialized, then select the desired event to serialize.  
+
+![Crank serialize block mask](images/crank_serialize_mask.png)
+
+The inputs of the block will now be adjusted to this event.
 
 ### Notes
 
 The first startup might take some time as it needs to compile some MEX files.
 This blockset is made using 2023b, it might work with 2024a.
+
+## Examples
+
+An example is present in the library that runs as the backend for the ThermostatIO demo.
+Simply start a new simulink project, drag the example from the library into your model, add the crank_files folder with the necessary files (libgreio.a libgreio.h ThermostatIO_events.h).
+Then build with the toolchain of your choice, this toolbox is maintained mainly for the [GOcontroll-Simulink](https://github.com/GOcontroll/GOcontroll-Simulink), that one is pretty much guaranteed to work but is meant specifically for the GOcontroll Moduline controllers.
+
+To modify the example open the Crank Storyboard library, disable the library lock, then disable the link to the example subsystem.
+
+## Contributing
+
+If you have a toolchain that should work but it doesn't, make an issue describing the error, or file a pull request with the fix.
+The goal is to have this work on any platform, windows, linux, mac. So when describing file paths use fullfile() or ['path' filesep 'other path'].

@@ -7,3 +7,5 @@ slprj/
 crank_files/
 .vscode*
 *.mltbx
+*_generated_code/
+*.a2l
