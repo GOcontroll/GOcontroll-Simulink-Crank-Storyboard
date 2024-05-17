@@ -61,7 +61,10 @@
 	
 	%openfile tmpBuf
 		%%check if channel name is not too long
-		static_assert(sizeof("%<block.SFcnParamSettings.channel>") <= GRE_IO_MAX_NAME_LEN, "The Crank channel name must be shorter than GRE_IO_MAX_NAME_LEN which is defined in greio.h");
+		#if %<SIZE(STRING(block.SFcnParamSettings.channel),1)> >= GRE_IO_MAX_NAME_LEN //num 1 is sizeof("%<block.SFcnParamSettings.channel>") -1
+		#error "The Crank channel name must be shorter than GRE_IO_MAX_NAME_LEN which is defined in greio.h"
+		#endif
+		
 		gre_io_t *%<handle>; %% receive channel handle, one per receive channel
 		gre_io_serialized_data_t *%<nbuffer>; %% serialized receive buffer
 		void *%<event_data>; %% deserialized data to pass to deserialize blocks
