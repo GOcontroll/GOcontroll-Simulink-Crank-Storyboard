@@ -49,7 +49,7 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dc:creator>HANcoder</dc:creator>
   <dc:description></dc:description>
   <cp:lastModifiedBy>maud</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-05-16T18:24:25Z</dcterms:modified>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-05-17T07:29:52Z</dcterms:modified>
   <cp:revision>0.33</cp:revision>
   <cp:version>R2023b</cp:version>
 </cp:coreProperties>
@@ -965,16 +965,16 @@ __MWOPC_PART_BEGIN__ /simulink/libraryBrowser/_rels/slLibraryBrowser.xml.rels
 </Relationships>
 
 __MWOPC_PART_BEGIN__ /simulink/libraryBrowser/Crank@20@deserialize@20@event.svg
-<?xml version="1.0" encoding="UTF-8"?><svg width="51.3292mm" height="23.8125mm" viewBox="0 0 194 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel"><g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,0,0)"><path d="M0,0 L194,0 L194,90 L0,90 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip3"><path d="M-187,-45 L7,-45 L7,45 L-187,45 L-187,-45 z"/></clipPath></defs><g clip-path="url(#clip3)" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="2" transform="matrix(1,0,0,1,187,45)"><path d="M0.5,-4.5 L5.5,0.5 L0.5,5.5" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip6"><path d="M7,45 L-187,45 L-187,-45 L7,-45 L7,45 z"/></clipPath></defs><g clip-path="url(#clip6)" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="2" transform="matrix(-1,0,0,-1,7,45)"><path d="M4.5,-5.5 L-0.5,-0.5 L4.5,4.5" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip9"><path d="M-7,-2 L187,-2 L187,88 L-7,88 L-7,-2 z"/></clipPath></defs><g clip-path="url(#clip9)" fill="#ffaa00" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,7,2)"><path d="M0,0 L180,0 L180,86 L0,86 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip13"><path d="M-92,-39 L92,-39 L92,51 L-92,51 L-92,-39 z"/></clipPath></defs><g clip-path="url(#clip13)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,97,39)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="104.297" x="-52.1406" xml:space="preserve" y="3.5">Crank deserialize event</text></g><defs><clipPath id="clip14"><path d="M-92,-51 L92,-51 L92,39 L-92,39 L-92,-51 z"/></clipPath></defs><g clip-path="url(#clip14)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,97,51)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="24.4063" x="-12.2031" xml:space="preserve" y="3.5">event</text></g><defs><clipPath id="clip15"><path d="M-4,-82 L180,-82 L180,8 L-4,8 L-4,-82 z"/></clipPath></defs><g clip-path="url(#clip15)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,9,82)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="56.5781" x="0" xml:space="preserve" y="3.5">Crank v0.0.7</text></g><defs><clipPath id="clip16"><path d="M-5,-45 L179,-45 L179,45 L-5,45 L-5,-45 z"/></clipPath></defs><g clip-path="url(#clip16)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,10,45)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="24.4063" x="0" xml:space="preserve" y="3.5">event</text></g><defs><clipPath id="clip17"><path d="M-179,-45 L5,-45 L5,45 L-179,45 L-179,-45 z"/></clipPath></defs><g clip-path="url(#clip17)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,184,45)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="52.6875" x="-52.6875" xml:space="preserve" y="3.5">function call</text></g><defs><clipPath id="clip22"><path d="M-7.5,-2.5 L186.5,-2.5 L186.5,87.5 L-7.5,87.5 L-7.5,-2.5 z"/></clipPath></defs><g clip-path="url(#clip22)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,7.5,2.5)"><path d="M0,0 L180,0 L180,86 L0,86 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g></g><!--generated on ubuntu @ 2024-05-16 20:24:25 CEST--></svg>
+<?xml version="1.0" encoding="UTF-8"?><svg width="51.3292mm" height="23.8125mm" viewBox="0 0 194 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel"><g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,0,0)"><path d="M0,0 L194,0 L194,90 L0,90 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip3"><path d="M-187,-45 L7,-45 L7,45 L-187,45 L-187,-45 z"/></clipPath></defs><g clip-path="url(#clip3)" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="2" transform="matrix(1,0,0,1,187,45)"><path d="M0.5,-4.5 L5.5,0.5 L0.5,5.5" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip6"><path d="M7,45 L-187,45 L-187,-45 L7,-45 L7,45 z"/></clipPath></defs><g clip-path="url(#clip6)" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="2" transform="matrix(-1,0,0,-1,7,45)"><path d="M4.5,-5.5 L-0.5,-0.5 L4.5,4.5" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip9"><path d="M-7,-2 L187,-2 L187,88 L-7,88 L-7,-2 z"/></clipPath></defs><g clip-path="url(#clip9)" fill="#ffaa00" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,7,2)"><path d="M0,0 L180,0 L180,86 L0,86 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip13"><path d="M-92,-39 L92,-39 L92,51 L-92,51 L-92,-39 z"/></clipPath></defs><g clip-path="url(#clip13)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,97,39)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="104.297" x="-52.1406" xml:space="preserve" y="3.5">Crank deserialize event</text></g><defs><clipPath id="clip14"><path d="M-92,-51 L92,-51 L92,39 L-92,39 L-92,-51 z"/></clipPath></defs><g clip-path="url(#clip14)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,97,51)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="24.4063" x="-12.2031" xml:space="preserve" y="3.5">event</text></g><defs><clipPath id="clip15"><path d="M-4,-82 L180,-82 L180,8 L-4,8 L-4,-82 z"/></clipPath></defs><g clip-path="url(#clip15)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,9,82)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="56.5781" x="0" xml:space="preserve" y="3.5">Crank v0.0.7</text></g><defs><clipPath id="clip16"><path d="M-5,-45 L179,-45 L179,45 L-5,45 L-5,-45 z"/></clipPath></defs><g clip-path="url(#clip16)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,10,45)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="24.4063" x="0" xml:space="preserve" y="3.5">event</text></g><defs><clipPath id="clip17"><path d="M-179,-45 L5,-45 L5,45 L-179,45 L-179,-45 z"/></clipPath></defs><g clip-path="url(#clip17)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,184,45)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="52.6875" x="-52.6875" xml:space="preserve" y="3.5">function call</text></g><defs><clipPath id="clip22"><path d="M-7.5,-2.5 L186.5,-2.5 L186.5,87.5 L-7.5,87.5 L-7.5,-2.5 z"/></clipPath></defs><g clip-path="url(#clip22)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,7.5,2.5)"><path d="M0,0 L180,0 L180,86 L0,86 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g></g><!--generated on ubuntu @ 2024-05-17 09:29:53 CEST--></svg>
 
 __MWOPC_PART_BEGIN__ /simulink/libraryBrowser/Crank@20@Example.svg
-<?xml version="1.0" encoding="UTF-8"?><svg width="50.0062mm" height="24.3417mm" viewBox="0 0 189 92" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel"><g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,0,0)"><path d="M0,0 L189,0 L189,92 L0,92 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip3"><path d="M-2,-2 L187,-2 L187,90 L-2,90 L-2,-2 z"/></clipPath></defs><g clip-path="url(#clip3)" fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,2,2)"><path d="M0,0 L185,0 L185,88 L0,88 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip11"><path d="M-2.5,-2.5 L186.5,-2.5 L186.5,89.5 L-2.5,89.5 L-2.5,-2.5 z"/></clipPath></defs><g clip-path="url(#clip11)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,2.5,2.5)"><path d="M0,0 L185,0 L185,88 L0,88 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g></g><!--generated on ubuntu @ 2024-05-16 20:24:25 CEST--></svg>
+<?xml version="1.0" encoding="UTF-8"?><svg width="50.0062mm" height="24.3417mm" viewBox="0 0 189 92" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel"><g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,0,0)"><path d="M0,0 L189,0 L189,92 L0,92 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip3"><path d="M-2,-2 L187,-2 L187,90 L-2,90 L-2,-2 z"/></clipPath></defs><g clip-path="url(#clip3)" fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,2,2)"><path d="M0,0 L185,0 L185,88 L0,88 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip11"><path d="M-2.5,-2.5 L186.5,-2.5 L186.5,89.5 L-2.5,89.5 L-2.5,-2.5 z"/></clipPath></defs><g clip-path="url(#clip11)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,2.5,2.5)"><path d="M0,0 L185,0 L185,88 L0,88 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g></g><!--generated on ubuntu @ 2024-05-17 09:29:53 CEST--></svg>
 
 __MWOPC_PART_BEGIN__ /simulink/libraryBrowser/Crank@20@receive@20@channel.svg
-<?xml version="1.0" encoding="UTF-8"?><svg width="50.0062mm" height="24.0771mm" viewBox="0 0 189 91" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel"><g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,0,0)"><path d="M0,0 L189,0 L189,91 L0,91 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip3"><path d="M-182,-68 L7,-68 L7,23 L-182,23 L-182,-68 z"/></clipPath></defs><g clip-path="url(#clip3)" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="2" transform="matrix(1,0,0,1,182,68)"><path d="M0.5,-4.5 L5.5,0.5 L0.5,5.5" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip6"><path d="M-182,-23 L7,-23 L7,68 L-182,68 L-182,-23 z"/></clipPath></defs><g clip-path="url(#clip6)" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="2" transform="matrix(1,0,0,1,182,23)"><path d="M0.5,-4.5 L5.5,0.5 L0.5,5.5" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip9"><path d="M-2,-2 L187,-2 L187,89 L-2,89 L-2,-2 z"/></clipPath></defs><g clip-path="url(#clip9)" fill="#ffaa00" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,2,2)"><path d="M0,0 L180,0 L180,87 L0,87 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip13"><path d="M-92,-39 L92,-39 L92,52 L-92,52 L-92,-39 z"/></clipPath></defs><g clip-path="url(#clip13)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,92,39)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="99.3125" x="-49.6563" xml:space="preserve" y="3.5">Crank receive channel</text></g><defs><clipPath id="clip14"><path d="M-92,-51 L92,-51 L92,40 L-92,40 L-92,-51 z"/></clipPath></defs><g clip-path="url(#clip14)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,92,51)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="34.9531" x="-17.4688" xml:space="preserve" y="3.5">channel</text></g><defs><clipPath id="clip15"><path d="M-4,-83 L180,-83 L180,8 L-4,8 L-4,-83 z"/></clipPath></defs><g clip-path="url(#clip15)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,4,83)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="56.5781" x="0" xml:space="preserve" y="3.5">Crank v0.0.7</text></g><defs><clipPath id="clip16"><path d="M-179,-23 L5,-23 L5,68 L-179,68 L-179,-23 z"/></clipPath></defs><g clip-path="url(#clip16)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,179,23)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="52.6875" x="-52.6875" xml:space="preserve" y="3.5">function call</text></g><defs><clipPath id="clip17"><path d="M-179,-68 L5,-68 L5,23 L-179,23 L-179,-68 z"/></clipPath></defs><g clip-path="url(#clip17)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,179,68)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="24.4063" x="-24.4063" xml:space="preserve" y="3.5">event</text></g><defs><clipPath id="clip22"><path d="M-2.5,-2.5 L186.5,-2.5 L186.5,88.5 L-2.5,88.5 L-2.5,-2.5 z"/></clipPath></defs><g clip-path="url(#clip22)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,2.5,2.5)"><path d="M0,0 L180,0 L180,87 L0,87 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g></g><!--generated on ubuntu @ 2024-05-16 20:24:25 CEST--></svg>
+<?xml version="1.0" encoding="UTF-8"?><svg width="50.0062mm" height="24.0771mm" viewBox="0 0 189 91" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel"><g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,0,0)"><path d="M0,0 L189,0 L189,91 L0,91 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip3"><path d="M-182,-68 L7,-68 L7,23 L-182,23 L-182,-68 z"/></clipPath></defs><g clip-path="url(#clip3)" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="2" transform="matrix(1,0,0,1,182,68)"><path d="M0.5,-4.5 L5.5,0.5 L0.5,5.5" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip6"><path d="M-182,-23 L7,-23 L7,68 L-182,68 L-182,-23 z"/></clipPath></defs><g clip-path="url(#clip6)" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="2" transform="matrix(1,0,0,1,182,23)"><path d="M0.5,-4.5 L5.5,0.5 L0.5,5.5" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip9"><path d="M-2,-2 L187,-2 L187,89 L-2,89 L-2,-2 z"/></clipPath></defs><g clip-path="url(#clip9)" fill="#ffaa00" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,2,2)"><path d="M0,0 L180,0 L180,87 L0,87 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip13"><path d="M-92,-39 L92,-39 L92,52 L-92,52 L-92,-39 z"/></clipPath></defs><g clip-path="url(#clip13)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,92,39)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="99.3125" x="-49.6563" xml:space="preserve" y="3.5">Crank receive channel</text></g><defs><clipPath id="clip14"><path d="M-92,-51 L92,-51 L92,40 L-92,40 L-92,-51 z"/></clipPath></defs><g clip-path="url(#clip14)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,92,51)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="34.9531" x="-17.4688" xml:space="preserve" y="3.5">channel</text></g><defs><clipPath id="clip15"><path d="M-4,-83 L180,-83 L180,8 L-4,8 L-4,-83 z"/></clipPath></defs><g clip-path="url(#clip15)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,4,83)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="56.5781" x="0" xml:space="preserve" y="3.5">Crank v0.0.7</text></g><defs><clipPath id="clip16"><path d="M-179,-23 L5,-23 L5,68 L-179,68 L-179,-23 z"/></clipPath></defs><g clip-path="url(#clip16)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,179,23)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="52.6875" x="-52.6875" xml:space="preserve" y="3.5">function call</text></g><defs><clipPath id="clip17"><path d="M-179,-68 L5,-68 L5,23 L-179,23 L-179,-68 z"/></clipPath></defs><g clip-path="url(#clip17)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,179,68)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="24.4063" x="-24.4063" xml:space="preserve" y="3.5">event</text></g><defs><clipPath id="clip22"><path d="M-2.5,-2.5 L186.5,-2.5 L186.5,88.5 L-2.5,88.5 L-2.5,-2.5 z"/></clipPath></defs><g clip-path="url(#clip22)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,2.5,2.5)"><path d="M0,0 L180,0 L180,87 L0,87 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g></g><!--generated on ubuntu @ 2024-05-17 09:29:53 CEST--></svg>
 
 __MWOPC_PART_BEGIN__ /simulink/libraryBrowser/Crank@20@serialize@20@event.svg
-<?xml version="1.0" encoding="UTF-8"?><svg width="50.0062mm" height="23.8125mm" viewBox="0 0 189 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel"><g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,0,0)"><path d="M0,0 L189,0 L189,90 L0,90 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip3"><path d="M-2,-2 L187,-2 L187,88 L-2,88 L-2,-2 z"/></clipPath></defs><g clip-path="url(#clip3)" fill="#ffaa00" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,2,2)"><path d="M0,0 L185,0 L185,86 L0,86 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip7"><path d="M-94,-33 L95,-33 L95,57 L-94,57 L-94,-33 z"/></clipPath></defs><g clip-path="url(#clip7)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,94,33)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="93.2031" x="-46.5938" xml:space="preserve" y="3.5">Crank serialize event</text></g><defs><clipPath id="clip8"><path d="M-94,-45 L95,-45 L95,45 L-94,45 L-94,-45 z"/></clipPath></defs><g clip-path="url(#clip8)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,94,45)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="77.6563" x="-38.8281" xml:space="preserve" y="3.5">Channel: channel</text></g><defs><clipPath id="clip9"><path d="M-94,-57 L95,-57 L95,33 L-94,33 L-94,-57 z"/></clipPath></defs><g clip-path="url(#clip9)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,94,57)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="55.4531" x="-27.7188" xml:space="preserve" y="3.5">Event: event</text></g><defs><clipPath id="clip10"><path d="M-4,-82 L185,-82 L185,8 L-4,8 L-4,-82 z"/></clipPath></defs><g clip-path="url(#clip10)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,4,82)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="56.5781" x="0" xml:space="preserve" y="3.5">Crank v0.0.7</text></g><defs><clipPath id="clip15"><path d="M-2.5,-2.5 L186.5,-2.5 L186.5,87.5 L-2.5,87.5 L-2.5,-2.5 z"/></clipPath></defs><g clip-path="url(#clip15)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,2.5,2.5)"><path d="M0,0 L185,0 L185,86 L0,86 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g></g><!--generated on ubuntu @ 2024-05-16 20:24:25 CEST--></svg>
+<?xml version="1.0" encoding="UTF-8"?><svg width="50.0062mm" height="23.8125mm" viewBox="0 0 189 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel"><g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,0,0)"><path d="M0,0 L189,0 L189,90 L0,90 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip3"><path d="M-2,-2 L187,-2 L187,88 L-2,88 L-2,-2 z"/></clipPath></defs><g clip-path="url(#clip3)" fill="#ffaa00" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,2,2)"><path d="M0,0 L185,0 L185,86 L0,86 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip7"><path d="M-94,-33 L95,-33 L95,57 L-94,57 L-94,-33 z"/></clipPath></defs><g clip-path="url(#clip7)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,94,33)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="93.2031" x="-46.5938" xml:space="preserve" y="3.5">Crank serialize event</text></g><defs><clipPath id="clip8"><path d="M-94,-45 L95,-45 L95,45 L-94,45 L-94,-45 z"/></clipPath></defs><g clip-path="url(#clip8)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,94,45)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="77.6563" x="-38.8281" xml:space="preserve" y="3.5">Channel: channel</text></g><defs><clipPath id="clip9"><path d="M-94,-57 L95,-57 L95,33 L-94,33 L-94,-57 z"/></clipPath></defs><g clip-path="url(#clip9)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,94,57)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="55.4531" x="-27.7188" xml:space="preserve" y="3.5">Event: event</text></g><defs><clipPath id="clip10"><path d="M-4,-82 L185,-82 L185,8 L-4,8 L-4,-82 z"/></clipPath></defs><g clip-path="url(#clip10)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,4,82)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="56.5781" x="0" xml:space="preserve" y="3.5">Crank v0.0.7</text></g><defs><clipPath id="clip15"><path d="M-2.5,-2.5 L186.5,-2.5 L186.5,87.5 L-2.5,87.5 L-2.5,-2.5 z"/></clipPath></defs><g clip-path="url(#clip15)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,2.5,2.5)"><path d="M0,0 L185,0 L185,86 L0,86 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g></g><!--generated on ubuntu @ 2024-05-17 09:29:53 CEST--></svg>
 
 __MWOPC_PART_BEGIN__ /simulink/libraryBrowser/slLibraryBrowser.xml
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?><library hasTree="0" revision="R2023b"><block_node SID="4066" hasTree="0"><block_name>Crank receive channel</block_name><block_class>Crank receive channel</block_class><block_desc>Block to receive events coming through a gre_io channel
@@ -997,8 +997,8 @@ Select an event from the now loaded event list</block_desc><block_path>$bdroot/C
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="495080f9-72d7-4a2e-bb4f-0c1c80e34613">
-    <Interface type="Interface" uuid="f8bd61d1-fe0d-4b12-b3c7-88f13d7880b8"/>
+  <System type="System" uuid="839cc4e0-bbbd-4ede-bc94-1ffa385c6224">
+    <Interface type="Interface" uuid="30aec49e-35bf-469d-9abf-5f4e6a20dd5a"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/plugins/SimscapeModelParametersPlugin.xml
@@ -1663,10 +1663,11 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4069.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[3912, 0, 7680, 2160]</P>
+  <P Name="Open">on</P>
   <P Name="PaperType">usletter</P>
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
-  <P Name="ZoomFactor">196</P>
+  <P Name="ZoomFactor">125</P>
   <Block BlockType="S-Function" Name="Crank receive channel" SID="4072">
     <PortCounts out="2"/>
     <P Name="Position">[960, 749, 1140, 836]</P>
@@ -1698,6 +1699,9 @@ Set the receive channel name
     if nbuff_len &lt;= 0 || mod(nbuff_len,1) &gt; 0
         error(&quot;The nbuffer length needs to be a positive integer&quot;);
     end</Initialization>
+      <MaskParameter Name="field_sizes" Type="edit" Visible="off">
+        <Value>[]</Value>
+      </MaskParameter>
       <MaskParameter Name="field_names" Type="edit" Visible="off">
         <Value>[&quot;num&quot; &quot;unit&quot; string(missing) string(missing) string(missing) string(missing);&quot;num&quot; &quot;unit&quot; string(missing) string(missing) string(missing) string(missing);&quot;target_temperature&quot; &quot;current_temperature&quot; &quot;ac&quot; &quot;fan&quot; &quot;timer&quot; &quot;units&quot;]</Value>
       </MaskParameter>
@@ -1776,6 +1780,9 @@ typedef struct {
       </DialogControl>
       <DialogControl Type="Group" Name="ParameterGroupVar">
         <Prompt>Parameters</Prompt>
+        <DialogControl Type="Edit" Name="field_sizes">
+          <ControlOptions PromptLocation="left"/>
+        </DialogControl>
         <DialogControl Type="Edit" Name="field_names">
           <ControlOptions PromptLocation="left"/>
         </DialogControl>
@@ -1819,6 +1826,7 @@ typedef struct {
         set_param(gcb, &apos;num_fields&apos;, mat2str(events.num_fields));
         set_param(gcb, &apos;field_names&apos;, mat2str(events.field_names));
         set_param(gcb, &apos;field_types&apos;, mat2str(events.field_types));
+        set_param(gcb, &apos;field_sizes&apos;, mat2str(events.field_sizes));
         set_param(gcb, &apos;num_events&apos;, num2str(length(events.names)));
     end</Callback>
           </DialogControl>
@@ -1871,6 +1879,9 @@ Select an event from the now loaded event list</Description>
       <MaskParameter Name="field_types" Type="edit" Visible="off">
         <Value>[5 5 0 0 0 0;5 5 0 0 0 0;4 4 3 3 3 3]</Value>
       </MaskParameter>
+      <MaskParameter Name="field_sizes" Type="edit" Visible="off">
+        <Value>[]</Value>
+      </MaskParameter>
       <MaskParameter Name="tsamp" Type="edit">
         <Prompt>Sample time</Prompt>
         <Value>0.02</Value>
@@ -1895,7 +1906,7 @@ Select an event from the now loaded event list</Description>
         names = sprintf(&apos;[%s]&apos;,names);
         set_param(gcb, &apos;input_names&apos;, names);
         set_param(gcb, &apos;input_datatypes&apos;, mat2str(field_types(index,1:num_fields(index))));
-        set_param(gcb, &apos;input_sizes&apos;, mat2str(field_types(index,1:num_fields(index))));
+        set_param(gcb, &apos;input_sizes&apos;, mat2str(field_sizes(index,1:num_fields(index))));
     else
         set_param(gcb, &apos;input_names&apos;, &apos;[]&apos;);
         set_param(gcb, &apos;input_datatypes&apos;, &apos;[]&apos;);
@@ -1969,6 +1980,9 @@ typedef struct {
       <DialogControl Type="Edit" Name="field_types">
         <ControlOptions PromptLocation="left"/>
       </DialogControl>
+      <DialogControl Type="Edit" Name="field_sizes">
+        <ControlOptions PromptLocation="left"/>
+      </DialogControl>
       <DialogControl Type="Group" Name="DescGroupVar">
         <Prompt>%&lt;MaskType&gt;</Prompt>
         <DialogControl Type="Text" Name="DescTextVar">
@@ -2018,6 +2032,7 @@ typedef struct {
         set_param(gcb, &apos;num_fields&apos;, mat2str(events.num_fields));
         set_param(gcb, &apos;field_names&apos;, mat2str(events.field_names));
         set_param(gcb, &apos;field_types&apos;, mat2str(events.field_types));
+        set_param(gcb, &apos;field_sizes&apos;, mat2str(events.field_sizes));
     end</Callback>
           </DialogControl>
           <DialogControl Type="TextArea" Name="header_text">
@@ -2162,7 +2177,7 @@ channel name and it is ready to go.</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">10</P>
+    <P Name="ZOrder">14</P>
     <P Name="FontSize">12</P>
   </Annotation>
   <Annotation SID="4189">
@@ -2178,7 +2193,7 @@ time. </P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">12</P>
+    <P Name="ZOrder">16</P>
     <P Name="FontSize">12</P>
   </Annotation>
   <Annotation SID="4190">
@@ -2194,7 +2209,7 @@ will be executed once for every event.</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">11</P>
+    <P Name="ZOrder">15</P>
     <P Name="FontSize">12</P>
   </Annotation>
   <Annotation SID="4191">
@@ -2221,7 +2236,7 @@ should not be very significant.</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">9</P>
+    <P Name="ZOrder">13</P>
     <P Name="FontSize">12</P>
   </Annotation>
 </System>
@@ -2306,10 +2321,10 @@ Select the event from the list to deserialize.</Description>
     mask = Simulink.Mask.get(gcb);
     pars = mask.Parameters;
     set_param(gcb, &apos;channel&apos;, char(get_param(receive,&apos;channel&apos;)));
-    mask.getParameter(&apos;event_name&apos;).TypeOptions = eval(string(get_param(receive,&apos;events&apos;)));
     events = eval(string(get_param(receive, &apos;events&apos;)));
+    mask.getParameter(&apos;event_name&apos;).TypeOptions = events;
     eventname = string(get_param(gcb,&apos;event_name&apos;));
-    index =  find(strcmp(events,eventname));
+    index = find(strcmp(events,eventname));
     set_param(gcb, &apos;event_num&apos;,num2str(max(index-1, 0)));
     num_fields = eval(string(get_param(receive, &apos;num_fields&apos;)));
     field_types = eval(string(get_param(receive, &apos;field_types&apos;)));
@@ -2433,10 +2448,10 @@ Select the event from the list to deserialize.</Description>
     mask = Simulink.Mask.get(gcb);
     pars = mask.Parameters;
     set_param(gcb, &apos;channel&apos;, char(get_param(receive,&apos;channel&apos;)));
-    mask.getParameter(&apos;event_name&apos;).TypeOptions = eval(string(get_param(receive,&apos;events&apos;)));
     events = eval(string(get_param(receive, &apos;events&apos;)));
+    mask.getParameter(&apos;event_name&apos;).TypeOptions = events;
     eventname = string(get_param(gcb,&apos;event_name&apos;));
-    index =  find(strcmp(events,eventname));
+    index = find(strcmp(events,eventname));
     set_param(gcb, &apos;event_num&apos;,num2str(max(index-1, 0)));
     num_fields = eval(string(get_param(receive, &apos;num_fields&apos;)));
     field_types = eval(string(get_param(receive, &apos;field_types&apos;)));
@@ -2560,10 +2575,10 @@ Select the event from the list to deserialize.</Description>
     mask = Simulink.Mask.get(gcb);
     pars = mask.Parameters;
     set_param(gcb, &apos;channel&apos;, char(get_param(receive,&apos;channel&apos;)));
-    mask.getParameter(&apos;event_name&apos;).TypeOptions = eval(string(get_param(receive,&apos;events&apos;)));
     events = eval(string(get_param(receive, &apos;events&apos;)));
+    mask.getParameter(&apos;event_name&apos;).TypeOptions = events;
     eventname = string(get_param(gcb,&apos;event_name&apos;));
-    index =  find(strcmp(events,eventname));
+    index = find(strcmp(events,eventname));
     set_param(gcb, &apos;event_num&apos;,num2str(max(index-1, 0)));
     num_fields = eval(string(get_param(receive, &apos;num_fields&apos;)));
     field_types = eval(string(get_param(receive, &apos;field_types&apos;)));
@@ -2687,10 +2702,10 @@ Select the event from the list to deserialize.</Description>
     mask = Simulink.Mask.get(gcb);
     pars = mask.Parameters;
     set_param(gcb, &apos;channel&apos;, char(get_param(receive,&apos;channel&apos;)));
-    mask.getParameter(&apos;event_name&apos;).TypeOptions = eval(string(get_param(receive,&apos;events&apos;)));
     events = eval(string(get_param(receive, &apos;events&apos;)));
+    mask.getParameter(&apos;event_name&apos;).TypeOptions = events;
     eventname = string(get_param(gcb,&apos;event_name&apos;));
-    index =  find(strcmp(events,eventname));
+    index = find(strcmp(events,eventname));
     set_param(gcb, &apos;event_num&apos;,num2str(max(index-1, 0)));
     num_fields = eval(string(get_param(receive, &apos;num_fields&apos;)));
     field_types = eval(string(get_param(receive, &apos;field_types&apos;)));
@@ -2814,10 +2829,10 @@ Select the event from the list to deserialize.</Description>
     mask = Simulink.Mask.get(gcb);
     pars = mask.Parameters;
     set_param(gcb, &apos;channel&apos;, char(get_param(receive,&apos;channel&apos;)));
-    mask.getParameter(&apos;event_name&apos;).TypeOptions = eval(string(get_param(receive,&apos;events&apos;)));
     events = eval(string(get_param(receive, &apos;events&apos;)));
+    mask.getParameter(&apos;event_name&apos;).TypeOptions = events;
     eventname = string(get_param(gcb,&apos;event_name&apos;));
-    index =  find(strcmp(events,eventname));
+    index = find(strcmp(events,eventname));
     set_param(gcb, &apos;event_num&apos;,num2str(max(index-1, 0)));
     num_fields = eval(string(get_param(receive, &apos;num_fields&apos;)));
     field_types = eval(string(get_param(receive, &apos;field_types&apos;)));
@@ -2941,10 +2956,10 @@ Select the event from the list to deserialize.</Description>
     mask = Simulink.Mask.get(gcb);
     pars = mask.Parameters;
     set_param(gcb, &apos;channel&apos;, char(get_param(receive,&apos;channel&apos;)));
-    mask.getParameter(&apos;event_name&apos;).TypeOptions = eval(string(get_param(receive,&apos;events&apos;)));
     events = eval(string(get_param(receive, &apos;events&apos;)));
+    mask.getParameter(&apos;event_name&apos;).TypeOptions = events;
     eventname = string(get_param(gcb,&apos;event_name&apos;));
-    index =  find(strcmp(events,eventname));
+    index = find(strcmp(events,eventname));
     set_param(gcb, &apos;event_num&apos;,num2str(max(index-1, 0)));
     num_fields = eval(string(get_param(receive, &apos;num_fields&apos;)));
     field_types = eval(string(get_param(receive, &apos;field_types&apos;)));
@@ -3311,7 +3326,7 @@ the value. In this case the value is 16 of datatype single.</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">4</P>
+    <P Name="ZOrder">6</P>
     <P Name="FontSize">12</P>
   </Annotation>
   <Annotation SID="4156">
@@ -3334,7 +3349,7 @@ valid header file has been select there.</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">3</P>
+    <P Name="ZOrder">5</P>
     <P Name="FontSize">12</P>
   </Annotation>
 </System>
@@ -4829,7 +4844,6 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[3912, 0, 7680, 2160]</P>
-  <P Name="Open">on</P>
   <P Name="ZoomFactor">267</P>
   <P Name="ReportName">simulink-default.rpt</P>
   <P Name="SIDHighWatermark">4191</P>
@@ -5249,7 +5263,6 @@ Select an event from the now loaded event list</Description>
     if exist(fullfile(location, file), &apos;file&apos;) == 2
         header_text = fileread(fullfile(location, file));
         events = processCrankHeader(header_text);
-        disp(events.field_sizes);
         set_param(gcb, &apos;header_text&apos;, header_text);
         set_param(gcb, &apos;header&apos;, char(sprintf(&quot;\&apos;%s\&apos;&quot;,file)));
         mask.getParameter(&apos;event_name&apos;).TypeOptions = events.names;
@@ -5304,32 +5317,32 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
         <Object ObjectID="5">
           <P Name="IsActive" Class="logical">1</P>
           <P Name="IsTabbed" Class="logical">1</P>
-          <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
-          <P Name="LoadSaveID" Class="char">0</P>
-          <P Name="Extents" Class="double">[3535.0, 1919.0]</P>
-          <P Name="ZoomFactor" Class="double">2.6654507556018761</P>
-          <P Name="Offset" Class="double">[47.080379835218878, 489.718600754085]</P>
-          <P Name="SceneRectInView" Class="double">[47.080379835218878, 489.718600754085, 1326.2297165200391, 719.95327468230687]</P>
-        </Object>
-        <Object ObjectID="6">
-          <P Name="IsActive" Class="logical">0</P>
-          <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
           <P Name="LoadSaveID" Class="char">4069</P>
           <P Name="Extents" Class="double">[3535.0, 1919.0]</P>
-          <P Name="ZoomFactor" Class="double">1.9600776268367064</P>
-          <P Name="Offset" Class="double">[905.00000000000023, 322.97857142857117]</P>
-          <P Name="SceneRectInView" Class="double">[905.00000000000023, 322.97857142857117, 1803.5, 979.0428571428572]</P>
+          <P Name="ZoomFactor" Class="double">1.25</P>
+          <P Name="Offset" Class="double">[232.52201791607922, 234.34919849127789]</P>
+          <P Name="SceneRectInView" Class="double">[232.52201791607922, 234.34919849127789, 2828.0, 1535.2]</P>
         </Object>
-        <Object ObjectID="7">
+        <Object ObjectID="6">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
           <P Name="LoadSaveID" Class="char">4074</P>
           <P Name="Extents" Class="double">[3535.0, 1919.0]</P>
           <P Name="ZoomFactor" Class="double">1.7499999999999998</P>
-          <P Name="Offset" Class="double">[-684.21749537995709, 339.24743045733055]</P>
-          <P Name="SceneRectInView" Class="double">[-684.21749537995709, 339.24743045733055, 2020.0000000000002, 1096.5714285714287]</P>
+          <P Name="Offset" Class="double">[-687.28892395138587, 159.59504950494966]</P>
+          <P Name="SceneRectInView" Class="double">[-687.28892395138587, 159.59504950494966, 2020.0000000000002, 1096.5714285714287]</P>
+        </Object>
+        <Object ObjectID="7">
+          <P Name="IsActive" Class="logical">0</P>
+          <P Name="IsTabbed" Class="logical">0</P>
+          <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
+          <P Name="LoadSaveID" Class="char">0</P>
+          <P Name="Extents" Class="double">[3535.0, 1919.0]</P>
+          <P Name="ZoomFactor" Class="double">2.6654507556018761</P>
+          <P Name="Offset" Class="double">[47.080379835218878, 489.718600754085]</P>
+          <P Name="SceneRectInView" Class="double">[47.080379835218878, 489.718600754085, 1326.2297165200391, 719.95327468230687]</P>
         </Object>
         <Object ObjectID="8">
           <P Name="IsActive" Class="logical">0</P>
