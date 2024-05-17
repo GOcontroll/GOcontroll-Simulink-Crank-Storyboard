@@ -5,7 +5,9 @@ function makecfg(objBuildInfo)
 	lib_path = fullfile('$(START_DIR)', 'crank_files');
 	addIncludePaths(objBuildInfo,lib_path); %add the -I/path/to/includes to the makefile
 	
-	addLinkFlags(objBuildInfo,{'-ldl', ['-L' fullfile(lib_path)], '-lgreio'}); %add the library to the makefile
+	% addLinkFlags(objBuildInfo,{'-ldl', ['-L' fullfile(lib_path)], '-lgreio'}); %add the library to the makefile, doesnt seem to work with the linaro toolchain?
+	addLinkFlags(objBuildInfo,'-ldl'); %add the library to the makefile
+	addLinkObjects(objBuildInfo, fullfile(lib_path, 'libgreio.a'), '', 1000,true, true);
 	% addDefines(objBuildInfo, '-DGRE_TARGET_OS_linux'); % worked without this define? Not sure if necessary, will be hard to make multiplatform.
 	clear lib_path
 end
