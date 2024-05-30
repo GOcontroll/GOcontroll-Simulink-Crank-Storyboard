@@ -75,14 +75,14 @@ static void mdlInitializeSizes(SimStruct *S) {
 
 	int_T num_signals = (int_T)mxGetNumberOfElements(ssGetSFcnParam(S, PARAM_INPUT_DATATYPES)); // number of struct elements
 
-	if (!ssSetNumInputPorts(S,num_signals))
-		return;
-	if (!ssSetNumOutputPorts(S, OUT_COUNT))
-		return;
-
 	//should be the same length otherwise funky stuff happens
 	if ((int_T)mxGetNumberOfElements(ssGetSFcnParam(S,PARAM_INPUT_SIZES)) != num_signals)
 		return;
+
+	if (!ssSetNumInputPorts(S,num_signals))
+		return;
+	if (!ssSetNumOutputPorts(S, OUT_COUNT))
+		return;	
 
 	for (int_T i = 0; i < num_signals; i++) {
 		AddInputVectorPort(S,i,(int_T)mxGetPr(ssGetSFcnParam(S, PARAM_INPUT_DATATYPES))[i],(int_T)mxGetPr(ssGetSFcnParam(S, PARAM_INPUT_SIZES))[i]);

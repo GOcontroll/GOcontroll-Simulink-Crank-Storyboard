@@ -76,6 +76,10 @@ static void mdlInitializeSizes(SimStruct *S) {
 
 	int_T num_signals = (int_T)mxGetNumberOfElements(ssGetSFcnParam(S, PARAM_OUTPUT_DATATYPES)); // number of struct elements
 
+	//should be the same length otherwise funky stuff happens
+	if ((int_T)mxGetNumberOfElements(ssGetSFcnParam(S,PARAM_OUTPUT_SIZES)) != num_signals)
+		return;
+
 	if (!ssSetNumInputPorts(S,IN_COUNT))
 		return;
 	if (!ssSetNumOutputPorts(S, num_signals + 1)) // number of struct elements plus function call
@@ -84,10 +88,6 @@ static void mdlInitializeSizes(SimStruct *S) {
 	AddInputPort(S, IN_EVENT_NUM, SS_UINT32);
 
 	AddOutputPort(S, OUT_FCN_CALL, SS_FCN_CALL);
-
-	//should be the same length otherwise funky stuff happens
-	if ((int_T)mxGetNumberOfElements(ssGetSFcnParam(S,PARAM_OUTPUT_SIZES)) != num_signals)
-		return;
 
 	for (int_T i = 0; i < num_signals; i++) {
 		AddOutputVectorPort(S,i+1,(int_T)mxGetPr(ssGetSFcnParam(S, PARAM_OUTPUT_DATATYPES))[i], (int_T)mxGetPr(ssGetSFcnParam(S, PARAM_OUTPUT_SIZES))[i]); // set output datatypes, first port is FCN call so offset by one

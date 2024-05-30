@@ -4,11 +4,11 @@
     <param.authnamewatermark>GOcontroll</param.authnamewatermark>
     <param.email>info@gocontroll.com</param.email>
     <param.company>GOcontroll B.V.</param.company>
-    <param.summary>Handle the Crank Storyboard backend in Simulink</param.summary>
-    <param.description>This toolbox enables communication to and from a Crank Storyboard UI in Simulink.
+    <param.summary>Handle the Crank Storyboard GUI backend in Simulink</param.summary>
+    <param.description>This toolbox enables communication to and from a Crank Storyboard GUI in Simulink.
 This toolbox is not created/maintained by Crank themselves, it is created/maintained by GOcontroll B.V. as a community effort.</param.description>
     <param.screenshot />
-    <param.version>0.0.7</param.version>
+    <param.version>0.0.8</param.version>
     <param.output>${PROJECT_ROOT}/Crank-Storyboard-Simulink.mltbx</param.output>
     <param.products.name>
       <item>MATLAB</item>
@@ -73,7 +73,11 @@ slprj/
 test.elf
 test.mdl
 test.slxc
-test_ert_rtw/</param.exclude.filters>
+test.a2l
+test_ert_rtw/
+*_generated_code/
+.gitignore
+.gitattributes</param.exclude.filters>
     <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
     <param.examples />
     <param.demosxml />
@@ -131,11 +135,10 @@ test_ert_rtw/</param.exclude.filters>
       <file>${PROJECT_ROOT}</file>
     </fileset.rootdir>
     <fileset.rootfiles>
-      <file>${PROJECT_ROOT}/.gitattributes</file>
-      <file>${PROJECT_ROOT}/.gitignore</file>
       <file>${PROJECT_ROOT}/LICENSE</file>
       <file>${PROJECT_ROOT}/README.md</file>
       <file>${PROJECT_ROOT}/blockset_crank</file>
+      <file>${PROJECT_ROOT}/images</file>
     </fileset.rootfiles>
     <fileset.depfun.included />
     <fileset.depfun.excluded />
@@ -170,7 +173,7 @@ test_ert_rtw/</param.exclude.filters>
       <vista>false</vista>
       <linux>true</linux>
       <solaris>false</solaris>
-      <osver>5.15.0-105-generic</osver>
+      <osver>5.15.0-107-generic</osver>
       <os32>false</os32>
       <os64>true</os64>
       <arch>glnxa64</arch>

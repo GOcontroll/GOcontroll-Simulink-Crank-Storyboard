@@ -49,7 +49,7 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dc:creator>HANcoder</dc:creator>
   <dc:description></dc:description>
   <cp:lastModifiedBy>maud</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-05-17T07:29:52Z</dcterms:modified>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-05-30T11:13:18Z</dcterms:modified>
   <cp:revision>0.33</cp:revision>
   <cp:version>R2023b</cp:version>
 </cp:coreProperties>
@@ -72,11 +72,11 @@ __MWOPC_PART_BEGIN__ /metadata/mwcorePropertiesReleaseInfo.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Version information for MathWorks R2023b Release -->
 <MathWorks_version_info>
-  <version>23.2.0.2515942</version>
+  <version>23.2.0.2599560</version>
   <release>R2023b</release>
-  <description>Update 7</description>
-  <date>Jan 30 2024</date>
-  <checksum>3538596537</checksum>
+  <description>Update 8</description>
+  <date>Apr 29 2024</date>
+  <checksum>3871550127</checksum>
 </MathWorks_version_info>
 
 __MWOPC_PART_BEGIN__ /simulink/_rels/blockdiagram.xml.rels
@@ -965,16 +965,16 @@ __MWOPC_PART_BEGIN__ /simulink/libraryBrowser/_rels/slLibraryBrowser.xml.rels
 </Relationships>
 
 __MWOPC_PART_BEGIN__ /simulink/libraryBrowser/Crank@20@deserialize@20@event.svg
-<?xml version="1.0" encoding="UTF-8"?><svg width="51.3292mm" height="23.8125mm" viewBox="0 0 194 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel"><g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,0,0)"><path d="M0,0 L194,0 L194,90 L0,90 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip3"><path d="M-187,-45 L7,-45 L7,45 L-187,45 L-187,-45 z"/></clipPath></defs><g clip-path="url(#clip3)" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="2" transform="matrix(1,0,0,1,187,45)"><path d="M0.5,-4.5 L5.5,0.5 L0.5,5.5" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip6"><path d="M7,45 L-187,45 L-187,-45 L7,-45 L7,45 z"/></clipPath></defs><g clip-path="url(#clip6)" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="2" transform="matrix(-1,0,0,-1,7,45)"><path d="M4.5,-5.5 L-0.5,-0.5 L4.5,4.5" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip9"><path d="M-7,-2 L187,-2 L187,88 L-7,88 L-7,-2 z"/></clipPath></defs><g clip-path="url(#clip9)" fill="#ffaa00" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,7,2)"><path d="M0,0 L180,0 L180,86 L0,86 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip13"><path d="M-92,-39 L92,-39 L92,51 L-92,51 L-92,-39 z"/></clipPath></defs><g clip-path="url(#clip13)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,97,39)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="104.297" x="-52.1406" xml:space="preserve" y="3.5">Crank deserialize event</text></g><defs><clipPath id="clip14"><path d="M-92,-51 L92,-51 L92,39 L-92,39 L-92,-51 z"/></clipPath></defs><g clip-path="url(#clip14)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,97,51)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="24.4063" x="-12.2031" xml:space="preserve" y="3.5">event</text></g><defs><clipPath id="clip15"><path d="M-4,-82 L180,-82 L180,8 L-4,8 L-4,-82 z"/></clipPath></defs><g clip-path="url(#clip15)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,9,82)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="56.5781" x="0" xml:space="preserve" y="3.5">Crank v0.0.7</text></g><defs><clipPath id="clip16"><path d="M-5,-45 L179,-45 L179,45 L-5,45 L-5,-45 z"/></clipPath></defs><g clip-path="url(#clip16)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,10,45)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="24.4063" x="0" xml:space="preserve" y="3.5">event</text></g><defs><clipPath id="clip17"><path d="M-179,-45 L5,-45 L5,45 L-179,45 L-179,-45 z"/></clipPath></defs><g clip-path="url(#clip17)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,184,45)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="52.6875" x="-52.6875" xml:space="preserve" y="3.5">function call</text></g><defs><clipPath id="clip22"><path d="M-7.5,-2.5 L186.5,-2.5 L186.5,87.5 L-7.5,87.5 L-7.5,-2.5 z"/></clipPath></defs><g clip-path="url(#clip22)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,7.5,2.5)"><path d="M0,0 L180,0 L180,86 L0,86 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g></g><!--generated on ubuntu @ 2024-05-17 09:29:53 CEST--></svg>
+<?xml version="1.0" encoding="UTF-8"?><svg width="52.6521mm" height="23.8125mm" viewBox="0 0 199 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel"><g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,0,0)"><path d="M0,0 L199,0 L199,90 L0,90 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip3"><path d="M-192,-45 L7,-45 L7,45 L-192,45 L-192,-45 z"/></clipPath></defs><g clip-path="url(#clip3)" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="2" transform="matrix(1,0,0,1,192,45)"><path d="M0.5,-4.5 L5.5,0.5 L0.5,5.5" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip6"><path d="M7,45 L-192,45 L-192,-45 L7,-45 L7,45 z"/></clipPath></defs><g clip-path="url(#clip6)" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="2" transform="matrix(-1,0,0,-1,7,45)"><path d="M4.5,-5.5 L-0.5,-0.5 L4.5,4.5" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip9"><path d="M-7,-2 L192,-2 L192,88 L-7,88 L-7,-2 z"/></clipPath></defs><g clip-path="url(#clip9)" fill="#ffaa00" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,7,2)"><path d="M0,0 L185,0 L185,86 L0,86 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip13"><path d="M-94,-39 L95,-39 L95,51 L-94,51 L-94,-39 z"/></clipPath></defs><g clip-path="url(#clip13)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,99,39)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="104.297" x="-52.1406" xml:space="preserve" y="3.5">Crank deserialize event</text></g><defs><clipPath id="clip14"><path d="M-94,-51 L95,-51 L95,39 L-94,39 L-94,-51 z"/></clipPath></defs><g clip-path="url(#clip14)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,99,51)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="24.4063" x="-12.2031" xml:space="preserve" y="3.5">event</text></g><defs><clipPath id="clip15"><path d="M-4,-82 L185,-82 L185,8 L-4,8 L-4,-82 z"/></clipPath></defs><g clip-path="url(#clip15)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,9,82)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="58.2344" x="0" xml:space="preserve" y="3.5">Crank V0.0.7</text></g><defs><clipPath id="clip16"><path d="M-5,-45 L184,-45 L184,45 L-5,45 L-5,-45 z"/></clipPath></defs><g clip-path="url(#clip16)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,10,45)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="24.4063" x="0" xml:space="preserve" y="3.5">event</text></g><defs><clipPath id="clip17"><path d="M-184,-45 L5,-45 L5,45 L-184,45 L-184,-45 z"/></clipPath></defs><g clip-path="url(#clip17)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,189,45)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="52.6875" x="-52.6875" xml:space="preserve" y="3.5">function call</text></g><defs><clipPath id="clip22"><path d="M-7.5,-2.5 L191.5,-2.5 L191.5,87.5 L-7.5,87.5 L-7.5,-2.5 z"/></clipPath></defs><g clip-path="url(#clip22)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,7.5,2.5)"><path d="M0,0 L185,0 L185,86 L0,86 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g></g><!--generated on ubuntu @ 2024-05-30 13:13:18 CEST--></svg>
 
 __MWOPC_PART_BEGIN__ /simulink/libraryBrowser/Crank@20@Example.svg
-<?xml version="1.0" encoding="UTF-8"?><svg width="50.0062mm" height="24.3417mm" viewBox="0 0 189 92" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel"><g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,0,0)"><path d="M0,0 L189,0 L189,92 L0,92 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip3"><path d="M-2,-2 L187,-2 L187,90 L-2,90 L-2,-2 z"/></clipPath></defs><g clip-path="url(#clip3)" fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,2,2)"><path d="M0,0 L185,0 L185,88 L0,88 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip11"><path d="M-2.5,-2.5 L186.5,-2.5 L186.5,89.5 L-2.5,89.5 L-2.5,-2.5 z"/></clipPath></defs><g clip-path="url(#clip11)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,2.5,2.5)"><path d="M0,0 L185,0 L185,88 L0,88 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g></g><!--generated on ubuntu @ 2024-05-17 09:29:53 CEST--></svg>
+<?xml version="1.0" encoding="UTF-8"?><svg width="50.0062mm" height="24.3417mm" viewBox="0 0 189 92" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel"><g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,0,0)"><path d="M0,0 L189,0 L189,92 L0,92 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip3"><path d="M-2,-2 L187,-2 L187,90 L-2,90 L-2,-2 z"/></clipPath></defs><g clip-path="url(#clip3)" fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,2,2)"><path d="M0,0 L185,0 L185,88 L0,88 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip11"><path d="M-2.5,-2.5 L186.5,-2.5 L186.5,89.5 L-2.5,89.5 L-2.5,-2.5 z"/></clipPath></defs><g clip-path="url(#clip11)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,2.5,2.5)"><path d="M0,0 L185,0 L185,88 L0,88 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g></g><!--generated on ubuntu @ 2024-05-30 13:13:18 CEST--></svg>
 
 __MWOPC_PART_BEGIN__ /simulink/libraryBrowser/Crank@20@receive@20@channel.svg
-<?xml version="1.0" encoding="UTF-8"?><svg width="50.0062mm" height="24.0771mm" viewBox="0 0 189 91" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel"><g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,0,0)"><path d="M0,0 L189,0 L189,91 L0,91 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip3"><path d="M-182,-68 L7,-68 L7,23 L-182,23 L-182,-68 z"/></clipPath></defs><g clip-path="url(#clip3)" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="2" transform="matrix(1,0,0,1,182,68)"><path d="M0.5,-4.5 L5.5,0.5 L0.5,5.5" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip6"><path d="M-182,-23 L7,-23 L7,68 L-182,68 L-182,-23 z"/></clipPath></defs><g clip-path="url(#clip6)" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="2" transform="matrix(1,0,0,1,182,23)"><path d="M0.5,-4.5 L5.5,0.5 L0.5,5.5" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip9"><path d="M-2,-2 L187,-2 L187,89 L-2,89 L-2,-2 z"/></clipPath></defs><g clip-path="url(#clip9)" fill="#ffaa00" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,2,2)"><path d="M0,0 L180,0 L180,87 L0,87 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip13"><path d="M-92,-39 L92,-39 L92,52 L-92,52 L-92,-39 z"/></clipPath></defs><g clip-path="url(#clip13)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,92,39)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="99.3125" x="-49.6563" xml:space="preserve" y="3.5">Crank receive channel</text></g><defs><clipPath id="clip14"><path d="M-92,-51 L92,-51 L92,40 L-92,40 L-92,-51 z"/></clipPath></defs><g clip-path="url(#clip14)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,92,51)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="34.9531" x="-17.4688" xml:space="preserve" y="3.5">channel</text></g><defs><clipPath id="clip15"><path d="M-4,-83 L180,-83 L180,8 L-4,8 L-4,-83 z"/></clipPath></defs><g clip-path="url(#clip15)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,4,83)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="56.5781" x="0" xml:space="preserve" y="3.5">Crank v0.0.7</text></g><defs><clipPath id="clip16"><path d="M-179,-23 L5,-23 L5,68 L-179,68 L-179,-23 z"/></clipPath></defs><g clip-path="url(#clip16)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,179,23)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="52.6875" x="-52.6875" xml:space="preserve" y="3.5">function call</text></g><defs><clipPath id="clip17"><path d="M-179,-68 L5,-68 L5,23 L-179,23 L-179,-68 z"/></clipPath></defs><g clip-path="url(#clip17)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,179,68)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="24.4063" x="-24.4063" xml:space="preserve" y="3.5">event</text></g><defs><clipPath id="clip22"><path d="M-2.5,-2.5 L186.5,-2.5 L186.5,88.5 L-2.5,88.5 L-2.5,-2.5 z"/></clipPath></defs><g clip-path="url(#clip22)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,2.5,2.5)"><path d="M0,0 L180,0 L180,87 L0,87 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g></g><!--generated on ubuntu @ 2024-05-17 09:29:53 CEST--></svg>
+<?xml version="1.0" encoding="UTF-8"?><svg width="51.3292mm" height="24.0771mm" viewBox="0 0 194 91" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel"><g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,0,0)"><path d="M0,0 L194,0 L194,91 L0,91 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip3"><path d="M-187,-68 L7,-68 L7,23 L-187,23 L-187,-68 z"/></clipPath></defs><g clip-path="url(#clip3)" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="2" transform="matrix(1,0,0,1,187,68)"><path d="M0.5,-4.5 L5.5,0.5 L0.5,5.5" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip6"><path d="M-187,-23 L7,-23 L7,68 L-187,68 L-187,-23 z"/></clipPath></defs><g clip-path="url(#clip6)" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="2" transform="matrix(1,0,0,1,187,23)"><path d="M0.5,-4.5 L5.5,0.5 L0.5,5.5" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip9"><path d="M-2,-2 L192,-2 L192,89 L-2,89 L-2,-2 z"/></clipPath></defs><g clip-path="url(#clip9)" fill="#ffaa00" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,2,2)"><path d="M0,0 L185,0 L185,87 L0,87 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip13"><path d="M-94,-39 L95,-39 L95,52 L-94,52 L-94,-39 z"/></clipPath></defs><g clip-path="url(#clip13)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,94,39)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="99.3125" x="-49.6563" xml:space="preserve" y="3.5">Crank receive channel</text></g><defs><clipPath id="clip14"><path d="M-94,-51 L95,-51 L95,40 L-94,40 L-94,-51 z"/></clipPath></defs><g clip-path="url(#clip14)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,94,51)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="34.9531" x="-17.4688" xml:space="preserve" y="3.5">channel</text></g><defs><clipPath id="clip15"><path d="M-4,-83 L185,-83 L185,8 L-4,8 L-4,-83 z"/></clipPath></defs><g clip-path="url(#clip15)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,4,83)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="58.2344" x="0" xml:space="preserve" y="3.5">Crank V0.0.7</text></g><defs><clipPath id="clip16"><path d="M-184,-23 L5,-23 L5,68 L-184,68 L-184,-23 z"/></clipPath></defs><g clip-path="url(#clip16)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,184,23)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="52.6875" x="-52.6875" xml:space="preserve" y="3.5">function call</text></g><defs><clipPath id="clip17"><path d="M-184,-68 L5,-68 L5,23 L-184,23 L-184,-68 z"/></clipPath></defs><g clip-path="url(#clip17)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,184,68)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="24.4063" x="-24.4063" xml:space="preserve" y="3.5">event</text></g><defs><clipPath id="clip22"><path d="M-2.5,-2.5 L191.5,-2.5 L191.5,88.5 L-2.5,88.5 L-2.5,-2.5 z"/></clipPath></defs><g clip-path="url(#clip22)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,2.5,2.5)"><path d="M0,0 L185,0 L185,87 L0,87 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g></g><!--generated on ubuntu @ 2024-05-30 13:13:18 CEST--></svg>
 
 __MWOPC_PART_BEGIN__ /simulink/libraryBrowser/Crank@20@serialize@20@event.svg
-<?xml version="1.0" encoding="UTF-8"?><svg width="50.0062mm" height="23.8125mm" viewBox="0 0 189 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel"><g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,0,0)"><path d="M0,0 L189,0 L189,90 L0,90 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip3"><path d="M-2,-2 L187,-2 L187,88 L-2,88 L-2,-2 z"/></clipPath></defs><g clip-path="url(#clip3)" fill="#ffaa00" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,2,2)"><path d="M0,0 L185,0 L185,86 L0,86 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip7"><path d="M-94,-33 L95,-33 L95,57 L-94,57 L-94,-33 z"/></clipPath></defs><g clip-path="url(#clip7)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,94,33)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="93.2031" x="-46.5938" xml:space="preserve" y="3.5">Crank serialize event</text></g><defs><clipPath id="clip8"><path d="M-94,-45 L95,-45 L95,45 L-94,45 L-94,-45 z"/></clipPath></defs><g clip-path="url(#clip8)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,94,45)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="77.6563" x="-38.8281" xml:space="preserve" y="3.5">Channel: channel</text></g><defs><clipPath id="clip9"><path d="M-94,-57 L95,-57 L95,33 L-94,33 L-94,-57 z"/></clipPath></defs><g clip-path="url(#clip9)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,94,57)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="55.4531" x="-27.7188" xml:space="preserve" y="3.5">Event: event</text></g><defs><clipPath id="clip10"><path d="M-4,-82 L185,-82 L185,8 L-4,8 L-4,-82 z"/></clipPath></defs><g clip-path="url(#clip10)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,4,82)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="56.5781" x="0" xml:space="preserve" y="3.5">Crank v0.0.7</text></g><defs><clipPath id="clip15"><path d="M-2.5,-2.5 L186.5,-2.5 L186.5,87.5 L-2.5,87.5 L-2.5,-2.5 z"/></clipPath></defs><g clip-path="url(#clip15)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,2.5,2.5)"><path d="M0,0 L185,0 L185,86 L0,86 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g></g><!--generated on ubuntu @ 2024-05-17 09:29:53 CEST--></svg>
+<?xml version="1.0" encoding="UTF-8"?><svg width="50.0062mm" height="23.8125mm" viewBox="0 0 189 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel"><g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,0,0)"><path d="M0,0 L189,0 L189,90 L0,90 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip3"><path d="M-2,-2 L187,-2 L187,88 L-2,88 L-2,-2 z"/></clipPath></defs><g clip-path="url(#clip3)" fill="#ffaa00" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,2,2)"><path d="M0,0 L185,0 L185,86 L0,86 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g><defs><clipPath id="clip7"><path d="M-94,-33 L95,-33 L95,57 L-94,57 L-94,-33 z"/></clipPath></defs><g clip-path="url(#clip7)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,94,33)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="93.2031" x="-46.5938" xml:space="preserve" y="3.5">Crank serialize event</text></g><defs><clipPath id="clip8"><path d="M-94,-45 L95,-45 L95,45 L-94,45 L-94,-45 z"/></clipPath></defs><g clip-path="url(#clip8)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,94,45)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="77.6563" x="-38.8281" xml:space="preserve" y="3.5">Channel: channel</text></g><defs><clipPath id="clip9"><path d="M-94,-57 L95,-57 L95,33 L-94,33 L-94,-57 z"/></clipPath></defs><g clip-path="url(#clip9)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,94,57)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="55.4531" x="-27.7188" xml:space="preserve" y="3.5">Event: event</text></g><defs><clipPath id="clip10"><path d="M-4,-82 L185,-82 L185,8 L-4,8 L-4,-82 z"/></clipPath></defs><g clip-path="url(#clip10)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,4,82)"><text fill="#000000" fill-opacity="1" font-family="Liberation Sans" font-size="10" font-style="normal" font-weight="400" stroke="none" textLength="58.2344" x="0" xml:space="preserve" y="3.5">Crank V0.0.7</text></g><defs><clipPath id="clip15"><path d="M-2.5,-2.5 L186.5,-2.5 L186.5,87.5 L-2.5,87.5 L-2.5,-2.5 z"/></clipPath></defs><g clip-path="url(#clip15)" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,2.5,2.5)"><path d="M0,0 L185,0 L185,86 L0,86 L0,0 z" fill-rule="evenodd" vector-effect="none"/></g></g><!--generated on ubuntu @ 2024-05-30 13:13:18 CEST--></svg>
 
 __MWOPC_PART_BEGIN__ /simulink/libraryBrowser/slLibraryBrowser.xml
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?><library hasTree="0" revision="R2023b"><block_node SID="4066" hasTree="0"><block_name>Crank receive channel</block_name><block_class>Crank receive channel</block_class><block_desc>Block to receive events coming through a gre_io channel
@@ -983,22 +983,22 @@ Press the button to Select a crank header that contains the definitions of all t
 Set the desired sample time to determine how often to process events
 Set the buffer size for your gre_io_serialized_data_t buffer
 Set the receive channel name
-</block_desc><block_path>$bdroot/Crank receive channel</block_path><block_open>$bdroot/Crank receive channel</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>590  599  770  686</block_position><block_icon>Crank@20@receive@20@channel.svg</block_icon><keywords></keywords><port_domains>signal.out_signal:2</port_domains><block_type>S-Function</block_type><block_reference></block_reference></block_node><block_node SID="4067" hasTree="0"><block_name>Crank deserialize event</block_name><block_class>Crank deserialize event</block_class><block_desc>Block to deserialize an event coming from a gre_io channel
+</block_desc><block_path>$bdroot/Crank receive channel</block_path><block_open>$bdroot/Crank receive channel</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>590  614  775  701</block_position><block_icon>Crank@20@receive@20@channel.svg</block_icon><keywords></keywords><port_domains>signal.out_signal:2</port_domains><block_type>S-Function</block_type><block_reference></block_reference></block_node><block_node SID="4067" hasTree="0"><block_name>Crank deserialize event</block_name><block_class>Crank deserialize event</block_class><block_desc>Block to deserialize an event coming from a gre_io channel
 
 Place this block in a function call subsystem that is called by a Crank receive channel block, then link the event ports of these to blocks.
 Multiple of this blocks can then be placed in this subsystem and attached to the event line.
 
-Select the event from the list to deserialize.</block_desc><block_path>$bdroot/Crank deserialize event</block_path><block_open>$bdroot/Crank deserialize event</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>590  732  770  818</block_position><block_icon>Crank@20@deserialize@20@event.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:1,signal.out_signal:1</port_domains><block_type>S-Function</block_type><block_reference></block_reference></block_node><block_node SID="4068" hasTree="0"><block_name>Crank serialize event</block_name><block_class>Crank serialize event</block_class><block_desc>Block to serialize an event and send it through a gre_io channel
+Select the event from the list to deserialize.</block_desc><block_path>$bdroot/Crank deserialize event</block_path><block_open>$bdroot/Crank deserialize event</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>590  737  775  823</block_position><block_icon>Crank@20@deserialize@20@event.svg</block_icon><keywords></keywords><port_domains>signal.in_signal:1,signal.out_signal:1</port_domains><block_type>S-Function</block_type><block_reference></block_reference></block_node><block_node SID="4068" hasTree="0"><block_name>Crank serialize event</block_name><block_class>Crank serialize event</block_class><block_desc>Block to serialize an event and send it through a gre_io channel
 
 Set the sample time to set the update rate of the display
 Set the channel name on which the events are sent
 Press the button to select a crank header that contains the event definitions
-Select an event from the now loaded event list</block_desc><block_path>$bdroot/Crank serialize event</block_path><block_open>$bdroot/Crank serialize event</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>590  862  775  948</block_position><block_icon>Crank@20@serialize@20@event.svg</block_icon><keywords></keywords><port_domains>NA.NA:0</port_domains><block_type>S-Function</block_type><block_reference></block_reference></block_node><block_node SID="4069" hasTree="0"><block_name>Crank Example</block_name><block_class>SubSystem</block_class><block_desc>Simulink:blkprm_prompts:SubsysParameterDialogDescr</block_desc><block_path>$bdroot/Crank Example</block_path><block_open>$bdroot/Crank Example</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>590   991   775  1079</block_position><block_icon>Crank@20@Example.svg</block_icon><keywords></keywords><port_domains>NA.NA:0</port_domains><block_type>SubSystem</block_type><block_reference></block_reference></block_node></library>
+Select an event from the now loaded event list</block_desc><block_path>$bdroot/Crank serialize event</block_path><block_open>$bdroot/Crank serialize event</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>590  862  775  948</block_position><block_icon>Crank@20@serialize@20@event.svg</block_icon><keywords></keywords><port_domains>NA.NA:0</port_domains><block_type>S-Function</block_type><block_reference></block_reference></block_node><block_node SID="4192" hasTree="0"><block_name>Crank Example</block_name><block_class>SubSystem</block_class><block_desc>Simulink:blkprm_prompts:SubsysParameterDialogDescr</block_desc><block_path>$bdroot/Crank Example</block_path><block_open>$bdroot/Crank Example</block_open><block_isNotLeafBlk>0</block_isNotLeafBlk><block_position>590   991   775  1079</block_position><block_icon>Crank@20@Example.svg</block_icon><keywords></keywords><port_domains>NA.NA:0</port_domains><block_type>SubSystem</block_type><block_reference></block_reference></block_node></library>
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="839cc4e0-bbbd-4ede-bc94-1ffa385c6224">
-    <Interface type="Interface" uuid="30aec49e-35bf-469d-9abf-5f4e6a20dd5a"/>
+  <System type="System" uuid="294961a9-2291-4efe-bb15-fe3be0a2fa60">
+    <Interface type="Interface" uuid="14e08ecd-91ed-4a46-9399-cb77528918dc"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/plugins/SimscapeModelParametersPlugin.xml
@@ -1590,145 +1590,102 @@ Subsystem/toggle fan/toggle fan</P>
   </instance>
 </Stateflow>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_4069.xml.rels
+__MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_4192.xml.rels
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
-  <Relationship Id="system_4074" Target="system_4074.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
-  <Relationship Id="system_4158" Target="system_4158.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_4195" Target="system_4195.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_4279" Target="system_4279.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
 </Relationships>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_4074.xml.rels
+__MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_4195.xml.rels
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
-  <Relationship Id="system_4083" Target="system_4083.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
-  <Relationship Id="system_4110" Target="system_4110.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
-  <Relationship Id="system_4131" Target="system_4131.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
-  <Relationship Id="system_4136" Target="system_4136.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
-  <Relationship Id="system_4141" Target="system_4141.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
-  <Relationship Id="system_4146" Target="system_4146.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_4204" Target="system_4204.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_4231" Target="system_4231.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_4252" Target="system_4252.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_4257" Target="system_4257.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_4262" Target="system_4262.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_4267" Target="system_4267.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
 </Relationships>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_4083.xml.rels
+__MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_4204.xml.rels
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
-  <Relationship Id="system_4091" Target="system_4091.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
-  <Relationship Id="system_4095" Target="system_4095.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_4212" Target="system_4212.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_4216" Target="system_4216.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
 </Relationships>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_4110.xml.rels
+__MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_4231.xml.rels
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
-  <Relationship Id="system_4118" Target="system_4118.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
-  <Relationship Id="system_4122" Target="system_4122.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_4239" Target="system_4239.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_4243" Target="system_4243.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
 </Relationships>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_4131.xml.rels
+__MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_4252.xml.rels
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
-  <Relationship Id="system_4133" Target="system_4133.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_4254" Target="system_4254.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
 </Relationships>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_4136.xml.rels
+__MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_4257.xml.rels
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
-  <Relationship Id="system_4138" Target="system_4138.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_4259" Target="system_4259.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
 </Relationships>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_4141.xml.rels
+__MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_4262.xml.rels
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
-  <Relationship Id="system_4143" Target="system_4143.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_4264" Target="system_4264.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
 </Relationships>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_4146.xml.rels
+__MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_4267.xml.rels
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
-  <Relationship Id="system_4148" Target="system_4148.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_4269" Target="system_4269.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
 </Relationships>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_4158.xml.rels
+__MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_4279.xml.rels
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
-  <Relationship Id="system_4171" Target="system_4171.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
-  <Relationship Id="system_4175" Target="system_4175.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_4292" Target="system_4292.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_4296" Target="system_4296.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
 </Relationships>
 
 __MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_root.xml.rels
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
-  <Relationship Id="system_4069" Target="system_4069.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_4192" Target="system_4192.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
 </Relationships>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_4069.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_4192.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
-  <P Name="Location">[3912, 0, 7680, 2160]</P>
-  <P Name="Open">on</P>
+  <P Name="Location">[1920, 27, 3840, 2160]</P>
   <P Name="PaperType">usletter</P>
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
-  <P Name="ZoomFactor">125</P>
-  <Block BlockType="S-Function" Name="Crank receive channel" SID="4072">
+  <P Name="ZoomFactor">250</P>
+  <Block BlockType="Reference" Name="Crank receive channel" SID="4193">
     <PortCounts out="2"/>
     <P Name="Position">[960, 749, 1140, 836]</P>
     <P Name="ZOrder">455</P>
     <P Name="BackgroundColor">[1.000000, 0.666667, 0.000000]</P>
-    <P Name="AncestorBlock">GOcontroll_Crank/Crank receive channel</P>
     <P Name="LibraryVersion">0.33</P>
-    <P Name="FunctionName">sfcn_crank_receive</P>
-    <P Name="Parameters">tsamp,nbuff_len,channel,events,num_events,header</P>
-    <P Name="SFunctionDeploymentMode">off</P>
-    <P Name="EnableBusSupport">off</P>
-    <P Name="SFcnIsStateOwnerBlock">off</P>
-    <Mask SelfModifiable="on">
-      <Type>Crank receive channel</Type>
-      <Display RunInitForIconRedraw="on" IconUnits="pixels">fprintf(&apos;Crank receive channel\n%s&apos;,channel);
-text(2, 6, blockset_crank_version());
-port_label(&apos;output&apos;, 1, &apos;function call&apos;);
-port_label(&apos;output&apos;, 2, &apos;event&apos;);</Display>
-      <Description>Block to receive events coming through a gre_io channel
-
-Press the button to Select a crank header that contains the definitions of all the events on this channel.
-Set the desired sample time to determine how often to process events
-Set the buffer size for your gre_io_serialized_data_t buffer
-Set the receive channel name
-</Description>
-      <Initialization>    if ~ischar(channel)
-        error(&quot;The channel name needs to be of type char, enter it between single quotes instead of double ones&quot;);
-    end
-    if nbuff_len &lt;= 0 || mod(nbuff_len,1) &gt; 0
-        error(&quot;The nbuffer length needs to be a positive integer&quot;);
-    end</Initialization>
-      <MaskParameter Name="field_sizes" Type="edit" Visible="off">
-        <Value>[]</Value>
-      </MaskParameter>
-      <MaskParameter Name="field_names" Type="edit" Visible="off">
-        <Value>[&quot;num&quot; &quot;unit&quot; string(missing) string(missing) string(missing) string(missing);&quot;num&quot; &quot;unit&quot; string(missing) string(missing) string(missing) string(missing);&quot;target_temperature&quot; &quot;current_temperature&quot; &quot;ac&quot; &quot;fan&quot; &quot;timer&quot; &quot;units&quot;]</Value>
-      </MaskParameter>
-      <MaskParameter Name="num_fields" Type="edit" Visible="off">
-        <Value>[2 2 6 0 0 0 0]</Value>
-      </MaskParameter>
-      <MaskParameter Name="field_types" Type="edit" Visible="off">
-        <Value>[5 5 0 0 0 0;5 5 0 0 0 0;4 4 3 3 3 3]</Value>
-      </MaskParameter>
-      <MaskParameter Name="fmts" Type="edit" Visible="off">
-        <Value>[&quot;2u1 num 2u1 unit&quot; &quot;2u1 num 2u1 unit&quot; &quot;2s1 target_temperature 2s1 current_temperature 1u1 ac 1u1 fan 1u1 timer 1u1 units&quot; &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot;]</Value>
-      </MaskParameter>
-      <MaskParameter Name="tsamp" Type="edit">
-        <Prompt>Sample time</Prompt>
-        <Value>0.01</Value>
-      </MaskParameter>
-      <MaskParameter Name="nbuff_len" Type="edit">
-        <Prompt>Crank serialized data buffer size</Prompt>
-        <Value>100</Value>
-      </MaskParameter>
-      <MaskParameter Name="channel" Type="edit">
-        <Prompt>Crank channel name</Prompt>
-        <Value>&apos;thermostat_backend&apos;</Value>
-      </MaskParameter>
-      <MaskParameter Name="header_text" Type="textarea" Evaluate="off" Tunable="off">
-        <Prompt>Header file</Prompt>
-        <Value>#define DECREASE_TEMPERATURE_EVENT &quot;decrease_temperature&quot;
+    <P Name="SourceBlock">$bdroot/Crank receive channel</P>
+    <P Name="SourceType">Crank receive channel</P>
+    <InstanceData>
+      <P Name="MultithreadedSim">auto</P>
+      <P Name="field_sizes">[1 1 0 0 0 0;1 1 0 0 0 0;1 1 1 1 1 1]</P>
+      <P Name="field_names">[&quot;num&quot; &quot;unit&quot; string(missing) string(missing) string(missing) string(missing);&quot;num&quot; &quot;unit&quot; string(missing) string(missing) string(missing) string(missing);&quot;target_temperature&quot; &quot;current_temperature&quot; &quot;ac&quot; &quot;fan&quot; &quot;timer&quot; &quot;units&quot;]</P>
+      <P Name="num_fields">[2 2 6 0 0 0 0]</P>
+      <P Name="field_types">[5 5 0 0 0 0;5 5 0 0 0 0;4 4 3 3 3 3]</P>
+      <P Name="fmts">[&quot;2u1 num 2u1 unit&quot; &quot;2u1 num 2u1 unit&quot; &quot;2s1 target_temperature 2s1 current_temperature 1u1 ac 1u1 fan 1u1 timer 1u1 units&quot; &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot;]</P>
+      <P Name="tsamp">0.01</P>
+      <P Name="nbuff_len">100</P>
+      <P Name="channel">&apos;thermostat_backend&apos;</P>
+      <P Name="header_text">#define DECREASE_TEMPERATURE_EVENT &quot;decrease_temperature&quot;
 #define DECREASE_TEMPERATURE_FMT &quot;2u1 num 2u1 unit&quot;
 typedef struct {
 	uint16_t 		num;
@@ -1761,176 +1718,32 @@ typedef struct {
 
 #define TOGGLE_UNITS_EVENT &quot;toggle_units&quot;
 
-</Value>
-      </MaskParameter>
-      <MaskParameter Name="events" Type="edit" Evaluate="off" Tunable="off" Visible="off">
-        <Value>[&quot;decrease_temperature&quot;,&quot;increase_temperature&quot;,&quot;thermostat_update&quot;,&quot;toggle_ac&quot;,&quot;toggle_fan&quot;,&quot;toggle_timer&quot;,&quot;toggle_units&quot;]</Value>
-      </MaskParameter>
-      <MaskParameter Name="header" Type="edit" Visible="off">
-        <Value>&apos;ThermostatIO_events.h&apos;</Value>
-      </MaskParameter>
-      <MaskParameter Name="num_events" Type="edit" Visible="off">
-        <Value>7</Value>
-      </MaskParameter>
-      <DialogControl Type="Group" Name="DescGroupVar">
-        <Prompt>%&lt;MaskType&gt;</Prompt>
-        <DialogControl Type="Text" Name="DescTextVar">
-          <Prompt>%&lt;MaskDescription&gt;</Prompt>
-        </DialogControl>
-      </DialogControl>
-      <DialogControl Type="Group" Name="ParameterGroupVar">
-        <Prompt>Parameters</Prompt>
-        <DialogControl Type="Edit" Name="field_sizes">
-          <ControlOptions PromptLocation="left"/>
-        </DialogControl>
-        <DialogControl Type="Edit" Name="field_names">
-          <ControlOptions PromptLocation="left"/>
-        </DialogControl>
-        <DialogControl Type="Edit" Name="num_fields">
-          <ControlOptions PromptLocation="left"/>
-        </DialogControl>
-        <DialogControl Type="Edit" Name="field_types">
-          <ControlOptions PromptLocation="left"/>
-        </DialogControl>
-        <DialogControl Type="Edit" Name="fmts">
-          <ControlOptions PromptLocation="left"/>
-        </DialogControl>
-        <DialogControl Type="Edit" Name="tsamp">
-          <Prompt>Sample time</Prompt>
-          <ControlOptions PromptLocation="left"/>
-        </DialogControl>
-        <DialogControl Type="Edit" Name="nbuff_len">
-          <Prompt>Crank serialized data buffer size</Prompt>
-          <ControlOptions PromptLocation="left"/>
-        </DialogControl>
-        <DialogControl Type="Edit" Name="channel">
-          <Prompt>Crank channel name</Prompt>
-          <ControlOptions PromptLocation="left"/>
-        </DialogControl>
-        <DialogControl Type="Group" Name="Container3">
-          <DialogControl Type="Button" Name="Control2">
-            <Prompt>Select crank header</Prompt>
-            <Callback>    mask = Simulink.Mask.get(gcb);
-    pars = mask.Parameters;
-    [file, location] = uigetfile(&apos;*.h&apos;,&apos;Get crank header&apos;);
-    if exist(fullfile(location, file), &apos;file&apos;) == 2
-        header_text = fileread(fullfile(location, file));
-        events = processCrankHeader(header_text);
-        set_param(gcb, &apos;header_text&apos;, header_text);
-        set_param(gcb, &apos;header&apos;, char(sprintf(&quot;\&apos;%s\&apos;&quot;,file)));
-        names = sprintf(&apos;\&quot;%s\&quot;,&apos;,events.names);
-        names = names(1:end-1);
-        names = sprintf(&apos;[%s]&apos;,names);
-        set_param(gcb, &apos;events&apos;, names);
-        set_param(gcb, &apos;fmts&apos;, mat2str(events.fmts));
-        set_param(gcb, &apos;num_fields&apos;, mat2str(events.num_fields));
-        set_param(gcb, &apos;field_names&apos;, mat2str(events.field_names));
-        set_param(gcb, &apos;field_types&apos;, mat2str(events.field_types));
-        set_param(gcb, &apos;field_sizes&apos;, mat2str(events.field_sizes));
-        set_param(gcb, &apos;num_events&apos;, num2str(length(events.names)));
-    end</Callback>
-          </DialogControl>
-          <DialogControl Type="TextArea" Name="header_text">
-            <Prompt>Header file</Prompt>
-          </DialogControl>
-        </DialogControl>
-        <DialogControl Type="Edit" Name="events">
-          <ControlOptions PromptLocation="left"/>
-        </DialogControl>
-        <DialogControl Type="Edit" Name="header">
-          <ControlOptions PromptLocation="left"/>
-        </DialogControl>
-        <DialogControl Type="Edit" Name="num_events">
-          <ControlOptions PromptLocation="left"/>
-        </DialogControl>
-      </DialogControl>
-    </Mask>
+</P>
+      <P Name="events">[&quot;decrease_temperature&quot;,&quot;increase_temperature&quot;,&quot;thermostat_update&quot;,&quot;toggle_ac&quot;,&quot;toggle_fan&quot;,&quot;toggle_timer&quot;,&quot;toggle_units&quot;]</P>
+      <P Name="header">&apos;ThermostatIO_events.h&apos;</P>
+      <P Name="num_events">7</P>
+    </InstanceData>
   </Block>
-  <Block BlockType="S-Function" Name="Crank serialize event" SID="4073">
+  <Block BlockType="Reference" Name="Crank serialize event" SID="4194">
     <PortCounts in="6"/>
     <P Name="Position">[2010, 779, 2195, 886]</P>
     <P Name="ZOrder">457</P>
     <P Name="BackgroundColor">[1.000000, 0.666667, 0.000000]</P>
-    <P Name="AncestorBlock">GOcontroll_Crank/Crank serialize event</P>
     <P Name="LibraryVersion">0.33</P>
-    <P Name="FunctionName">sfcn_crank_serialize</P>
-    <P Name="Parameters">tsamp,channel,event_name,input_names,input_datatypes,input_sizes,header</P>
-    <P Name="SFunctionDeploymentMode">off</P>
-    <P Name="EnableBusSupport">off</P>
-    <P Name="SFcnIsStateOwnerBlock">off</P>
-    <Mask SelfModifiable="on">
-      <Type>Crank serialize event</Type>
-      <Display RunInitForIconRedraw="on" IconUnits="pixels">fprintf(&apos;Crank serialize event\nChannel: %s\nEvent: %s&apos;,channel, event_name);
-text(2, 6, blockset_crank_version());
-inputnamesarr = eval(input_names);
-for idx = 1:length(inputnamesarr)
-    port_label(&apos;input&apos;, idx, inputnamesarr(idx));
-end
-</Display>
-      <Description>Block to serialize an event and send it through a gre_io channel
-
-Set the sample time to set the update rate of the display
-Set the channel name on which the events are sent
-Press the button to select a crank header that contains the event definitions
-Select an event from the now loaded event list</Description>
-      <Initialization>    if ~ischar(channel)
-        error(&quot;The channel name needs to be of type char, enter it between single quotes instead of double ones&quot;);
-    end</Initialization>
-      <MaskParameter Name="field_types" Type="edit" Visible="off">
-        <Value>[5 5 0 0 0 0;5 5 0 0 0 0;4 4 3 3 3 3]</Value>
-      </MaskParameter>
-      <MaskParameter Name="field_sizes" Type="edit" Visible="off">
-        <Value>[]</Value>
-      </MaskParameter>
-      <MaskParameter Name="tsamp" Type="edit">
-        <Prompt>Sample time</Prompt>
-        <Value>0.02</Value>
-      </MaskParameter>
-      <MaskParameter Name="channel" Type="edit">
-        <Prompt>Crank channel name</Prompt>
-        <Value>&apos;thermostat_frontend&apos;</Value>
-      </MaskParameter>
-      <MaskParameter Name="event_name" Type="combobox" Evaluate="off">
-        <Prompt>Event to serialize</Prompt>
-        <Value>thermostat_update</Value>
-        <Callback>    events = eval(string(get_param(gcb, &apos;events&apos;)));
-    eventname = char(get_param(gcb,&apos;event_name&apos;));
-    index =  find(strcmp(events,eventname));
-    num_fields = eval(string(get_param(gcb, &apos;num_fields&apos;)));
-    field_types = eval(string(get_param(gcb, &apos;field_types&apos;)));
-    field_names = eval(string(get_param(gcb, &apos;field_names&apos;)));
-    field_sizes = eval(string(get_param(gcb, &apos;field_sizes&apos;)));
-    if num_fields(index) &gt; 0
-        names = sprintf(&apos;\&quot;%s\&quot;,&apos;,field_names(index,1:num_fields(index)));
-        names = names(1:end-1);
-        names = sprintf(&apos;[%s]&apos;,names);
-        set_param(gcb, &apos;input_names&apos;, names);
-        set_param(gcb, &apos;input_datatypes&apos;, mat2str(field_types(index,1:num_fields(index))));
-        set_param(gcb, &apos;input_sizes&apos;, mat2str(field_sizes(index,1:num_fields(index))));
-    else
-        set_param(gcb, &apos;input_names&apos;, &apos;[]&apos;);
-        set_param(gcb, &apos;input_datatypes&apos;, &apos;[]&apos;);
-        set_param(gcb, &apos;input_sizes&apos;, &apos;[]&apos;);
-    end</Callback>
-        <TypeOptions>
-          <Option>event</Option>
-        </TypeOptions>
-      </MaskParameter>
-      <MaskParameter Name="input_names" Type="edit" Evaluate="off" Visible="off">
-        <Value>[&quot;target_temperature&quot;,&quot;current_temperature&quot;,&quot;ac&quot;,&quot;fan&quot;,&quot;timer&quot;,&quot;units&quot;]</Value>
-      </MaskParameter>
-      <MaskParameter Name="input_datatypes" Type="edit" Visible="off">
-        <Value>[4 4 3 3 3 3]</Value>
-      </MaskParameter>
-      <MaskParameter Name="input_sizes" Type="edit" Visible="off">
-        <Value>[]</Value>
-      </MaskParameter>
-      <MaskParameter Name="header" Type="edit" Visible="off">
-        <Value>&apos;ThermostatIO_events.h&apos;</Value>
-      </MaskParameter>
-      <MaskParameter Name="header_text" Type="textarea" Evaluate="off" Tunable="off">
-        <Prompt>Header file</Prompt>
-        <Value>#define DECREASE_TEMPERATURE_EVENT &quot;decrease_temperature&quot;
+    <P Name="SourceBlock">$bdroot/Crank serialize event</P>
+    <P Name="SourceType">Crank serialize event</P>
+    <InstanceData>
+      <P Name="MultithreadedSim">auto</P>
+      <P Name="field_types">[5 5 0 0 0 0;5 5 0 0 0 0;4 4 3 3 3 3]</P>
+      <P Name="field_sizes">[1 1 0 0 0 0;1 1 0 0 0 0;1 1 1 1 1 1]</P>
+      <P Name="tsamp">0.02</P>
+      <P Name="channel">&apos;thermostat_frontend&apos;</P>
+      <P Name="event_name">thermostat_update</P>
+      <P Name="input_names">[&quot;target_temperature&quot;,&quot;current_temperature&quot;,&quot;ac&quot;,&quot;fan&quot;,&quot;timer&quot;,&quot;units&quot;]</P>
+      <P Name="input_datatypes">[4 4 3 3 3 3]</P>
+      <P Name="input_sizes">[1 1 1 1 1 1]</P>
+      <P Name="header">&apos;ThermostatIO_events.h&apos;</P>
+      <P Name="header_text">#define DECREASE_TEMPERATURE_EVENT &quot;decrease_temperature&quot;
 #define DECREASE_TEMPERATURE_FMT &quot;2u1 num 2u1 unit&quot;
 typedef struct {
 	uint16_t 		num;
@@ -1963,98 +1776,14 @@ typedef struct {
 
 #define TOGGLE_UNITS_EVENT &quot;toggle_units&quot;
 
-</Value>
-      </MaskParameter>
-      <MaskParameter Name="num_fields" Type="edit" Visible="off">
-        <Value>[2 2 6 0 0 0 0]</Value>
-      </MaskParameter>
-      <MaskParameter Name="field_names" Type="edit" Visible="off">
-        <Value>[&quot;num&quot; &quot;unit&quot; string(missing) string(missing) string(missing) string(missing);&quot;num&quot; &quot;unit&quot; string(missing) string(missing) string(missing) string(missing);&quot;target_temperature&quot; &quot;current_temperature&quot; &quot;ac&quot; &quot;fan&quot; &quot;timer&quot; &quot;units&quot;]</Value>
-      </MaskParameter>
-      <MaskParameter Name="fmts" Type="edit" Visible="off">
-        <Value>[&quot;2u1 num 2u1 unit&quot; &quot;2u1 num 2u1 unit&quot; &quot;2s1 target_temperature 2s1 current_temperature 1u1 ac 1u1 fan 1u1 timer 1u1 units&quot; &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot;]</Value>
-      </MaskParameter>
-      <MaskParameter Name="events" Type="edit" Visible="off">
-        <Value>[&quot;decrease_temperature&quot; &quot;increase_temperature&quot; &quot;thermostat_update&quot; &quot;toggle_ac&quot; &quot;toggle_fan&quot; &quot;toggle_timer&quot; &quot;toggle_units&quot;]</Value>
-      </MaskParameter>
-      <DialogControl Type="Edit" Name="field_types">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="field_sizes">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Group" Name="DescGroupVar">
-        <Prompt>%&lt;MaskType&gt;</Prompt>
-        <DialogControl Type="Text" Name="DescTextVar">
-          <Prompt>%&lt;MaskDescription&gt;</Prompt>
-        </DialogControl>
-      </DialogControl>
-      <DialogControl Type="Group" Name="ParameterGroupVar">
-        <Prompt>Parameters</Prompt>
-        <DialogControl Type="Edit" Name="tsamp">
-          <Prompt>Sample time</Prompt>
-          <ControlOptions PromptLocation="left"/>
-        </DialogControl>
-        <DialogControl Type="Edit" Name="channel">
-          <Prompt>Crank channel name</Prompt>
-          <ControlOptions PromptLocation="left"/>
-        </DialogControl>
-        <DialogControl Type="ComboBox" Name="event_name">
-          <Prompt>Event to serialize</Prompt>
-          <ControlOptions PromptLocation="left"/>
-        </DialogControl>
-        <DialogControl Type="Edit" Name="input_names">
-          <ControlOptions PromptLocation="left"/>
-        </DialogControl>
-        <DialogControl Type="Edit" Name="input_datatypes">
-          <ControlOptions PromptLocation="left"/>
-        </DialogControl>
-        <DialogControl Type="Edit" Name="input_sizes">
-          <ControlOptions PromptLocation="left"/>
-        </DialogControl>
-        <DialogControl Type="Edit" Name="header">
-          <ControlOptions PromptLocation="left"/>
-        </DialogControl>
-        <DialogControl Type="Group" Name="Container3">
-          <DialogControl Type="Button" Name="Control2">
-            <Prompt>Select crank header</Prompt>
-            <Callback>    mask = Simulink.Mask.get(gcb);
-    pars = mask.Parameters;
-    [file, location] = uigetfile(&apos;*.h&apos;,&apos;Get crank header&apos;);
-    if exist(fullfile(location, file), &apos;file&apos;) == 2
-        header_text = fileread(fullfile(location, file));
-        events = processCrankHeader(header_text);
-        set_param(gcb, &apos;header_text&apos;, header_text);
-        set_param(gcb, &apos;header&apos;, char(sprintf(&quot;\&apos;%s\&apos;&quot;,file)));
-        mask.getParameter(&apos;event_name&apos;).TypeOptions = events.names;
-        set_param(gcb, &apos;events&apos;, mat2str(events.names));
-        set_param(gcb, &apos;fmts&apos;, mat2str(events.fmts));
-        set_param(gcb, &apos;num_fields&apos;, mat2str(events.num_fields));
-        set_param(gcb, &apos;field_names&apos;, mat2str(events.field_names));
-        set_param(gcb, &apos;field_types&apos;, mat2str(events.field_types));
-        set_param(gcb, &apos;field_sizes&apos;, mat2str(events.field_sizes));
-    end</Callback>
-          </DialogControl>
-          <DialogControl Type="TextArea" Name="header_text">
-            <Prompt>Header file</Prompt>
-          </DialogControl>
-        </DialogControl>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="num_fields">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="field_names">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="fmts">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="events">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-    </Mask>
+</P>
+      <P Name="num_fields">[2 2 6 0 0 0 0]</P>
+      <P Name="field_names">[&quot;num&quot; &quot;unit&quot; string(missing) string(missing) string(missing) string(missing);&quot;num&quot; &quot;unit&quot; string(missing) string(missing) string(missing) string(missing);&quot;target_temperature&quot; &quot;current_temperature&quot; &quot;ac&quot; &quot;fan&quot; &quot;timer&quot; &quot;units&quot;]</P>
+      <P Name="fmts">[&quot;2u1 num 2u1 unit&quot; &quot;2u1 num 2u1 unit&quot; &quot;2s1 target_temperature 2s1 current_temperature 1u1 ac 1u1 fan 1u1 timer 1u1 units&quot; &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot;]</P>
+      <P Name="events">[&quot;decrease_temperature&quot; &quot;increase_temperature&quot; &quot;thermostat_update&quot; &quot;toggle_ac&quot; &quot;toggle_fan&quot; &quot;toggle_timer&quot; &quot;toggle_units&quot;]</P>
+    </InstanceData>
   </Block>
-  <Block BlockType="SubSystem" Name="Function-Call&#xA;Subsystem" SID="4074">
+  <Block BlockType="SubSystem" Name="Function-Call&#xA;Subsystem" SID="4195">
     <PortCounts in="1" out="5" trigger="1"/>
     <P Name="Position">[1220, 789, 1485, 841]</P>
     <P Name="ZOrder">456</P>
@@ -2073,9 +1802,9 @@ typedef struct {
         <P Name="Name">unit</P>
       </Port>
     </PortProperties>
-    <System Ref="system_4074"/>
+    <System Ref="system_4195"/>
   </Block>
-  <Block BlockType="SubSystem" Name="Subsystem" SID="4158">
+  <Block BlockType="SubSystem" Name="Subsystem" SID="4279">
     <PortCounts in="2" out="2"/>
     <P Name="Position">[1625, 787, 1825, 818]</P>
     <P Name="ZOrder">458</P>
@@ -2087,80 +1816,80 @@ typedef struct {
         <P Name="Name">current_temp</P>
       </Port>
     </PortProperties>
-    <System Ref="system_4158"/>
+    <System Ref="system_4279"/>
   </Block>
   <Line>
     <P Name="Name">target_temp</P>
-    <P Name="ZOrder">2</P>
-    <P Name="Labels">[1, 1]</P>
-    <P Name="Src">4158#out:1</P>
-    <P Name="Dst">4073#in:1</P>
+    <P Name="ZOrder">1</P>
+    <P Name="Labels">[1, 0]</P>
+    <P Name="Src">4279#out:1</P>
+    <P Name="Dst">4194#in:1</P>
   </Line>
   <Line>
-    <P Name="ZOrder">3</P>
-    <P Name="Src">4074#out:1</P>
-    <P Name="Dst">4158#in:1</P>
+    <P Name="ZOrder">2</P>
+    <P Name="Src">4195#out:1</P>
+    <P Name="Dst">4279#in:1</P>
   </Line>
   <Line>
     <P Name="Name">current_temp</P>
-    <P Name="ZOrder">4</P>
+    <P Name="ZOrder">3</P>
     <P Name="Labels">[1, 1]</P>
-    <P Name="Src">4158#out:2</P>
-    <P Name="Dst">4073#in:2</P>
+    <P Name="Src">4279#out:2</P>
+    <P Name="Dst">4194#in:2</P>
   </Line>
   <Line>
     <P Name="Name">unit</P>
-    <P Name="ZOrder">7</P>
-    <P Name="Src">4074#out:5</P>
+    <P Name="ZOrder">4</P>
+    <P Name="Src">4195#out:5</P>
     <P Name="Points">[34, 0]</P>
     <Branch>
-      <P Name="ZOrder">6</P>
+      <P Name="ZOrder">5</P>
       <P Name="Labels">[2, 1]</P>
       <P Name="Points">[0, 35]</P>
-      <P Name="Dst">4073#in:6</P>
+      <P Name="Dst">4194#in:6</P>
     </Branch>
     <Branch>
-      <P Name="ZOrder">5</P>
+      <P Name="ZOrder">6</P>
       <P Name="Points">[0, -25]</P>
-      <P Name="Dst">4158#in:2</P>
+      <P Name="Dst">4279#in:2</P>
     </Branch>
   </Line>
   <Line>
     <P Name="Name">timer</P>
-    <P Name="ZOrder">8</P>
+    <P Name="ZOrder">7</P>
     <P Name="Labels">[3, 1]</P>
-    <P Name="Src">4074#out:4</P>
+    <P Name="Src">4195#out:4</P>
     <P Name="Points">[61, 0; 0, 30]</P>
-    <P Name="Dst">4073#in:5</P>
+    <P Name="Dst">4194#in:5</P>
   </Line>
   <Line>
     <P Name="Name">fan</P>
-    <P Name="ZOrder">9</P>
+    <P Name="ZOrder">8</P>
     <P Name="Labels">[3, 1]</P>
-    <P Name="Src">4074#out:3</P>
+    <P Name="Src">4195#out:3</P>
     <P Name="Points">[85, 0; 0, 25]</P>
-    <P Name="Dst">4073#in:4</P>
+    <P Name="Dst">4194#in:4</P>
   </Line>
   <Line>
     <P Name="Name">ac</P>
-    <P Name="ZOrder">10</P>
+    <P Name="ZOrder">9</P>
     <P Name="Labels">[3, 1]</P>
-    <P Name="Src">4074#out:2</P>
+    <P Name="Src">4195#out:2</P>
     <P Name="Points">[108, 0; 0, 20]</P>
-    <P Name="Dst">4073#in:3</P>
+    <P Name="Dst">4194#in:3</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">10</P>
+    <P Name="Src">4193#out:2</P>
+    <P Name="Dst">4195#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">11</P>
-    <P Name="Src">4072#out:2</P>
-    <P Name="Dst">4074#in:1</P>
-  </Line>
-  <Line>
-    <P Name="ZOrder">12</P>
-    <P Name="Src">4072#out:1</P>
+    <P Name="Src">4193#out:1</P>
     <P Name="Points">[205, 0]</P>
-    <P Name="Dst">4074#trigger</P>
+    <P Name="Dst">4195#trigger</P>
   </Line>
-  <Annotation SID="4188">
+  <Annotation SID="4311">
     <P Name="Name">This block sends and event to the UI, set
 the sample time to a reasonable number
 for the needs of this event.
@@ -2177,26 +1906,10 @@ channel name and it is ready to go.</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">14</P>
+    <P Name="ZOrder">5</P>
     <P Name="FontSize">12</P>
   </Annotation>
-  <Annotation SID="4189">
-    <P Name="Name">Handle the temperature changing over
-time. </P>
-    <P Name="Position">[1610, 745, 1840, 820]</P>
-    <P Name="InternalMargins">[0, 0, 0, 0]</P>
-    <P Name="FixedHeight">on</P>
-    <P Name="FixedWidth">on</P>
-    <P Name="HorizontalAlignment">left</P>
-    <P Name="VerticalAlignment">top</P>
-    <P Name="ForegroundColor">[0.901961, 0.901961, 1.000000]</P>
-    <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
-    <P Name="DropShadow">on</P>
-    <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">16</P>
-    <P Name="FontSize">12</P>
-  </Annotation>
-  <Annotation SID="4190">
+  <Annotation SID="4310">
     <P Name="Name">When an event is received the code in this subsystem
 will be executed once for every event.</P>
     <P Name="Position">[1204, 725, 1499, 860]</P>
@@ -2209,10 +1922,10 @@ will be executed once for every event.</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">15</P>
+    <P Name="ZOrder">6</P>
     <P Name="FontSize">12</P>
   </Annotation>
-  <Annotation SID="4191">
+  <Annotation SID="4309">
     <P Name="Name">This block receives events from the
 given channel. It runs a while loop
 untill the channel is empty, everytime 
@@ -2236,24 +1949,24 @@ should not be very significant.</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">13</P>
+    <P Name="ZOrder">4</P>
     <P Name="FontSize">12</P>
   </Annotation>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_4074.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_4195.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[3912, 0, 7680, 2160]</P>
   <P Name="PaperType">usletter</P>
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
-  <P Name="ZoomFactor">175</P>
-  <Block BlockType="Inport" Name="event" SID="4075">
+  <P Name="ZoomFactor">80</P>
+  <Block BlockType="Inport" Name="event" SID="4196">
     <P Name="Position">[-60, 233, -30, 247]</P>
     <P Name="ZOrder">-1</P>
   </Block>
-  <Block BlockType="TriggerPort" Name="function" SID="4076">
+  <Block BlockType="TriggerPort" Name="function" SID="4197">
     <PortCounts/>
     <P Name="Position">[210, -105, 230, -85]</P>
     <P Name="ZOrder">-2</P>
@@ -2261,790 +1974,136 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4074.xml
     <P Name="VariantControl">(inherit)</P>
     <P Name="StatesWhenEnabling">held</P>
   </Block>
-  <Block BlockType="S-Function" Name="Crank deserialize event" SID="4077">
+  <Block BlockType="Reference" Name="Crank deserialize event" SID="4198">
     <PortCounts in="1" out="3"/>
     <P Name="Position">[85, 197, 265, 283]</P>
     <P Name="ZOrder">15</P>
     <P Name="BackgroundColor">[1.000000, 0.666667, 0.000000]</P>
-    <P Name="AncestorBlock">GOcontroll_Crank/Crank deserialize event</P>
     <P Name="LibraryVersion">0.33</P>
-    <P Name="FunctionName">sfcn_crank_deserialize</P>
-    <P Name="Parameters">channel,event_num,event_name,output_names,output_datatypes,output_sizes</P>
-    <P Name="SFunctionDeploymentMode">off</P>
-    <P Name="EnableBusSupport">off</P>
-    <P Name="SFcnIsStateOwnerBlock">off</P>
-    <Mask SelfModifiable="on">
-      <Type>Crank deserialize event</Type>
-      <Display RunInitForIconRedraw="on" IconUnits="pixels">fprintf(&apos;Crank deserialize event\n%s&apos;,event_name);
-text(2, 6, blockset_crank_version());
-port_label(&apos;input&apos;, 1, &apos;event&apos;);
-port_label(&apos;output&apos;, 1, &apos;function call&apos;);
-outputnamesarr = eval(output_names);
-for idx = 1:length(outputnamesarr)
-    port_label(&apos;output&apos;, idx+1, outputnamesarr(idx));
-end
-</Display>
-      <Description>Block to deserialize an event coming from a gre_io channel
-
-Place this block in a function call subsystem that is called by a Crank receive channel block, then link the event ports of these to blocks.
-Multiple of this blocks can then be placed in this subsystem and attached to the event line.
-
-Select the event from the list to deserialize.</Description>
-      <MaskParameter Name="channel" Type="edit" Visible="off">
-        <Value>&apos;thermostat_backend&apos;</Value>
-        <Callback>    try
-        graph = sltrace(gcb,&quot;Source&quot;,TraceAll=&quot;on&quot;,BlockPath=&quot;on&quot;);
-    catch
-        return;
-    end
-    if isempty(graph.SrcBlocks)
-        error(&quot;Could not find a source Crank receive channel block attached to this one&quot;);
-    end
-    receive = getBlock(graph.SrcBlocks(1),1);
-    mask = Simulink.Mask.get(gcb);
-    pars = mask.Parameters;
-    set_param(gcb, &apos;channel&apos;, char(get_param(receive,&apos;channel&apos;)));
-    mask.getParameter(&apos;event_name&apos;).TypeOptions = eval(string(get_param(receive,&apos;events&apos;)));</Callback>
-      </MaskParameter>
-      <MaskParameter Name="event_name" Type="combobox" Evaluate="off">
-        <Prompt>Event to deserialize</Prompt>
-        <Value>increase_temperature</Value>
-        <Callback>    try
-        graph = sltrace(gcb,&quot;Source&quot;,TraceAll=&quot;on&quot;,BlockPath=&quot;on&quot;);
-    catch
-        return;
-    end
-    if isempty(graph.SrcBlocks)
-        error(&quot;Could not find a source Crank receive channel block attached to this one&quot;);
-    end
-    receive = getBlock(graph.SrcBlocks(1),1);
-    mask = Simulink.Mask.get(gcb);
-    pars = mask.Parameters;
-    set_param(gcb, &apos;channel&apos;, char(get_param(receive,&apos;channel&apos;)));
-    events = eval(string(get_param(receive, &apos;events&apos;)));
-    mask.getParameter(&apos;event_name&apos;).TypeOptions = events;
-    eventname = string(get_param(gcb,&apos;event_name&apos;));
-    index = find(strcmp(events,eventname));
-    set_param(gcb, &apos;event_num&apos;,num2str(max(index-1, 0)));
-    num_fields = eval(string(get_param(receive, &apos;num_fields&apos;)));
-    field_types = eval(string(get_param(receive, &apos;field_types&apos;)));
-    field_names = eval(string(get_param(receive, &apos;field_names&apos;)));
-    field_sizes = eval(string(get_param(receive, &apos;field_sizes&apos;)));
-    if num_fields(index) &gt; 0
-        names = sprintf(&apos;\&quot;%s\&quot;,&apos;,field_names(index,1:num_fields(index)));
-        names = names(1:end-1);
-        names = sprintf(&apos;[%s]&apos;,names);
-        set_param(gcb, &apos;output_names&apos;, names);
-        set_param(gcb, &apos;output_datatypes&apos;, mat2str(field_types(index,1:num_fields(index))));
-        set_param(gcb, &apos;output_sizes&apos;, mat2str(field_sizes(index,1:num_fields(index))))
-    else
-        set_param(gcb, &apos;output_names&apos;, &apos;[]&apos;);
-        set_param(gcb, &apos;output_datatypes&apos;, &apos;[]&apos;);
-        set_param(gcb, &apos;output_sizes&apos;, &apos;[]&apos;);
-    end</Callback>
-        <TypeOptions>
-          <Option>event</Option>
-        </TypeOptions>
-      </MaskParameter>
-      <MaskParameter Name="event_num" Type="edit" Visible="off">
-        <Value>1</Value>
-      </MaskParameter>
-      <MaskParameter Name="output_names" Type="edit" Evaluate="off" Visible="off">
-        <Value>[&quot;num&quot;,&quot;unit&quot;]</Value>
-      </MaskParameter>
-      <MaskParameter Name="output_datatypes" Type="edit" Visible="off">
-        <Value>[5 5]</Value>
-      </MaskParameter>
-      <MaskParameter Name="output_sizes" Type="edit" Visible="off">
-        <Value>[]</Value>
-      </MaskParameter>
-      <DialogControl Type="Group" Name="DescGroupVar">
-        <Prompt>%&lt;MaskType&gt;</Prompt>
-        <DialogControl Type="Text" Name="DescTextVar">
-          <Prompt>%&lt;MaskDescription&gt;</Prompt>
-        </DialogControl>
-      </DialogControl>
-      <DialogControl Type="Group" Name="ParameterGroupVar">
-        <Prompt>Parameters</Prompt>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="channel">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="ComboBox" Name="event_name">
-        <Prompt>Event to deserialize</Prompt>
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="event_num">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="output_names">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="output_datatypes">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="output_sizes">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-    </Mask>
+    <P Name="SourceBlock">$bdroot/Crank deserialize event</P>
+    <P Name="SourceType">Crank deserialize event</P>
+    <InstanceData>
+      <P Name="MultithreadedSim">auto</P>
+      <P Name="channel">&apos;thermostat_backend&apos;</P>
+      <P Name="event_name">increase_temperature</P>
+      <P Name="event_num">1</P>
+      <P Name="output_names">[&quot;num&quot;,&quot;unit&quot;]</P>
+      <P Name="output_datatypes">[5 5]</P>
+      <P Name="output_sizes">[1 1]</P>
+    </InstanceData>
   </Block>
-  <Block BlockType="S-Function" Name="Crank deserialize event1" SID="4078">
+  <Block BlockType="Reference" Name="Crank deserialize event1" SID="4199">
     <PortCounts in="1" out="3"/>
     <P Name="Position">[85, 372, 265, 458]</P>
     <P Name="ZOrder">18</P>
     <P Name="BackgroundColor">[1.000000, 0.666667, 0.000000]</P>
-    <P Name="AncestorBlock">GOcontroll_Crank/Crank deserialize event</P>
     <P Name="LibraryVersion">0.33</P>
-    <P Name="FunctionName">sfcn_crank_deserialize</P>
-    <P Name="Parameters">channel,event_num,event_name,output_names,output_datatypes,output_sizes</P>
-    <P Name="SFunctionDeploymentMode">off</P>
-    <P Name="EnableBusSupport">off</P>
-    <P Name="SFcnIsStateOwnerBlock">off</P>
-    <Mask SelfModifiable="on">
-      <Type>Crank deserialize event</Type>
-      <Display RunInitForIconRedraw="on" IconUnits="pixels">fprintf(&apos;Crank deserialize event\n%s&apos;,event_name);
-text(2, 6, blockset_crank_version());
-port_label(&apos;input&apos;, 1, &apos;event&apos;);
-port_label(&apos;output&apos;, 1, &apos;function call&apos;);
-outputnamesarr = eval(output_names);
-for idx = 1:length(outputnamesarr)
-    port_label(&apos;output&apos;, idx+1, outputnamesarr(idx));
-end
-</Display>
-      <Description>Block to deserialize an event coming from a gre_io channel
-
-Place this block in a function call subsystem that is called by a Crank receive channel block, then link the event ports of these to blocks.
-Multiple of this blocks can then be placed in this subsystem and attached to the event line.
-
-Select the event from the list to deserialize.</Description>
-      <MaskParameter Name="channel" Type="edit" Visible="off">
-        <Value>&apos;thermostat_backend&apos;</Value>
-        <Callback>    try
-        graph = sltrace(gcb,&quot;Source&quot;,TraceAll=&quot;on&quot;,BlockPath=&quot;on&quot;);
-    catch
-        return;
-    end
-    if isempty(graph.SrcBlocks)
-        error(&quot;Could not find a source Crank receive channel block attached to this one&quot;);
-    end
-    receive = getBlock(graph.SrcBlocks(1),1);
-    mask = Simulink.Mask.get(gcb);
-    pars = mask.Parameters;
-    set_param(gcb, &apos;channel&apos;, char(get_param(receive,&apos;channel&apos;)));
-    mask.getParameter(&apos;event_name&apos;).TypeOptions = eval(string(get_param(receive,&apos;events&apos;)));</Callback>
-      </MaskParameter>
-      <MaskParameter Name="event_name" Type="combobox" Evaluate="off">
-        <Prompt>Event to deserialize</Prompt>
-        <Value>decrease_temperature</Value>
-        <Callback>    try
-        graph = sltrace(gcb,&quot;Source&quot;,TraceAll=&quot;on&quot;,BlockPath=&quot;on&quot;);
-    catch
-        return;
-    end
-    if isempty(graph.SrcBlocks)
-        error(&quot;Could not find a source Crank receive channel block attached to this one&quot;);
-    end
-    receive = getBlock(graph.SrcBlocks(1),1);
-    mask = Simulink.Mask.get(gcb);
-    pars = mask.Parameters;
-    set_param(gcb, &apos;channel&apos;, char(get_param(receive,&apos;channel&apos;)));
-    events = eval(string(get_param(receive, &apos;events&apos;)));
-    mask.getParameter(&apos;event_name&apos;).TypeOptions = events;
-    eventname = string(get_param(gcb,&apos;event_name&apos;));
-    index = find(strcmp(events,eventname));
-    set_param(gcb, &apos;event_num&apos;,num2str(max(index-1, 0)));
-    num_fields = eval(string(get_param(receive, &apos;num_fields&apos;)));
-    field_types = eval(string(get_param(receive, &apos;field_types&apos;)));
-    field_names = eval(string(get_param(receive, &apos;field_names&apos;)));
-    field_sizes = eval(string(get_param(receive, &apos;field_sizes&apos;)));
-    if num_fields(index) &gt; 0
-        names = sprintf(&apos;\&quot;%s\&quot;,&apos;,field_names(index,1:num_fields(index)));
-        names = names(1:end-1);
-        names = sprintf(&apos;[%s]&apos;,names);
-        set_param(gcb, &apos;output_names&apos;, names);
-        set_param(gcb, &apos;output_datatypes&apos;, mat2str(field_types(index,1:num_fields(index))));
-        set_param(gcb, &apos;output_sizes&apos;, mat2str(field_sizes(index,1:num_fields(index))))
-    else
-        set_param(gcb, &apos;output_names&apos;, &apos;[]&apos;);
-        set_param(gcb, &apos;output_datatypes&apos;, &apos;[]&apos;);
-        set_param(gcb, &apos;output_sizes&apos;, &apos;[]&apos;);
-    end</Callback>
-        <TypeOptions>
-          <Option>event</Option>
-        </TypeOptions>
-      </MaskParameter>
-      <MaskParameter Name="event_num" Type="edit" Visible="off">
-        <Value>0</Value>
-      </MaskParameter>
-      <MaskParameter Name="output_names" Type="edit" Evaluate="off" Visible="off">
-        <Value>[&quot;num&quot;,&quot;unit&quot;]</Value>
-      </MaskParameter>
-      <MaskParameter Name="output_datatypes" Type="edit" Visible="off">
-        <Value>[5 5]</Value>
-      </MaskParameter>
-      <MaskParameter Name="output_sizes" Type="edit" Visible="off">
-        <Value>[]</Value>
-      </MaskParameter>
-      <DialogControl Type="Group" Name="DescGroupVar">
-        <Prompt>%&lt;MaskType&gt;</Prompt>
-        <DialogControl Type="Text" Name="DescTextVar">
-          <Prompt>%&lt;MaskDescription&gt;</Prompt>
-        </DialogControl>
-      </DialogControl>
-      <DialogControl Type="Group" Name="ParameterGroupVar">
-        <Prompt>Parameters</Prompt>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="channel">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="ComboBox" Name="event_name">
-        <Prompt>Event to deserialize</Prompt>
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="event_num">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="output_names">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="output_datatypes">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="output_sizes">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-    </Mask>
+    <P Name="SourceBlock">$bdroot/Crank deserialize event</P>
+    <P Name="SourceType">Crank deserialize event</P>
+    <InstanceData>
+      <P Name="MultithreadedSim">auto</P>
+      <P Name="channel">&apos;thermostat_backend&apos;</P>
+      <P Name="event_name">decrease_temperature</P>
+      <P Name="event_num">0</P>
+      <P Name="output_names">[&quot;num&quot;,&quot;unit&quot;]</P>
+      <P Name="output_datatypes">[5 5]</P>
+      <P Name="output_sizes">[1 1]</P>
+    </InstanceData>
   </Block>
-  <Block BlockType="S-Function" Name="Crank deserialize event2" SID="4079">
+  <Block BlockType="Reference" Name="Crank deserialize event2" SID="4200">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[85, 547, 265, 633]</P>
     <P Name="ZOrder">20</P>
     <P Name="BackgroundColor">[1.000000, 0.666667, 0.000000]</P>
-    <P Name="AncestorBlock">GOcontroll_Crank/Crank deserialize event</P>
     <P Name="LibraryVersion">0.33</P>
-    <P Name="FunctionName">sfcn_crank_deserialize</P>
-    <P Name="Parameters">channel,event_num,event_name,output_names,output_datatypes,output_sizes</P>
-    <P Name="SFunctionDeploymentMode">off</P>
-    <P Name="EnableBusSupport">off</P>
-    <P Name="SFcnIsStateOwnerBlock">off</P>
-    <Mask SelfModifiable="on">
-      <Type>Crank deserialize event</Type>
-      <Display RunInitForIconRedraw="on" IconUnits="pixels">fprintf(&apos;Crank deserialize event\n%s&apos;,event_name);
-text(2, 6, blockset_crank_version());
-port_label(&apos;input&apos;, 1, &apos;event&apos;);
-port_label(&apos;output&apos;, 1, &apos;function call&apos;);
-outputnamesarr = eval(output_names);
-for idx = 1:length(outputnamesarr)
-    port_label(&apos;output&apos;, idx+1, outputnamesarr(idx));
-end
-</Display>
-      <Description>Block to deserialize an event coming from a gre_io channel
-
-Place this block in a function call subsystem that is called by a Crank receive channel block, then link the event ports of these to blocks.
-Multiple of this blocks can then be placed in this subsystem and attached to the event line.
-
-Select the event from the list to deserialize.</Description>
-      <MaskParameter Name="channel" Type="edit" Visible="off">
-        <Value>&apos;thermostat_backend&apos;</Value>
-        <Callback>    try
-        graph = sltrace(gcb,&quot;Source&quot;,TraceAll=&quot;on&quot;,BlockPath=&quot;on&quot;);
-    catch
-        return;
-    end
-    if isempty(graph.SrcBlocks)
-        error(&quot;Could not find a source Crank receive channel block attached to this one&quot;);
-    end
-    receive = getBlock(graph.SrcBlocks(1),1);
-    mask = Simulink.Mask.get(gcb);
-    pars = mask.Parameters;
-    set_param(gcb, &apos;channel&apos;, char(get_param(receive,&apos;channel&apos;)));
-    mask.getParameter(&apos;event_name&apos;).TypeOptions = eval(string(get_param(receive,&apos;events&apos;)));</Callback>
-      </MaskParameter>
-      <MaskParameter Name="event_name" Type="combobox" Evaluate="off">
-        <Prompt>Event to deserialize</Prompt>
-        <Value>toggle_units</Value>
-        <Callback>    try
-        graph = sltrace(gcb,&quot;Source&quot;,TraceAll=&quot;on&quot;,BlockPath=&quot;on&quot;);
-    catch
-        return;
-    end
-    if isempty(graph.SrcBlocks)
-        error(&quot;Could not find a source Crank receive channel block attached to this one&quot;);
-    end
-    receive = getBlock(graph.SrcBlocks(1),1);
-    mask = Simulink.Mask.get(gcb);
-    pars = mask.Parameters;
-    set_param(gcb, &apos;channel&apos;, char(get_param(receive,&apos;channel&apos;)));
-    events = eval(string(get_param(receive, &apos;events&apos;)));
-    mask.getParameter(&apos;event_name&apos;).TypeOptions = events;
-    eventname = string(get_param(gcb,&apos;event_name&apos;));
-    index = find(strcmp(events,eventname));
-    set_param(gcb, &apos;event_num&apos;,num2str(max(index-1, 0)));
-    num_fields = eval(string(get_param(receive, &apos;num_fields&apos;)));
-    field_types = eval(string(get_param(receive, &apos;field_types&apos;)));
-    field_names = eval(string(get_param(receive, &apos;field_names&apos;)));
-    field_sizes = eval(string(get_param(receive, &apos;field_sizes&apos;)));
-    if num_fields(index) &gt; 0
-        names = sprintf(&apos;\&quot;%s\&quot;,&apos;,field_names(index,1:num_fields(index)));
-        names = names(1:end-1);
-        names = sprintf(&apos;[%s]&apos;,names);
-        set_param(gcb, &apos;output_names&apos;, names);
-        set_param(gcb, &apos;output_datatypes&apos;, mat2str(field_types(index,1:num_fields(index))));
-        set_param(gcb, &apos;output_sizes&apos;, mat2str(field_sizes(index,1:num_fields(index))))
-    else
-        set_param(gcb, &apos;output_names&apos;, &apos;[]&apos;);
-        set_param(gcb, &apos;output_datatypes&apos;, &apos;[]&apos;);
-        set_param(gcb, &apos;output_sizes&apos;, &apos;[]&apos;);
-    end</Callback>
-        <TypeOptions>
-          <Option>event</Option>
-        </TypeOptions>
-      </MaskParameter>
-      <MaskParameter Name="event_num" Type="edit" Visible="off">
-        <Value>6</Value>
-      </MaskParameter>
-      <MaskParameter Name="output_names" Type="edit" Evaluate="off" Visible="off">
-        <Value>[]</Value>
-      </MaskParameter>
-      <MaskParameter Name="output_datatypes" Type="edit" Visible="off">
-        <Value>[]</Value>
-      </MaskParameter>
-      <MaskParameter Name="output_sizes" Type="edit" Visible="off">
-        <Value>[]</Value>
-      </MaskParameter>
-      <DialogControl Type="Group" Name="DescGroupVar">
-        <Prompt>%&lt;MaskType&gt;</Prompt>
-        <DialogControl Type="Text" Name="DescTextVar">
-          <Prompt>%&lt;MaskDescription&gt;</Prompt>
-        </DialogControl>
-      </DialogControl>
-      <DialogControl Type="Group" Name="ParameterGroupVar">
-        <Prompt>Parameters</Prompt>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="channel">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="ComboBox" Name="event_name">
-        <Prompt>Event to deserialize</Prompt>
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="event_num">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="output_names">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="output_datatypes">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="output_sizes">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-    </Mask>
+    <P Name="SourceBlock">$bdroot/Crank deserialize event</P>
+    <P Name="SourceType">Crank deserialize event</P>
+    <InstanceData>
+      <P Name="MultithreadedSim">auto</P>
+      <P Name="channel">&apos;thermostat_backend&apos;</P>
+      <P Name="event_name">toggle_units</P>
+      <P Name="event_num">6</P>
+      <P Name="output_names">[]</P>
+      <P Name="output_datatypes">[]</P>
+      <P Name="output_sizes">[]</P>
+    </InstanceData>
   </Block>
-  <Block BlockType="S-Function" Name="Crank deserialize event3" SID="4080">
+  <Block BlockType="Reference" Name="Crank deserialize event3" SID="4201">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[85, 722, 265, 808]</P>
     <P Name="ZOrder">182</P>
     <P Name="BackgroundColor">[1.000000, 0.666667, 0.000000]</P>
-    <P Name="AncestorBlock">GOcontroll_Crank/Crank deserialize event</P>
     <P Name="LibraryVersion">0.33</P>
-    <P Name="FunctionName">sfcn_crank_deserialize</P>
-    <P Name="Parameters">channel,event_num,event_name,output_names,output_datatypes,output_sizes</P>
-    <P Name="SFunctionDeploymentMode">off</P>
-    <P Name="EnableBusSupport">off</P>
-    <P Name="SFcnIsStateOwnerBlock">off</P>
-    <Mask SelfModifiable="on">
-      <Type>Crank deserialize event</Type>
-      <Display RunInitForIconRedraw="on" IconUnits="pixels">fprintf(&apos;Crank deserialize event\n%s&apos;,event_name);
-text(2, 6, blockset_crank_version());
-port_label(&apos;input&apos;, 1, &apos;event&apos;);
-port_label(&apos;output&apos;, 1, &apos;function call&apos;);
-outputnamesarr = eval(output_names);
-for idx = 1:length(outputnamesarr)
-    port_label(&apos;output&apos;, idx+1, outputnamesarr(idx));
-end
-</Display>
-      <Description>Block to deserialize an event coming from a gre_io channel
-
-Place this block in a function call subsystem that is called by a Crank receive channel block, then link the event ports of these to blocks.
-Multiple of this blocks can then be placed in this subsystem and attached to the event line.
-
-Select the event from the list to deserialize.</Description>
-      <MaskParameter Name="channel" Type="edit" Visible="off">
-        <Value>&apos;thermostat_backend&apos;</Value>
-        <Callback>    try
-        graph = sltrace(gcb,&quot;Source&quot;,TraceAll=&quot;on&quot;,BlockPath=&quot;on&quot;);
-    catch
-        return;
-    end
-    if isempty(graph.SrcBlocks)
-        error(&quot;Could not find a source Crank receive channel block attached to this one&quot;);
-    end
-    receive = getBlock(graph.SrcBlocks(1),1);
-    mask = Simulink.Mask.get(gcb);
-    pars = mask.Parameters;
-    set_param(gcb, &apos;channel&apos;, char(get_param(receive,&apos;channel&apos;)));
-    mask.getParameter(&apos;event_name&apos;).TypeOptions = eval(string(get_param(receive,&apos;events&apos;)));</Callback>
-      </MaskParameter>
-      <MaskParameter Name="event_name" Type="combobox" Evaluate="off">
-        <Prompt>Event to deserialize</Prompt>
-        <Value>toggle_ac</Value>
-        <Callback>    try
-        graph = sltrace(gcb,&quot;Source&quot;,TraceAll=&quot;on&quot;,BlockPath=&quot;on&quot;);
-    catch
-        return;
-    end
-    if isempty(graph.SrcBlocks)
-        error(&quot;Could not find a source Crank receive channel block attached to this one&quot;);
-    end
-    receive = getBlock(graph.SrcBlocks(1),1);
-    mask = Simulink.Mask.get(gcb);
-    pars = mask.Parameters;
-    set_param(gcb, &apos;channel&apos;, char(get_param(receive,&apos;channel&apos;)));
-    events = eval(string(get_param(receive, &apos;events&apos;)));
-    mask.getParameter(&apos;event_name&apos;).TypeOptions = events;
-    eventname = string(get_param(gcb,&apos;event_name&apos;));
-    index = find(strcmp(events,eventname));
-    set_param(gcb, &apos;event_num&apos;,num2str(max(index-1, 0)));
-    num_fields = eval(string(get_param(receive, &apos;num_fields&apos;)));
-    field_types = eval(string(get_param(receive, &apos;field_types&apos;)));
-    field_names = eval(string(get_param(receive, &apos;field_names&apos;)));
-    field_sizes = eval(string(get_param(receive, &apos;field_sizes&apos;)));
-    if num_fields(index) &gt; 0
-        names = sprintf(&apos;\&quot;%s\&quot;,&apos;,field_names(index,1:num_fields(index)));
-        names = names(1:end-1);
-        names = sprintf(&apos;[%s]&apos;,names);
-        set_param(gcb, &apos;output_names&apos;, names);
-        set_param(gcb, &apos;output_datatypes&apos;, mat2str(field_types(index,1:num_fields(index))));
-        set_param(gcb, &apos;output_sizes&apos;, mat2str(field_sizes(index,1:num_fields(index))))
-    else
-        set_param(gcb, &apos;output_names&apos;, &apos;[]&apos;);
-        set_param(gcb, &apos;output_datatypes&apos;, &apos;[]&apos;);
-        set_param(gcb, &apos;output_sizes&apos;, &apos;[]&apos;);
-    end</Callback>
-        <TypeOptions>
-          <Option>event</Option>
-        </TypeOptions>
-      </MaskParameter>
-      <MaskParameter Name="event_num" Type="edit" Visible="off">
-        <Value>3</Value>
-      </MaskParameter>
-      <MaskParameter Name="output_names" Type="edit" Evaluate="off" Visible="off">
-        <Value>[]</Value>
-      </MaskParameter>
-      <MaskParameter Name="output_datatypes" Type="edit" Visible="off">
-        <Value>[]</Value>
-      </MaskParameter>
-      <MaskParameter Name="output_sizes" Type="edit" Visible="off">
-        <Value>[]</Value>
-      </MaskParameter>
-      <DialogControl Type="Group" Name="DescGroupVar">
-        <Prompt>%&lt;MaskType&gt;</Prompt>
-        <DialogControl Type="Text" Name="DescTextVar">
-          <Prompt>%&lt;MaskDescription&gt;</Prompt>
-        </DialogControl>
-      </DialogControl>
-      <DialogControl Type="Group" Name="ParameterGroupVar">
-        <Prompt>Parameters</Prompt>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="channel">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="ComboBox" Name="event_name">
-        <Prompt>Event to deserialize</Prompt>
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="event_num">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="output_names">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="output_datatypes">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="output_sizes">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-    </Mask>
+    <P Name="SourceBlock">$bdroot/Crank deserialize event</P>
+    <P Name="SourceType">Crank deserialize event</P>
+    <InstanceData>
+      <P Name="MultithreadedSim">auto</P>
+      <P Name="channel">&apos;thermostat_backend&apos;</P>
+      <P Name="event_name">toggle_ac</P>
+      <P Name="event_num">3</P>
+      <P Name="output_names">[]</P>
+      <P Name="output_datatypes">[]</P>
+      <P Name="output_sizes">[]</P>
+    </InstanceData>
   </Block>
-  <Block BlockType="S-Function" Name="Crank deserialize event4" SID="4081">
+  <Block BlockType="Reference" Name="Crank deserialize event4" SID="4202">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[85, 897, 265, 983]</P>
     <P Name="ZOrder">185</P>
     <P Name="BackgroundColor">[1.000000, 0.666667, 0.000000]</P>
-    <P Name="AncestorBlock">GOcontroll_Crank/Crank deserialize event</P>
     <P Name="LibraryVersion">0.33</P>
-    <P Name="FunctionName">sfcn_crank_deserialize</P>
-    <P Name="Parameters">channel,event_num,event_name,output_names,output_datatypes,output_sizes</P>
-    <P Name="SFunctionDeploymentMode">off</P>
-    <P Name="EnableBusSupport">off</P>
-    <P Name="SFcnIsStateOwnerBlock">off</P>
-    <Mask SelfModifiable="on">
-      <Type>Crank deserialize event</Type>
-      <Display RunInitForIconRedraw="on" IconUnits="pixels">fprintf(&apos;Crank deserialize event\n%s&apos;,event_name);
-text(2, 6, blockset_crank_version());
-port_label(&apos;input&apos;, 1, &apos;event&apos;);
-port_label(&apos;output&apos;, 1, &apos;function call&apos;);
-outputnamesarr = eval(output_names);
-for idx = 1:length(outputnamesarr)
-    port_label(&apos;output&apos;, idx+1, outputnamesarr(idx));
-end
-</Display>
-      <Description>Block to deserialize an event coming from a gre_io channel
-
-Place this block in a function call subsystem that is called by a Crank receive channel block, then link the event ports of these to blocks.
-Multiple of this blocks can then be placed in this subsystem and attached to the event line.
-
-Select the event from the list to deserialize.</Description>
-      <MaskParameter Name="channel" Type="edit" Visible="off">
-        <Value>&apos;thermostat_backend&apos;</Value>
-        <Callback>    try
-        graph = sltrace(gcb,&quot;Source&quot;,TraceAll=&quot;on&quot;,BlockPath=&quot;on&quot;);
-    catch
-        return;
-    end
-    if isempty(graph.SrcBlocks)
-        error(&quot;Could not find a source Crank receive channel block attached to this one&quot;);
-    end
-    receive = getBlock(graph.SrcBlocks(1),1);
-    mask = Simulink.Mask.get(gcb);
-    pars = mask.Parameters;
-    set_param(gcb, &apos;channel&apos;, char(get_param(receive,&apos;channel&apos;)));
-    mask.getParameter(&apos;event_name&apos;).TypeOptions = eval(string(get_param(receive,&apos;events&apos;)));</Callback>
-      </MaskParameter>
-      <MaskParameter Name="event_name" Type="combobox" Evaluate="off">
-        <Prompt>Event to deserialize</Prompt>
-        <Value>toggle_timer</Value>
-        <Callback>    try
-        graph = sltrace(gcb,&quot;Source&quot;,TraceAll=&quot;on&quot;,BlockPath=&quot;on&quot;);
-    catch
-        return;
-    end
-    if isempty(graph.SrcBlocks)
-        error(&quot;Could not find a source Crank receive channel block attached to this one&quot;);
-    end
-    receive = getBlock(graph.SrcBlocks(1),1);
-    mask = Simulink.Mask.get(gcb);
-    pars = mask.Parameters;
-    set_param(gcb, &apos;channel&apos;, char(get_param(receive,&apos;channel&apos;)));
-    events = eval(string(get_param(receive, &apos;events&apos;)));
-    mask.getParameter(&apos;event_name&apos;).TypeOptions = events;
-    eventname = string(get_param(gcb,&apos;event_name&apos;));
-    index = find(strcmp(events,eventname));
-    set_param(gcb, &apos;event_num&apos;,num2str(max(index-1, 0)));
-    num_fields = eval(string(get_param(receive, &apos;num_fields&apos;)));
-    field_types = eval(string(get_param(receive, &apos;field_types&apos;)));
-    field_names = eval(string(get_param(receive, &apos;field_names&apos;)));
-    field_sizes = eval(string(get_param(receive, &apos;field_sizes&apos;)));
-    if num_fields(index) &gt; 0
-        names = sprintf(&apos;\&quot;%s\&quot;,&apos;,field_names(index,1:num_fields(index)));
-        names = names(1:end-1);
-        names = sprintf(&apos;[%s]&apos;,names);
-        set_param(gcb, &apos;output_names&apos;, names);
-        set_param(gcb, &apos;output_datatypes&apos;, mat2str(field_types(index,1:num_fields(index))));
-        set_param(gcb, &apos;output_sizes&apos;, mat2str(field_sizes(index,1:num_fields(index))))
-    else
-        set_param(gcb, &apos;output_names&apos;, &apos;[]&apos;);
-        set_param(gcb, &apos;output_datatypes&apos;, &apos;[]&apos;);
-        set_param(gcb, &apos;output_sizes&apos;, &apos;[]&apos;);
-    end</Callback>
-        <TypeOptions>
-          <Option>event</Option>
-        </TypeOptions>
-      </MaskParameter>
-      <MaskParameter Name="event_num" Type="edit" Visible="off">
-        <Value>5</Value>
-      </MaskParameter>
-      <MaskParameter Name="output_names" Type="edit" Evaluate="off" Visible="off">
-        <Value>[]</Value>
-      </MaskParameter>
-      <MaskParameter Name="output_datatypes" Type="edit" Visible="off">
-        <Value>[]</Value>
-      </MaskParameter>
-      <MaskParameter Name="output_sizes" Type="edit" Visible="off">
-        <Value>[]</Value>
-      </MaskParameter>
-      <DialogControl Type="Group" Name="DescGroupVar">
-        <Prompt>%&lt;MaskType&gt;</Prompt>
-        <DialogControl Type="Text" Name="DescTextVar">
-          <Prompt>%&lt;MaskDescription&gt;</Prompt>
-        </DialogControl>
-      </DialogControl>
-      <DialogControl Type="Group" Name="ParameterGroupVar">
-        <Prompt>Parameters</Prompt>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="channel">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="ComboBox" Name="event_name">
-        <Prompt>Event to deserialize</Prompt>
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="event_num">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="output_names">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="output_datatypes">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="output_sizes">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-    </Mask>
+    <P Name="SourceBlock">$bdroot/Crank deserialize event</P>
+    <P Name="SourceType">Crank deserialize event</P>
+    <InstanceData>
+      <P Name="MultithreadedSim">auto</P>
+      <P Name="channel">&apos;thermostat_backend&apos;</P>
+      <P Name="event_name">toggle_timer</P>
+      <P Name="event_num">5</P>
+      <P Name="output_names">[]</P>
+      <P Name="output_datatypes">[]</P>
+      <P Name="output_sizes">[]</P>
+    </InstanceData>
   </Block>
-  <Block BlockType="S-Function" Name="Crank deserialize event5" SID="4082">
+  <Block BlockType="Reference" Name="Crank deserialize event5" SID="4203">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[85, 1072, 265, 1158]</P>
     <P Name="ZOrder">188</P>
     <P Name="BackgroundColor">[1.000000, 0.666667, 0.000000]</P>
-    <P Name="AncestorBlock">GOcontroll_Crank/Crank deserialize event</P>
     <P Name="LibraryVersion">0.33</P>
-    <P Name="FunctionName">sfcn_crank_deserialize</P>
-    <P Name="Parameters">channel,event_num,event_name,output_names,output_datatypes,output_sizes</P>
-    <P Name="SFunctionDeploymentMode">off</P>
-    <P Name="EnableBusSupport">off</P>
-    <P Name="SFcnIsStateOwnerBlock">off</P>
-    <Mask SelfModifiable="on">
-      <Type>Crank deserialize event</Type>
-      <Display RunInitForIconRedraw="on" IconUnits="pixels">fprintf(&apos;Crank deserialize event\n%s&apos;,event_name);
-text(2, 6, blockset_crank_version());
-port_label(&apos;input&apos;, 1, &apos;event&apos;);
-port_label(&apos;output&apos;, 1, &apos;function call&apos;);
-outputnamesarr = eval(output_names);
-for idx = 1:length(outputnamesarr)
-    port_label(&apos;output&apos;, idx+1, outputnamesarr(idx));
-end
-</Display>
-      <Description>Block to deserialize an event coming from a gre_io channel
-
-Place this block in a function call subsystem that is called by a Crank receive channel block, then link the event ports of these to blocks.
-Multiple of this blocks can then be placed in this subsystem and attached to the event line.
-
-Select the event from the list to deserialize.</Description>
-      <MaskParameter Name="channel" Type="edit" Visible="off">
-        <Value>&apos;thermostat_backend&apos;</Value>
-        <Callback>    try
-        graph = sltrace(gcb,&quot;Source&quot;,TraceAll=&quot;on&quot;,BlockPath=&quot;on&quot;);
-    catch
-        return;
-    end
-    if isempty(graph.SrcBlocks)
-        error(&quot;Could not find a source Crank receive channel block attached to this one&quot;);
-    end
-    receive = getBlock(graph.SrcBlocks(1),1);
-    mask = Simulink.Mask.get(gcb);
-    pars = mask.Parameters;
-    set_param(gcb, &apos;channel&apos;, char(get_param(receive,&apos;channel&apos;)));
-    mask.getParameter(&apos;event_name&apos;).TypeOptions = eval(string(get_param(receive,&apos;events&apos;)));</Callback>
-      </MaskParameter>
-      <MaskParameter Name="event_name" Type="combobox" Evaluate="off">
-        <Prompt>Event to deserialize</Prompt>
-        <Value>toggle_fan</Value>
-        <Callback>    try
-        graph = sltrace(gcb,&quot;Source&quot;,TraceAll=&quot;on&quot;,BlockPath=&quot;on&quot;);
-    catch
-        return;
-    end
-    if isempty(graph.SrcBlocks)
-        error(&quot;Could not find a source Crank receive channel block attached to this one&quot;);
-    end
-    receive = getBlock(graph.SrcBlocks(1),1);
-    mask = Simulink.Mask.get(gcb);
-    pars = mask.Parameters;
-    set_param(gcb, &apos;channel&apos;, char(get_param(receive,&apos;channel&apos;)));
-    events = eval(string(get_param(receive, &apos;events&apos;)));
-    mask.getParameter(&apos;event_name&apos;).TypeOptions = events;
-    eventname = string(get_param(gcb,&apos;event_name&apos;));
-    index = find(strcmp(events,eventname));
-    set_param(gcb, &apos;event_num&apos;,num2str(max(index-1, 0)));
-    num_fields = eval(string(get_param(receive, &apos;num_fields&apos;)));
-    field_types = eval(string(get_param(receive, &apos;field_types&apos;)));
-    field_names = eval(string(get_param(receive, &apos;field_names&apos;)));
-    field_sizes = eval(string(get_param(receive, &apos;field_sizes&apos;)));
-    if num_fields(index) &gt; 0
-        names = sprintf(&apos;\&quot;%s\&quot;,&apos;,field_names(index,1:num_fields(index)));
-        names = names(1:end-1);
-        names = sprintf(&apos;[%s]&apos;,names);
-        set_param(gcb, &apos;output_names&apos;, names);
-        set_param(gcb, &apos;output_datatypes&apos;, mat2str(field_types(index,1:num_fields(index))));
-        set_param(gcb, &apos;output_sizes&apos;, mat2str(field_sizes(index,1:num_fields(index))))
-    else
-        set_param(gcb, &apos;output_names&apos;, &apos;[]&apos;);
-        set_param(gcb, &apos;output_datatypes&apos;, &apos;[]&apos;);
-        set_param(gcb, &apos;output_sizes&apos;, &apos;[]&apos;);
-    end</Callback>
-        <TypeOptions>
-          <Option>event</Option>
-        </TypeOptions>
-      </MaskParameter>
-      <MaskParameter Name="event_num" Type="edit" Visible="off">
-        <Value>4</Value>
-      </MaskParameter>
-      <MaskParameter Name="output_names" Type="edit" Evaluate="off" Visible="off">
-        <Value>[]</Value>
-      </MaskParameter>
-      <MaskParameter Name="output_datatypes" Type="edit" Visible="off">
-        <Value>[]</Value>
-      </MaskParameter>
-      <MaskParameter Name="output_sizes" Type="edit" Visible="off">
-        <Value>[]</Value>
-      </MaskParameter>
-      <DialogControl Type="Group" Name="DescGroupVar">
-        <Prompt>%&lt;MaskType&gt;</Prompt>
-        <DialogControl Type="Text" Name="DescTextVar">
-          <Prompt>%&lt;MaskDescription&gt;</Prompt>
-        </DialogControl>
-      </DialogControl>
-      <DialogControl Type="Group" Name="ParameterGroupVar">
-        <Prompt>Parameters</Prompt>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="channel">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="ComboBox" Name="event_name">
-        <Prompt>Event to deserialize</Prompt>
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="event_num">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="output_names">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="output_datatypes">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-      <DialogControl Type="Edit" Name="output_sizes">
-        <ControlOptions PromptLocation="left"/>
-      </DialogControl>
-    </Mask>
+    <P Name="SourceBlock">$bdroot/Crank deserialize event</P>
+    <P Name="SourceType">Crank deserialize event</P>
+    <InstanceData>
+      <P Name="MultithreadedSim">auto</P>
+      <P Name="channel">&apos;thermostat_backend&apos;</P>
+      <P Name="event_name">toggle_fan</P>
+      <P Name="event_num">4</P>
+      <P Name="output_names">[]</P>
+      <P Name="output_datatypes">[]</P>
+      <P Name="output_sizes">[]</P>
+    </InstanceData>
   </Block>
-  <Block BlockType="SubSystem" Name="Increase temperature" SID="4083">
+  <Block BlockType="SubSystem" Name="Increase temperature" SID="4204">
     <PortCounts in="3" out="1" trigger="1"/>
     <P Name="Position">[395, 225, 495, 315]</P>
     <P Name="ZOrder">16</P>
     <P Name="TreatAsAtomicUnit">on</P>
-    <System Ref="system_4083"/>
+    <System Ref="system_4204"/>
   </Block>
-  <Block BlockType="Merge" Name="Merge" SID="4106">
+  <Block BlockType="Merge" Name="Merge" SID="4227">
     <PortCounts in="2" out="1"/>
     <P Name="Position">[540, 182, 590, 533]</P>
     <P Name="ZOrder">17</P>
     <P Name="InitialOutput">single(16)</P>
   </Block>
-  <Block BlockType="Terminator" Name="Terminator" SID="4107">
+  <Block BlockType="Terminator" Name="Terminator" SID="4228">
     <P Name="Position">[290, 435, 310, 455]</P>
     <P Name="ZOrder">193</P>
   </Block>
-  <Block BlockType="Terminator" Name="Terminator1" SID="4108">
+  <Block BlockType="Terminator" Name="Terminator1" SID="4229">
     <P Name="Position">[290, 260, 310, 280]</P>
     <P Name="ZOrder">194</P>
   </Block>
-  <Block BlockType="UnitDelay" Name="Unit Delay" SID="4109">
+  <Block BlockType="UnitDelay" Name="Unit Delay" SID="4230">
     <P Name="Position">[425, 528, 460, 562]</P>
     <P Name="ZOrder">192</P>
     <P Name="BlockMirror">on</P>
@@ -3052,14 +2111,14 @@ Select the event from the list to deserialize.</Description>
     <P Name="SampleTime">-1</P>
     <P Name="HasFrameUpgradeWarning">on</P>
   </Block>
-  <Block BlockType="SubSystem" Name="decrease temperature" SID="4110">
+  <Block BlockType="SubSystem" Name="decrease temperature" SID="4231">
     <PortCounts in="3" out="1" trigger="1"/>
     <P Name="Position">[395, 401, 495, 489]</P>
     <P Name="ZOrder">19</P>
     <P Name="TreatAsAtomicUnit">on</P>
-    <System Ref="system_4110"/>
+    <System Ref="system_4231"/>
   </Block>
-  <Block BlockType="SubSystem" Name="toggle ac" SID="4131">
+  <Block BlockType="SubSystem" Name="toggle ac" SID="4252">
     <PortCounts out="1" trigger="1"/>
     <P Name="Position">[330, 779, 430, 821]</P>
     <P Name="ZOrder">183</P>
@@ -3069,9 +2128,9 @@ Select the event from the list to deserialize.</Description>
         <P Name="PropagatedSignals">ac</P>
       </Port>
     </PortProperties>
-    <System Ref="system_4131"/>
+    <System Ref="system_4252"/>
   </Block>
-  <Block BlockType="SubSystem" Name="toggle fan" SID="4136">
+  <Block BlockType="SubSystem" Name="toggle fan" SID="4257">
     <PortCounts out="1" trigger="1"/>
     <P Name="Position">[330, 1129, 430, 1171]</P>
     <P Name="ZOrder">189</P>
@@ -3081,9 +2140,9 @@ Select the event from the list to deserialize.</Description>
         <P Name="PropagatedSignals">fan</P>
       </Port>
     </PortProperties>
-    <System Ref="system_4136"/>
+    <System Ref="system_4257"/>
   </Block>
-  <Block BlockType="SubSystem" Name="toggle timer" SID="4141">
+  <Block BlockType="SubSystem" Name="toggle timer" SID="4262">
     <PortCounts out="1" trigger="1"/>
     <P Name="Position">[330, 954, 430, 996]</P>
     <P Name="ZOrder">186</P>
@@ -3093,9 +2152,9 @@ Select the event from the list to deserialize.</Description>
         <P Name="PropagatedSignals">timer</P>
       </Port>
     </PortProperties>
-    <System Ref="system_4141"/>
+    <System Ref="system_4262"/>
   </Block>
-  <Block BlockType="SubSystem" Name="toggle units" SID="4146">
+  <Block BlockType="SubSystem" Name="toggle units" SID="4267">
     <PortCounts out="1" trigger="1"/>
     <P Name="Position">[330, 604, 430, 646]</P>
     <P Name="ZOrder">21</P>
@@ -3105,209 +2164,209 @@ Select the event from the list to deserialize.</Description>
         <P Name="PropagatedSignals">unit</P>
       </Port>
     </PortProperties>
-    <System Ref="system_4146"/>
+    <System Ref="system_4267"/>
   </Block>
-  <Block BlockType="Outport" Name="target_temperature_out_C" SID="4151">
+  <Block BlockType="Outport" Name="target_temperature_out_C" SID="4272">
     <P Name="Position">[730, 353, 760, 367]</P>
     <P Name="ZOrder">-3</P>
   </Block>
-  <Block BlockType="Outport" Name="ac" SID="4152">
+  <Block BlockType="Outport" Name="ac" SID="4273">
     <P Name="Position">[510, 793, 540, 807]</P>
     <P Name="ZOrder">181</P>
     <P Name="Port">2</P>
   </Block>
-  <Block BlockType="Outport" Name="fan" SID="4153">
+  <Block BlockType="Outport" Name="fan" SID="4274">
     <P Name="Position">[510, 1143, 540, 1157]</P>
     <P Name="ZOrder">187</P>
     <P Name="Port">3</P>
   </Block>
-  <Block BlockType="Outport" Name="timer" SID="4154">
+  <Block BlockType="Outport" Name="timer" SID="4275">
     <P Name="Position">[510, 968, 540, 982]</P>
     <P Name="ZOrder">184</P>
     <P Name="Port">4</P>
   </Block>
-  <Block BlockType="Outport" Name="unit" SID="4155">
+  <Block BlockType="Outport" Name="unit" SID="4276">
     <P Name="Position">[510, 618, 540, 632]</P>
     <P Name="ZOrder">180</P>
     <P Name="Port">5</P>
   </Block>
   <Line>
     <P Name="ZOrder">1</P>
-    <P Name="Src">4077#out:3</P>
-    <P Name="Dst">4108#in:1</P>
+    <P Name="Src">4199#out:2</P>
+    <P Name="Dst">4231#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">2</P>
-    <P Name="Src">4078#out:3</P>
-    <P Name="Dst">4107#in:1</P>
+    <P Name="Src">4198#out:3</P>
+    <P Name="Dst">4229#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">3</P>
-    <P Name="Src">4106#out:1</P>
+    <P Name="Src">4199#out:3</P>
+    <P Name="Dst">4228#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">4</P>
+    <P Name="Src">4227#out:1</P>
     <P Name="Points">[25, 0]</P>
     <Branch>
-      <P Name="ZOrder">4</P>
-      <P Name="Dst">4151#in:1</P>
+      <P Name="ZOrder">5</P>
+      <P Name="Dst">4272#in:1</P>
     </Branch>
     <Branch>
-      <P Name="ZOrder">5</P>
+      <P Name="ZOrder">6</P>
       <P Name="Points">[0, 185]</P>
-      <P Name="Dst">4109#in:1</P>
+      <P Name="Dst">4230#in:1</P>
     </Branch>
   </Line>
   <Line>
-    <P Name="ZOrder">6</P>
-    <P Name="Src">4109#out:1</P>
+    <P Name="ZOrder">7</P>
+    <P Name="Src">4230#out:1</P>
     <P Name="Points">[-94, 0; 0, -70]</P>
     <Branch>
-      <P Name="ZOrder">7</P>
-      <P Name="Dst">4110#in:3</P>
+      <P Name="ZOrder">8</P>
+      <P Name="Dst">4231#in:3</P>
     </Branch>
     <Branch>
-      <P Name="ZOrder">8</P>
+      <P Name="ZOrder">9</P>
       <P Name="Points">[0, -175]</P>
-      <P Name="Dst">4083#in:3</P>
+      <P Name="Dst">4204#in:3</P>
     </Branch>
-  </Line>
-  <Line>
-    <P Name="ZOrder">9</P>
-    <P Name="Src">4136#out:1</P>
-    <P Name="Dst">4153#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">10</P>
-    <P Name="Src">4082#out:1</P>
-    <P Name="Points">[110, 0]</P>
-    <P Name="Dst">4136#trigger</P>
+    <P Name="Src">4257#out:1</P>
+    <P Name="Dst">4274#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">11</P>
-    <P Name="Src">4081#out:1</P>
+    <P Name="Src">4203#out:1</P>
     <P Name="Points">[110, 0]</P>
-    <P Name="Dst">4141#trigger</P>
+    <P Name="Dst">4257#trigger</P>
   </Line>
   <Line>
     <P Name="ZOrder">12</P>
-    <P Name="Src">4141#out:1</P>
-    <P Name="Dst">4154#in:1</P>
+    <P Name="Src">4202#out:1</P>
+    <P Name="Points">[110, 0]</P>
+    <P Name="Dst">4262#trigger</P>
   </Line>
   <Line>
     <P Name="ZOrder">13</P>
-    <P Name="Src">4131#out:1</P>
-    <P Name="Dst">4152#in:1</P>
+    <P Name="Src">4262#out:1</P>
+    <P Name="Dst">4275#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">14</P>
-    <P Name="Src">4080#out:1</P>
-    <P Name="Points">[110, 0]</P>
-    <P Name="Dst">4131#trigger</P>
+    <P Name="Src">4252#out:1</P>
+    <P Name="Dst">4273#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">15</P>
-    <P Name="Src">4146#out:1</P>
-    <P Name="Points">[33, 0]</P>
-    <Branch>
-      <P Name="ZOrder">16</P>
-      <P Name="Dst">4155#in:1</P>
-    </Branch>
-    <Branch>
-      <P Name="ZOrder">17</P>
-      <P Name="Points">[0, -48; -121, 0; 0, -132]</P>
-      <Branch>
-        <P Name="ZOrder">18</P>
-        <P Name="Dst">4110#in:2</P>
-      </Branch>
-      <Branch>
-        <P Name="ZOrder">19</P>
-        <P Name="Points">[0, -175]</P>
-        <P Name="Dst">4083#in:2</P>
-      </Branch>
-    </Branch>
+    <P Name="Src">4201#out:1</P>
+    <P Name="Points">[110, 0]</P>
+    <P Name="Dst">4252#trigger</P>
   </Line>
   <Line>
-    <P Name="ZOrder">20</P>
-    <P Name="Src">4079#out:1</P>
-    <P Name="Points">[110, 0]</P>
-    <P Name="Dst">4146#trigger</P>
+    <P Name="ZOrder">16</P>
+    <P Name="Src">4267#out:1</P>
+    <P Name="Points">[33, 0]</P>
+    <Branch>
+      <P Name="ZOrder">17</P>
+      <P Name="Dst">4276#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">18</P>
+      <P Name="Points">[0, -48; -121, 0; 0, -132]</P>
+      <Branch>
+        <P Name="ZOrder">19</P>
+        <P Name="Dst">4231#in:2</P>
+      </Branch>
+      <Branch>
+        <P Name="ZOrder">20</P>
+        <P Name="Points">[0, -175]</P>
+        <P Name="Dst">4204#in:2</P>
+      </Branch>
+    </Branch>
   </Line>
   <Line>
     <P Name="ZOrder">21</P>
-    <P Name="Src">4083#out:1</P>
-    <P Name="Dst">4106#in:1</P>
+    <P Name="Src">4200#out:1</P>
+    <P Name="Points">[110, 0]</P>
+    <P Name="Dst">4267#trigger</P>
   </Line>
   <Line>
     <P Name="ZOrder">22</P>
-    <P Name="Src">4110#out:1</P>
-    <P Name="Dst">4106#in:2</P>
+    <P Name="Src">4204#out:1</P>
+    <P Name="Dst">4227#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">23</P>
-    <P Name="Src">4078#out:2</P>
-    <P Name="Dst">4110#in:1</P>
+    <P Name="Src">4231#out:1</P>
+    <P Name="Dst">4227#in:2</P>
   </Line>
   <Line>
     <P Name="ZOrder">24</P>
-    <P Name="Src">4078#out:1</P>
+    <P Name="Src">4199#out:1</P>
     <P Name="Points">[175, 0]</P>
-    <P Name="Dst">4110#trigger</P>
+    <P Name="Dst">4231#trigger</P>
   </Line>
   <Line>
     <P Name="ZOrder">25</P>
-    <P Name="Src">4077#out:1</P>
-    <P Name="Dst">4083#trigger</P>
+    <P Name="Src">4198#out:1</P>
+    <P Name="Dst">4204#trigger</P>
   </Line>
   <Line>
     <P Name="ZOrder">26</P>
-    <P Name="Src">4077#out:2</P>
-    <P Name="Dst">4083#in:1</P>
+    <P Name="Src">4198#out:2</P>
+    <P Name="Dst">4204#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">27</P>
-    <P Name="Src">4075#out:1</P>
+    <P Name="Src">4196#out:1</P>
     <P Name="Points">[42, 0]</P>
     <Branch>
       <P Name="ZOrder">28</P>
-      <P Name="Dst">4077#in:1</P>
+      <P Name="Dst">4198#in:1</P>
     </Branch>
     <Branch>
       <P Name="ZOrder">29</P>
       <P Name="Points">[0, 175]</P>
       <Branch>
         <P Name="ZOrder">30</P>
-        <P Name="Dst">4078#in:1</P>
+        <P Name="Dst">4199#in:1</P>
       </Branch>
       <Branch>
         <P Name="ZOrder">31</P>
         <P Name="Points">[0, 175]</P>
         <Branch>
           <P Name="ZOrder">32</P>
-          <P Name="Dst">4079#in:1</P>
+          <P Name="Dst">4200#in:1</P>
         </Branch>
         <Branch>
           <P Name="ZOrder">33</P>
           <P Name="Points">[0, 175]</P>
           <Branch>
             <P Name="ZOrder">34</P>
-            <P Name="Dst">4080#in:1</P>
+            <P Name="Dst">4201#in:1</P>
           </Branch>
           <Branch>
             <P Name="ZOrder">35</P>
             <P Name="Points">[0, 175]</P>
             <Branch>
               <P Name="ZOrder">36</P>
-              <P Name="Dst">4081#in:1</P>
+              <P Name="Dst">4202#in:1</P>
             </Branch>
             <Branch>
               <P Name="ZOrder">37</P>
               <P Name="Points">[0, 175]</P>
-              <P Name="Dst">4082#in:1</P>
+              <P Name="Dst">4203#in:1</P>
             </Branch>
           </Branch>
         </Branch>
       </Branch>
     </Branch>
   </Line>
-  <Annotation SID="4157">
+  <Annotation SID="4278">
     <P Name="Name">The target temperature is controlled by two events, the merge
 block causes the most recently activated events output to be
 active. The unit delay set with a sample time of -1 breaks up
@@ -3326,10 +2385,10 @@ the value. In this case the value is 16 of datatype single.</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">6</P>
+    <P Name="ZOrder">-1</P>
     <P Name="FontSize">12</P>
   </Annotation>
-  <Annotation SID="4156">
+  <Annotation SID="4277">
     <P Name="Name">Here we can deserialize our events.
 The block will automatically adjust its
 outputs to the datapoints contained by
@@ -3349,12 +2408,12 @@ valid header file has been select there.</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">5</P>
+    <P Name="ZOrder">-2</P>
     <P Name="FontSize">12</P>
   </Annotation>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_4083.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_4204.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[0, 27, 3840, 2160]</P>
@@ -3362,11 +2421,11 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4083.xml
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
   <P Name="ZoomFactor">316</P>
-  <Block BlockType="Inport" Name="num" SID="4084">
+  <Block BlockType="Inport" Name="num" SID="4205">
     <P Name="Position">[1870, 1033, 1900, 1047]</P>
     <P Name="ZOrder">13</P>
   </Block>
-  <Block BlockType="Inport" Name="unit" SID="4085">
+  <Block BlockType="Inport" Name="unit" SID="4206">
     <P Name="Position">[1615, 1088, 1645, 1102]</P>
     <P Name="ZOrder">14</P>
     <P Name="Port">2</P>
@@ -3376,13 +2435,13 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4083.xml
       </Port>
     </PortProperties>
   </Block>
-  <Block BlockType="Inport" Name="temperature_in" SID="4086">
+  <Block BlockType="Inport" Name="temperature_in" SID="4207">
     <P Name="Position">[1615, 998, 1645, 1012]</P>
     <P Name="ZOrder">15</P>
     <P Name="Port">3</P>
     <P Name="Unit"> degC</P>
   </Block>
-  <Block BlockType="TriggerPort" Name="function" SID="4087">
+  <Block BlockType="TriggerPort" Name="function" SID="4208">
     <PortCounts/>
     <P Name="Position">[1955, 820, 1975, 840]</P>
     <P Name="ZOrder">12</P>
@@ -3390,7 +2449,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4083.xml
     <P Name="VariantControl">(inherit)</P>
     <P Name="StatesWhenEnabling">held</P>
   </Block>
-  <Block BlockType="From" Name="From" SID="4088">
+  <Block BlockType="From" Name="From" SID="4209">
     <P Name="Position">[1720, 998, 1770, 1012]</P>
     <P Name="ZOrder">19</P>
     <P Name="GotoTag">Unit</P>
@@ -3400,7 +2459,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4083.xml
       </Port>
     </PortProperties>
   </Block>
-  <Block BlockType="From" Name="From1" SID="4089">
+  <Block BlockType="From" Name="From1" SID="4210">
     <P Name="Position">[2075, 998, 2125, 1012]</P>
     <P Name="ZOrder">22</P>
     <P Name="GotoTag">Unit</P>
@@ -3410,24 +2469,24 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4083.xml
       </Port>
     </PortProperties>
   </Block>
-  <Block BlockType="Goto" Name="Goto" SID="4090">
+  <Block BlockType="Goto" Name="Goto" SID="4211">
     <P Name="Position">[1665, 1087, 1715, 1103]</P>
     <P Name="ZOrder">18</P>
     <P Name="GotoTag">Unit</P>
   </Block>
-  <Block BlockType="SubSystem" Name="Subsystem" SID="4091">
+  <Block BlockType="SubSystem" Name="Subsystem" SID="4212">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1720, 1031, 1770, 1049]</P>
     <P Name="ZOrder">20</P>
-    <System Ref="system_4091"/>
+    <System Ref="system_4212"/>
   </Block>
-  <Block BlockType="SubSystem" Name="Subsystem1" SID="4095">
+  <Block BlockType="SubSystem" Name="Subsystem1" SID="4216">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2075, 1031, 2125, 1049]</P>
     <P Name="ZOrder">23</P>
-    <System Ref="system_4095"/>
+    <System Ref="system_4216"/>
   </Block>
-  <Block BlockType="Sum" Name="Subtract" SID="4099">
+  <Block BlockType="Sum" Name="Subtract" SID="4220">
     <PortCounts in="2" out="1"/>
     <P Name="Position">[1980, 989, 2015, 1056]</P>
     <P Name="ZOrder">16</P>
@@ -3435,96 +2494,96 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4083.xml
     <P Name="OutDataTypeStr">single</P>
     <P Name="AccumDataTypeStr">single</P>
   </Block>
-  <Block BlockType="Switch" Name="Switch" SID="4100">
+  <Block BlockType="Switch" Name="Switch" SID="4221">
     <P Name="Position">[1800, 955, 1845, 1055]</P>
     <P Name="ZOrder">17</P>
     <P Name="Criteria">u2 &gt; Threshold</P>
     <P Name="InputSameDT">off</P>
     <P Name="SaturateOnIntegerOverflow">off</P>
   </Block>
-  <Block BlockType="Switch" Name="Switch2" SID="4101">
+  <Block BlockType="Switch" Name="Switch2" SID="4222">
     <P Name="Position">[2140, 955, 2185, 1055]</P>
     <P Name="ZOrder">24</P>
     <P Name="Criteria">u2 &gt; Threshold</P>
     <P Name="InputSameDT">off</P>
     <P Name="SaturateOnIntegerOverflow">off</P>
   </Block>
-  <Block BlockType="Outport" Name="temperature_out" SID="4102">
+  <Block BlockType="Outport" Name="temperature_out" SID="4223">
     <P Name="Position">[2235, 998, 2265, 1012]</P>
     <P Name="ZOrder">11</P>
     <P Name="InitialOutput">single(16)</P>
   </Block>
   <Line>
     <P Name="ZOrder">1</P>
-    <P Name="Src">4095#out:1</P>
-    <P Name="Dst">4101#in:3</P>
+    <P Name="Src">4216#out:1</P>
+    <P Name="Dst">4222#in:3</P>
   </Line>
   <Line>
     <P Name="ZOrder">2</P>
-    <P Name="Src">4086#out:1</P>
+    <P Name="Src">4207#out:1</P>
     <P Name="Points">[42, 0]</P>
     <Branch>
       <P Name="ZOrder">3</P>
       <P Name="Points">[0, -35]</P>
-      <P Name="Dst">4100#in:1</P>
+      <P Name="Dst">4221#in:1</P>
     </Branch>
     <Branch>
       <P Name="ZOrder">4</P>
       <P Name="Points">[0, 35]</P>
-      <P Name="Dst">4091#in:1</P>
+      <P Name="Dst">4212#in:1</P>
     </Branch>
   </Line>
   <Line>
     <P Name="ZOrder">5</P>
-    <P Name="Src">4091#out:1</P>
-    <P Name="Dst">4100#in:3</P>
+    <P Name="Src">4212#out:1</P>
+    <P Name="Dst">4221#in:3</P>
   </Line>
   <Line>
     <P Name="ZOrder">6</P>
-    <P Name="Src">4101#out:1</P>
-    <P Name="Dst">4102#in:1</P>
+    <P Name="Src">4222#out:1</P>
+    <P Name="Dst">4223#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">7</P>
-    <P Name="Src">4099#out:1</P>
+    <P Name="Src">4220#out:1</P>
     <P Name="Points">[22, 0]</P>
     <Branch>
       <P Name="ZOrder">8</P>
       <P Name="Points">[0, 15]</P>
-      <P Name="Dst">4095#in:1</P>
+      <P Name="Dst">4216#in:1</P>
     </Branch>
     <Branch>
       <P Name="ZOrder">9</P>
       <P Name="Points">[0, -55]</P>
-      <P Name="Dst">4101#in:1</P>
+      <P Name="Dst">4222#in:1</P>
     </Branch>
   </Line>
   <Line>
     <P Name="ZOrder">10</P>
-    <P Name="Src">4089#out:1</P>
-    <P Name="Dst">4101#in:2</P>
+    <P Name="Src">4210#out:1</P>
+    <P Name="Dst">4222#in:2</P>
   </Line>
   <Line>
     <P Name="ZOrder">11</P>
-    <P Name="Src">4085#out:1</P>
-    <P Name="Dst">4090#in:1</P>
+    <P Name="Src">4206#out:1</P>
+    <P Name="Dst">4211#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">12</P>
-    <P Name="Src">4088#out:1</P>
-    <P Name="Dst">4100#in:2</P>
+    <P Name="Src">4209#out:1</P>
+    <P Name="Dst">4221#in:2</P>
   </Line>
   <Line>
     <P Name="ZOrder">13</P>
-    <P Name="Src">4084#out:1</P>
-    <P Name="Dst">4099#in:2</P>
+    <P Name="Src">4205#out:1</P>
+    <P Name="Dst">4220#in:2</P>
   </Line>
   <Line>
     <P Name="ZOrder">14</P>
-    <P Name="Src">4100#out:1</P>
-    <P Name="Dst">4099#in:1</P>
+    <P Name="Src">4221#out:1</P>
+    <P Name="Dst">4220#in:1</P>
   </Line>
-  <Annotation SID="4105">
+  <Annotation SID="4226">
     <P Name="Name">Convert the temperature in to
 the selected unit</P>
     <P Name="Position">[1680, 907, 1860, 1062]</P>
@@ -3537,10 +2596,10 @@ the selected unit</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">1</P>
+    <P Name="ZOrder">-1</P>
     <P Name="FontSize">12</P>
   </Annotation>
-  <Annotation SID="4104">
+  <Annotation SID="4225">
     <P Name="Name">Add num to this value</P>
     <P Name="Position">[1862, 907, 2032, 1062]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
@@ -3552,10 +2611,10 @@ the selected unit</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">2</P>
+    <P Name="ZOrder">-2</P>
     <P Name="FontSize">12</P>
   </Annotation>
-  <Annotation SID="4103">
+  <Annotation SID="4224">
     <P Name="Name">Convert back to Celsius</P>
     <P Name="Position">[2035, 907, 2210, 1062]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
@@ -3567,12 +2626,12 @@ the selected unit</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">3</P>
+    <P Name="ZOrder">-3</P>
     <P Name="FontSize">12</P>
   </Annotation>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_4091.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_4212.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[3912, 0, 7680, 2160]</P>
@@ -3580,17 +2639,17 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4091.xml
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
   <P Name="ZoomFactor">400</P>
-  <Block BlockType="Inport" Name="C" SID="4092">
+  <Block BlockType="Inport" Name="C" SID="4213">
     <P Name="Position">[110, 103, 140, 117]</P>
     <P Name="ZOrder">-1</P>
     <P Name="Unit"> degC</P>
   </Block>
-  <Block BlockType="UnitConversion" Name="Unit Conversion" SID="4093">
+  <Block BlockType="UnitConversion" Name="Unit Conversion" SID="4214">
     <P Name="Position">[215, 89, 285, 131]</P>
     <P Name="ZOrder">2</P>
     <P Name="OutputType">Inherit: Inherit via back propagation</P>
   </Block>
-  <Block BlockType="Outport" Name="F" SID="4094">
+  <Block BlockType="Outport" Name="F" SID="4215">
     <P Name="Position">[360, 103, 390, 117]</P>
     <P Name="ZOrder">-2</P>
     <P Name="OutDataTypeStr">single</P>
@@ -3598,17 +2657,17 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4091.xml
   </Block>
   <Line>
     <P Name="ZOrder">1</P>
-    <P Name="Src">4093#out:1</P>
-    <P Name="Dst">4094#in:1</P>
+    <P Name="Src">4214#out:1</P>
+    <P Name="Dst">4215#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">2</P>
-    <P Name="Src">4092#out:1</P>
-    <P Name="Dst">4093#in:1</P>
+    <P Name="Src">4213#out:1</P>
+    <P Name="Dst">4214#in:1</P>
   </Line>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_4095.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_4216.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[3912, 0, 7680, 2160]</P>
@@ -3616,17 +2675,17 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4095.xml
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
   <P Name="ZoomFactor">400</P>
-  <Block BlockType="Inport" Name="F" SID="4096">
+  <Block BlockType="Inport" Name="F" SID="4217">
     <P Name="Position">[110, 103, 140, 117]</P>
     <P Name="ZOrder">-1</P>
     <P Name="Unit"> degF</P>
   </Block>
-  <Block BlockType="UnitConversion" Name="Unit Conversion" SID="4097">
+  <Block BlockType="UnitConversion" Name="Unit Conversion" SID="4218">
     <P Name="Position">[215, 89, 285, 131]</P>
     <P Name="ZOrder">2</P>
     <P Name="OutputType">Inherit: Inherit via back propagation</P>
   </Block>
-  <Block BlockType="Outport" Name="C" SID="4098">
+  <Block BlockType="Outport" Name="C" SID="4219">
     <P Name="Position">[360, 103, 390, 117]</P>
     <P Name="ZOrder">-2</P>
     <P Name="OutDataTypeStr">single</P>
@@ -3634,17 +2693,17 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4095.xml
   </Block>
   <Line>
     <P Name="ZOrder">1</P>
-    <P Name="Src">4096#out:1</P>
-    <P Name="Dst">4097#in:1</P>
+    <P Name="Src">4217#out:1</P>
+    <P Name="Dst">4218#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">2</P>
-    <P Name="Src">4097#out:1</P>
-    <P Name="Dst">4098#in:1</P>
+    <P Name="Src">4218#out:1</P>
+    <P Name="Dst">4219#in:1</P>
   </Line>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_4110.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_4231.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[3912, 0, 7680, 2160]</P>
@@ -3652,11 +2711,11 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4110.xml
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
   <P Name="ZoomFactor">250</P>
-  <Block BlockType="Inport" Name="num" SID="4111">
+  <Block BlockType="Inport" Name="num" SID="4232">
     <P Name="Position">[110, 103, 140, 117]</P>
     <P Name="ZOrder">-1</P>
   </Block>
-  <Block BlockType="Inport" Name="unit" SID="4112">
+  <Block BlockType="Inport" Name="unit" SID="4233">
     <P Name="Position">[-145, 128, -115, 142]</P>
     <P Name="ZOrder">1</P>
     <P Name="Port">2</P>
@@ -3666,13 +2725,13 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4110.xml
       </Port>
     </PortProperties>
   </Block>
-  <Block BlockType="Inport" Name="temperature_in" SID="4113">
+  <Block BlockType="Inport" Name="temperature_in" SID="4234">
     <P Name="Position">[-145, 68, -115, 82]</P>
     <P Name="ZOrder">2</P>
     <P Name="Port">3</P>
     <P Name="Unit"> degC</P>
   </Block>
-  <Block BlockType="TriggerPort" Name="function" SID="4114">
+  <Block BlockType="TriggerPort" Name="function" SID="4235">
     <PortCounts/>
     <P Name="Position">[210, 15, 230, 35]</P>
     <P Name="ZOrder">-2</P>
@@ -3680,7 +2739,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4110.xml
     <P Name="VariantControl">(inherit)</P>
     <P Name="StatesWhenEnabling">held</P>
   </Block>
-  <Block BlockType="From" Name="From" SID="4115">
+  <Block BlockType="From" Name="From" SID="4236">
     <P Name="Position">[-40, 68, 10, 82]</P>
     <P Name="ZOrder">6</P>
     <P Name="GotoTag">Unit</P>
@@ -3690,7 +2749,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4110.xml
       </Port>
     </PortProperties>
   </Block>
-  <Block BlockType="From" Name="From1" SID="4116">
+  <Block BlockType="From" Name="From1" SID="4237">
     <P Name="Position">[315, 88, 365, 102]</P>
     <P Name="ZOrder">9</P>
     <P Name="GotoTag">Unit</P>
@@ -3700,24 +2759,24 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4110.xml
       </Port>
     </PortProperties>
   </Block>
-  <Block BlockType="Goto" Name="Goto" SID="4117">
+  <Block BlockType="Goto" Name="Goto" SID="4238">
     <P Name="Position">[-95, 127, -45, 143]</P>
     <P Name="ZOrder">5</P>
     <P Name="GotoTag">Unit</P>
   </Block>
-  <Block BlockType="SubSystem" Name="Subsystem" SID="4118">
+  <Block BlockType="SubSystem" Name="Subsystem" SID="4239">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[-40, 101, 10, 119]</P>
     <P Name="ZOrder">7</P>
-    <System Ref="system_4118"/>
+    <System Ref="system_4239"/>
   </Block>
-  <Block BlockType="SubSystem" Name="Subsystem1" SID="4122">
+  <Block BlockType="SubSystem" Name="Subsystem1" SID="4243">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[315, 121, 365, 139]</P>
     <P Name="ZOrder">10</P>
-    <System Ref="system_4122"/>
+    <System Ref="system_4243"/>
   </Block>
-  <Block BlockType="Sum" Name="Subtract" SID="4126">
+  <Block BlockType="Sum" Name="Subtract" SID="4247">
     <PortCounts in="2" out="1"/>
     <P Name="Position">[220, 59, 255, 126]</P>
     <P Name="ZOrder">3</P>
@@ -3726,96 +2785,96 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4110.xml
     <P Name="OutDataTypeStr">single</P>
     <P Name="AccumDataTypeStr">single</P>
   </Block>
-  <Block BlockType="Switch" Name="Switch" SID="4127">
+  <Block BlockType="Switch" Name="Switch" SID="4248">
     <P Name="Position">[40, 25, 85, 125]</P>
     <P Name="ZOrder">4</P>
     <P Name="Criteria">u2 &gt; Threshold</P>
     <P Name="InputSameDT">off</P>
     <P Name="SaturateOnIntegerOverflow">off</P>
   </Block>
-  <Block BlockType="Switch" Name="Switch1" SID="4128">
+  <Block BlockType="Switch" Name="Switch1" SID="4249">
     <P Name="Position">[380, 45, 425, 145]</P>
     <P Name="ZOrder">8</P>
     <P Name="Criteria">u2 &gt; Threshold</P>
     <P Name="InputSameDT">off</P>
     <P Name="SaturateOnIntegerOverflow">off</P>
   </Block>
-  <Block BlockType="Outport" Name="temperature_out" SID="4129">
+  <Block BlockType="Outport" Name="temperature_out" SID="4250">
     <P Name="Position">[475, 88, 505, 102]</P>
     <P Name="ZOrder">-3</P>
     <P Name="InitialOutput">int16(16)</P>
   </Block>
   <Line>
     <P Name="ZOrder">1</P>
-    <P Name="Src">4122#out:1</P>
-    <P Name="Dst">4128#in:3</P>
+    <P Name="Src">4243#out:1</P>
+    <P Name="Dst">4249#in:3</P>
   </Line>
   <Line>
     <P Name="ZOrder">2</P>
-    <P Name="Src">4118#out:1</P>
-    <P Name="Dst">4127#in:3</P>
+    <P Name="Src">4239#out:1</P>
+    <P Name="Dst">4248#in:3</P>
   </Line>
   <Line>
     <P Name="ZOrder">3</P>
-    <P Name="Src">4128#out:1</P>
-    <P Name="Dst">4129#in:1</P>
+    <P Name="Src">4249#out:1</P>
+    <P Name="Dst">4250#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">4</P>
-    <P Name="Src">4116#out:1</P>
-    <P Name="Dst">4128#in:2</P>
+    <P Name="Src">4237#out:1</P>
+    <P Name="Dst">4249#in:2</P>
   </Line>
   <Line>
     <P Name="ZOrder">5</P>
-    <P Name="Src">4127#out:1</P>
-    <P Name="Dst">4126#in:1</P>
+    <P Name="Src">4248#out:1</P>
+    <P Name="Dst">4247#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">6</P>
-    <P Name="Src">4115#out:1</P>
-    <P Name="Dst">4127#in:2</P>
+    <P Name="Src">4236#out:1</P>
+    <P Name="Dst">4248#in:2</P>
   </Line>
   <Line>
     <P Name="ZOrder">7</P>
-    <P Name="Src">4112#out:1</P>
-    <P Name="Dst">4117#in:1</P>
+    <P Name="Src">4233#out:1</P>
+    <P Name="Dst">4238#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">8</P>
-    <P Name="Src">4126#out:1</P>
+    <P Name="Src">4247#out:1</P>
     <P Name="Points">[20, 0]</P>
     <Branch>
       <P Name="ZOrder">9</P>
       <P Name="Points">[0, -35]</P>
-      <P Name="Dst">4128#in:1</P>
+      <P Name="Dst">4249#in:1</P>
     </Branch>
     <Branch>
       <P Name="ZOrder">10</P>
       <P Name="Points">[0, 35]</P>
-      <P Name="Dst">4122#in:1</P>
+      <P Name="Dst">4243#in:1</P>
     </Branch>
   </Line>
   <Line>
     <P Name="ZOrder">11</P>
-    <P Name="Src">4113#out:1</P>
+    <P Name="Src">4234#out:1</P>
     <P Name="Points">[42, 0]</P>
     <Branch>
       <P Name="ZOrder">12</P>
       <P Name="Points">[0, -35]</P>
-      <P Name="Dst">4127#in:1</P>
+      <P Name="Dst">4248#in:1</P>
     </Branch>
     <Branch>
       <P Name="ZOrder">13</P>
       <P Name="Points">[0, 35]</P>
-      <P Name="Dst">4118#in:1</P>
+      <P Name="Dst">4239#in:1</P>
     </Branch>
   </Line>
   <Line>
     <P Name="ZOrder">14</P>
-    <P Name="Src">4111#out:1</P>
-    <P Name="Dst">4126#in:2</P>
+    <P Name="Src">4232#out:1</P>
+    <P Name="Dst">4247#in:2</P>
   </Line>
-  <Annotation SID="4130">
+  <Annotation SID="4251">
     <P Name="Name">See the increase temperature subsystem for an explanation</P>
     <P Name="Position">[87, -34, 353, -19]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
@@ -3825,7 +2884,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4110.xml
   </Annotation>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_4118.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_4239.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[3912, 0, 7680, 2160]</P>
@@ -3833,17 +2892,17 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4118.xml
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
   <P Name="ZoomFactor">400</P>
-  <Block BlockType="Inport" Name="C" SID="4119">
+  <Block BlockType="Inport" Name="C" SID="4240">
     <P Name="Position">[110, 103, 140, 117]</P>
     <P Name="ZOrder">-1</P>
     <P Name="Unit"> degC</P>
   </Block>
-  <Block BlockType="UnitConversion" Name="Unit Conversion" SID="4120">
+  <Block BlockType="UnitConversion" Name="Unit Conversion" SID="4241">
     <P Name="Position">[215, 89, 285, 131]</P>
     <P Name="ZOrder">2</P>
     <P Name="OutputType">Inherit: Inherit via back propagation</P>
   </Block>
-  <Block BlockType="Outport" Name="F" SID="4121">
+  <Block BlockType="Outport" Name="F" SID="4242">
     <P Name="Position">[360, 103, 390, 117]</P>
     <P Name="ZOrder">-2</P>
     <P Name="OutDataTypeStr">single</P>
@@ -3851,17 +2910,17 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4118.xml
   </Block>
   <Line>
     <P Name="ZOrder">1</P>
-    <P Name="Src">4120#out:1</P>
-    <P Name="Dst">4121#in:1</P>
+    <P Name="Src">4241#out:1</P>
+    <P Name="Dst">4242#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">2</P>
-    <P Name="Src">4119#out:1</P>
-    <P Name="Dst">4120#in:1</P>
+    <P Name="Src">4240#out:1</P>
+    <P Name="Dst">4241#in:1</P>
   </Line>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_4122.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_4243.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[3912, 0, 7680, 2160]</P>
@@ -3869,17 +2928,17 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4122.xml
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
   <P Name="ZoomFactor">260</P>
-  <Block BlockType="Inport" Name="F" SID="4123">
+  <Block BlockType="Inport" Name="F" SID="4244">
     <P Name="Position">[110, 103, 140, 117]</P>
     <P Name="ZOrder">-1</P>
     <P Name="Unit"> degF</P>
   </Block>
-  <Block BlockType="UnitConversion" Name="Unit Conversion" SID="4124">
+  <Block BlockType="UnitConversion" Name="Unit Conversion" SID="4245">
     <P Name="Position">[215, 89, 285, 131]</P>
     <P Name="ZOrder">2</P>
     <P Name="OutputType">Inherit: Inherit via back propagation</P>
   </Block>
-  <Block BlockType="Outport" Name="C" SID="4125">
+  <Block BlockType="Outport" Name="C" SID="4246">
     <P Name="Position">[360, 103, 390, 117]</P>
     <P Name="ZOrder">-2</P>
     <P Name="OutDataTypeStr">single</P>
@@ -3887,17 +2946,17 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4122.xml
   </Block>
   <Line>
     <P Name="ZOrder">1</P>
-    <P Name="Src">4123#out:1</P>
-    <P Name="Dst">4124#in:1</P>
+    <P Name="Src">4244#out:1</P>
+    <P Name="Dst">4245#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">2</P>
-    <P Name="Src">4124#out:1</P>
-    <P Name="Dst">4125#in:1</P>
+    <P Name="Src">4245#out:1</P>
+    <P Name="Dst">4246#in:1</P>
   </Line>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_4131.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_4252.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[3912, 0, 7680, 2160]</P>
@@ -3905,7 +2964,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4131.xml
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
   <P Name="ZoomFactor">253</P>
-  <Block BlockType="TriggerPort" Name="function" SID="4132">
+  <Block BlockType="TriggerPort" Name="function" SID="4253">
     <PortCounts/>
     <P Name="Position">[210, 15, 230, 35]</P>
     <P Name="ZOrder">-2</P>
@@ -3913,7 +2972,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4131.xml
     <P Name="VariantControl">(inherit)</P>
     <P Name="StatesWhenEnabling">held</P>
   </Block>
-  <Block BlockType="SubSystem" Name="toggle ac" SID="4133">
+  <Block BlockType="SubSystem" Name="toggle ac" SID="4254">
     <PortCounts out="1"/>
     <P Name="Position">[190, 84, 250, 136]</P>
     <P Name="ZOrder">283</P>
@@ -3926,18 +2985,18 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4131.xml
         <P Name="PropagatedSignals">ac</P>
       </Port>
     </PortProperties>
-    <System Ref="system_4133"/>
+    <System Ref="system_4254"/>
   </Block>
-  <Block BlockType="Outport" Name="ac" SID="4134">
+  <Block BlockType="Outport" Name="ac" SID="4255">
     <P Name="Position">[360, 103, 390, 117]</P>
     <P Name="ZOrder">-3</P>
   </Block>
   <Line>
     <P Name="ZOrder">1</P>
-    <P Name="Src">4133#out:1</P>
-    <P Name="Dst">4134#in:1</P>
+    <P Name="Src">4254#out:1</P>
+    <P Name="Dst">4255#in:1</P>
   </Line>
-  <Annotation SID="4135">
+  <Annotation SID="4256">
     <P Name="Name">See the toggle units subsystem for more explanation</P>
     <P Name="Position">[103, -33, 337, -18]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
@@ -3947,29 +3006,29 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4131.xml
   </Annotation>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_4133.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_4254.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[3912, 0, 7680, 2160]</P>
   <P Name="PaperType">usletter</P>
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
-  <P Name="SIDHighWatermark">113</P>
-  <Block BlockType="Demux" Name=" Demux " SID="4133::110">
+  <P Name="SIDHighWatermark">117</P>
+  <Block BlockType="Demux" Name=" Demux " SID="4254::115">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[270, 230, 320, 270]</P>
-    <P Name="ZOrder">90</P>
+    <P Name="ZOrder">95</P>
     <P Name="Outputs">1</P>
   </Block>
-  <Block BlockType="Ground" Name=" Ground " SID="4133::112">
+  <Block BlockType="Ground" Name=" Ground " SID="4254::117">
     <P Name="Position">[20, 121, 40, 139]</P>
-    <P Name="ZOrder">92</P>
+    <P Name="ZOrder">97</P>
   </Block>
-  <Block BlockType="S-Function" Name=" SFunction " SID="4133::109">
+  <Block BlockType="S-Function" Name=" SFunction " SID="4254::114">
     <P Name="Tag">Stateflow S-Function 2</P>
     <PortCounts in="1" out="2"/>
     <P Name="Position">[180, 100, 230, 160]</P>
-    <P Name="ZOrder">89</P>
+    <P Name="ZOrder">94</P>
     <P Name="FunctionName">sf_sfun</P>
     <P Name="PortCounts">[1 2]</P>
     <P Name="SFunctionDeploymentMode">off</P>
@@ -3981,39 +3040,39 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4133.xml
       </Port>
     </PortProperties>
   </Block>
-  <Block BlockType="Terminator" Name=" Terminator " SID="4133::111">
+  <Block BlockType="Terminator" Name=" Terminator " SID="4254::116">
     <P Name="Position">[460, 241, 480, 259]</P>
-    <P Name="ZOrder">91</P>
+    <P Name="ZOrder">96</P>
   </Block>
-  <Block BlockType="Outport" Name="ac" SID="4133::113">
+  <Block BlockType="Outport" Name="ac" SID="4254::113">
     <P Name="Position">[460, 101, 480, 119]</P>
     <P Name="ZOrder">93</P>
   </Block>
   <Line>
-    <P Name="Name">ac</P>
     <P Name="ZOrder">1</P>
-    <P Name="Labels">[0, 0]</P>
-    <P Name="Src">4133::109#out:2</P>
-    <P Name="Dst">4133::113#in:1</P>
+    <P Name="Src">4254::114#out:1</P>
+    <P Name="Dst">4254::115#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">2</P>
-    <P Name="Src">4133::112#out:1</P>
-    <P Name="Dst">4133::109#in:1</P>
+    <P Name="Src">4254::115#out:1</P>
+    <P Name="Dst">4254::116#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">3</P>
-    <P Name="Src">4133::110#out:1</P>
-    <P Name="Dst">4133::111#in:1</P>
+    <P Name="Src">4254::117#out:1</P>
+    <P Name="Dst">4254::114#in:1</P>
   </Line>
   <Line>
+    <P Name="Name">ac</P>
     <P Name="ZOrder">4</P>
-    <P Name="Src">4133::109#out:1</P>
-    <P Name="Dst">4133::110#in:1</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">4254::114#out:2</P>
+    <P Name="Dst">4254::113#in:1</P>
   </Line>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_4136.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_4257.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[3912, 0, 7680, 2160]</P>
@@ -4021,7 +3080,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4136.xml
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
   <P Name="ZoomFactor">500</P>
-  <Block BlockType="TriggerPort" Name="function" SID="4137">
+  <Block BlockType="TriggerPort" Name="function" SID="4258">
     <PortCounts/>
     <P Name="Position">[230, 15, 250, 35]</P>
     <P Name="ZOrder">-2</P>
@@ -4029,7 +3088,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4136.xml
     <P Name="VariantControl">(inherit)</P>
     <P Name="StatesWhenEnabling">held</P>
   </Block>
-  <Block BlockType="SubSystem" Name="toggle fan" SID="4138">
+  <Block BlockType="SubSystem" Name="toggle fan" SID="4259">
     <PortCounts out="1"/>
     <P Name="Position">[210, 84, 270, 136]</P>
     <P Name="ZOrder">2</P>
@@ -4042,18 +3101,18 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4136.xml
         <P Name="PropagatedSignals">fan</P>
       </Port>
     </PortProperties>
-    <System Ref="system_4138"/>
+    <System Ref="system_4259"/>
   </Block>
-  <Block BlockType="Outport" Name="fan" SID="4139">
+  <Block BlockType="Outport" Name="fan" SID="4260">
     <P Name="Position">[360, 103, 390, 117]</P>
     <P Name="ZOrder">-3</P>
   </Block>
   <Line>
     <P Name="ZOrder">1</P>
-    <P Name="Src">4138#out:1</P>
-    <P Name="Dst">4139#in:1</P>
+    <P Name="Src">4259#out:1</P>
+    <P Name="Dst">4260#in:1</P>
   </Line>
-  <Annotation SID="4140">
+  <Annotation SID="4261">
     <P Name="Name">See the toggle units subsystem for more explanation</P>
     <P Name="Position">[123, -15, 357, 0]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
@@ -4063,29 +3122,29 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4136.xml
   </Annotation>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_4138.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_4259.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[3912, 0, 7680, 2160]</P>
   <P Name="PaperType">usletter</P>
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
-  <P Name="SIDHighWatermark">113</P>
-  <Block BlockType="Demux" Name=" Demux " SID="4138::110">
+  <P Name="SIDHighWatermark">117</P>
+  <Block BlockType="Demux" Name=" Demux " SID="4259::115">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[270, 230, 320, 270]</P>
-    <P Name="ZOrder">90</P>
+    <P Name="ZOrder">95</P>
     <P Name="Outputs">1</P>
   </Block>
-  <Block BlockType="Ground" Name=" Ground " SID="4138::112">
+  <Block BlockType="Ground" Name=" Ground " SID="4259::117">
     <P Name="Position">[20, 121, 40, 139]</P>
-    <P Name="ZOrder">92</P>
+    <P Name="ZOrder">97</P>
   </Block>
-  <Block BlockType="S-Function" Name=" SFunction " SID="4138::109">
+  <Block BlockType="S-Function" Name=" SFunction " SID="4259::114">
     <P Name="Tag">Stateflow S-Function 4</P>
     <PortCounts in="1" out="2"/>
     <P Name="Position">[180, 100, 230, 160]</P>
-    <P Name="ZOrder">89</P>
+    <P Name="ZOrder">94</P>
     <P Name="FunctionName">sf_sfun</P>
     <P Name="PortCounts">[1 2]</P>
     <P Name="SFunctionDeploymentMode">off</P>
@@ -4097,39 +3156,39 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4138.xml
       </Port>
     </PortProperties>
   </Block>
-  <Block BlockType="Terminator" Name=" Terminator " SID="4138::111">
+  <Block BlockType="Terminator" Name=" Terminator " SID="4259::116">
     <P Name="Position">[460, 241, 480, 259]</P>
-    <P Name="ZOrder">91</P>
+    <P Name="ZOrder">96</P>
   </Block>
-  <Block BlockType="Outport" Name="fan" SID="4138::113">
+  <Block BlockType="Outport" Name="fan" SID="4259::113">
     <P Name="Position">[460, 101, 480, 119]</P>
     <P Name="ZOrder">93</P>
   </Block>
   <Line>
-    <P Name="Name">fan</P>
     <P Name="ZOrder">1</P>
-    <P Name="Labels">[0, 0]</P>
-    <P Name="Src">4138::109#out:2</P>
-    <P Name="Dst">4138::113#in:1</P>
+    <P Name="Src">4259::114#out:1</P>
+    <P Name="Dst">4259::115#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">2</P>
-    <P Name="Src">4138::112#out:1</P>
-    <P Name="Dst">4138::109#in:1</P>
+    <P Name="Src">4259::115#out:1</P>
+    <P Name="Dst">4259::116#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">3</P>
-    <P Name="Src">4138::110#out:1</P>
-    <P Name="Dst">4138::111#in:1</P>
+    <P Name="Src">4259::117#out:1</P>
+    <P Name="Dst">4259::114#in:1</P>
   </Line>
   <Line>
+    <P Name="Name">fan</P>
     <P Name="ZOrder">4</P>
-    <P Name="Src">4138::109#out:1</P>
-    <P Name="Dst">4138::110#in:1</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">4259::114#out:2</P>
+    <P Name="Dst">4259::113#in:1</P>
   </Line>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_4141.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_4262.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[3912, 0, 7680, 2160]</P>
@@ -4137,7 +3196,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4141.xml
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
   <P Name="ZoomFactor">316</P>
-  <Block BlockType="TriggerPort" Name="function" SID="4142">
+  <Block BlockType="TriggerPort" Name="function" SID="4263">
     <PortCounts/>
     <P Name="Position">[210, 15, 230, 35]</P>
     <P Name="ZOrder">-2</P>
@@ -4145,7 +3204,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4141.xml
     <P Name="VariantControl">(inherit)</P>
     <P Name="StatesWhenEnabling">held</P>
   </Block>
-  <Block BlockType="SubSystem" Name="toggle timer" SID="4143">
+  <Block BlockType="SubSystem" Name="toggle timer" SID="4264">
     <PortCounts out="1"/>
     <P Name="Position">[190, 84, 250, 136]</P>
     <P Name="ZOrder">283</P>
@@ -4158,18 +3217,18 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4141.xml
         <P Name="PropagatedSignals">timer</P>
       </Port>
     </PortProperties>
-    <System Ref="system_4143"/>
+    <System Ref="system_4264"/>
   </Block>
-  <Block BlockType="Outport" Name="timer" SID="4144">
+  <Block BlockType="Outport" Name="timer" SID="4265">
     <P Name="Position">[360, 103, 390, 117]</P>
     <P Name="ZOrder">-3</P>
   </Block>
   <Line>
     <P Name="ZOrder">1</P>
-    <P Name="Src">4143#out:1</P>
-    <P Name="Dst">4144#in:1</P>
+    <P Name="Src">4264#out:1</P>
+    <P Name="Dst">4265#in:1</P>
   </Line>
-  <Annotation SID="4145">
+  <Annotation SID="4266">
     <P Name="Name">See the toggle units subsystem for more explanation</P>
     <P Name="Position">[103, -25, 337, -10]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
@@ -4179,29 +3238,29 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4141.xml
   </Annotation>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_4143.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_4264.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[3912, 0, 7680, 2160]</P>
   <P Name="PaperType">usletter</P>
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
-  <P Name="SIDHighWatermark">113</P>
-  <Block BlockType="Demux" Name=" Demux " SID="4143::110">
+  <P Name="SIDHighWatermark">117</P>
+  <Block BlockType="Demux" Name=" Demux " SID="4264::115">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[270, 230, 320, 270]</P>
-    <P Name="ZOrder">90</P>
+    <P Name="ZOrder">95</P>
     <P Name="Outputs">1</P>
   </Block>
-  <Block BlockType="Ground" Name=" Ground " SID="4143::112">
+  <Block BlockType="Ground" Name=" Ground " SID="4264::117">
     <P Name="Position">[20, 121, 40, 139]</P>
-    <P Name="ZOrder">92</P>
+    <P Name="ZOrder">97</P>
   </Block>
-  <Block BlockType="S-Function" Name=" SFunction " SID="4143::109">
+  <Block BlockType="S-Function" Name=" SFunction " SID="4264::114">
     <P Name="Tag">Stateflow S-Function 1</P>
     <PortCounts in="1" out="2"/>
     <P Name="Position">[180, 100, 230, 160]</P>
-    <P Name="ZOrder">89</P>
+    <P Name="ZOrder">94</P>
     <P Name="FunctionName">sf_sfun</P>
     <P Name="PortCounts">[1 2]</P>
     <P Name="SFunctionDeploymentMode">off</P>
@@ -4213,39 +3272,39 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4143.xml
       </Port>
     </PortProperties>
   </Block>
-  <Block BlockType="Terminator" Name=" Terminator " SID="4143::111">
+  <Block BlockType="Terminator" Name=" Terminator " SID="4264::116">
     <P Name="Position">[460, 241, 480, 259]</P>
-    <P Name="ZOrder">91</P>
+    <P Name="ZOrder">96</P>
   </Block>
-  <Block BlockType="Outport" Name="timer" SID="4143::113">
+  <Block BlockType="Outport" Name="timer" SID="4264::113">
     <P Name="Position">[460, 101, 480, 119]</P>
     <P Name="ZOrder">93</P>
   </Block>
   <Line>
-    <P Name="Name">timer</P>
     <P Name="ZOrder">1</P>
-    <P Name="Labels">[0, 0]</P>
-    <P Name="Src">4143::109#out:2</P>
-    <P Name="Dst">4143::113#in:1</P>
+    <P Name="Src">4264::114#out:1</P>
+    <P Name="Dst">4264::115#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">2</P>
-    <P Name="Src">4143::112#out:1</P>
-    <P Name="Dst">4143::109#in:1</P>
+    <P Name="Src">4264::115#out:1</P>
+    <P Name="Dst">4264::116#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">3</P>
-    <P Name="Src">4143::110#out:1</P>
-    <P Name="Dst">4143::111#in:1</P>
+    <P Name="Src">4264::117#out:1</P>
+    <P Name="Dst">4264::114#in:1</P>
   </Line>
   <Line>
+    <P Name="Name">timer</P>
     <P Name="ZOrder">4</P>
-    <P Name="Src">4143::109#out:1</P>
-    <P Name="Dst">4143::110#in:1</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">4264::114#out:2</P>
+    <P Name="Dst">4264::113#in:1</P>
   </Line>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_4146.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_4267.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[0, 27, 3840, 2160]</P>
@@ -4253,7 +3312,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4146.xml
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
   <P Name="ZoomFactor">300</P>
-  <Block BlockType="TriggerPort" Name="function" SID="4147">
+  <Block BlockType="TriggerPort" Name="function" SID="4268">
     <PortCounts/>
     <P Name="Position">[365, 45, 385, 65]</P>
     <P Name="ZOrder">-2</P>
@@ -4261,7 +3320,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4146.xml
     <P Name="VariantControl">(inherit)</P>
     <P Name="StatesWhenEnabling">held</P>
   </Block>
-  <Block BlockType="SubSystem" Name="toggle units" SID="4148">
+  <Block BlockType="SubSystem" Name="toggle units" SID="4269">
     <PortCounts out="1"/>
     <P Name="Position">[200, 84, 260, 136]</P>
     <P Name="ZOrder">2</P>
@@ -4274,18 +3333,18 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4146.xml
         <P Name="PropagatedSignals">unit</P>
       </Port>
     </PortProperties>
-    <System Ref="system_4148"/>
+    <System Ref="system_4269"/>
   </Block>
-  <Block BlockType="Outport" Name="unit" SID="4149">
+  <Block BlockType="Outport" Name="unit" SID="4270">
     <P Name="Position">[360, 103, 390, 117]</P>
     <P Name="ZOrder">-3</P>
   </Block>
   <Line>
     <P Name="ZOrder">1</P>
-    <P Name="Src">4148#out:1</P>
-    <P Name="Dst">4149#in:1</P>
+    <P Name="Src">4269#out:1</P>
+    <P Name="Dst">4270#in:1</P>
   </Line>
-  <Annotation SID="4150">
+  <Annotation SID="4271">
     <P Name="Name">These events contain no data, so we have
 to use some tricks to get the desired
 behaviour.
@@ -4306,34 +3365,34 @@ window to the first actual state.</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">1</P>
+    <P Name="ZOrder">-1</P>
     <P Name="FontSize">12</P>
   </Annotation>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_4148.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_4269.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[3912, 0, 7680, 2160]</P>
   <P Name="PaperType">usletter</P>
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
-  <P Name="SIDHighWatermark">113</P>
-  <Block BlockType="Demux" Name=" Demux " SID="4148::110">
+  <P Name="SIDHighWatermark">117</P>
+  <Block BlockType="Demux" Name=" Demux " SID="4269::115">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[270, 230, 320, 270]</P>
-    <P Name="ZOrder">90</P>
+    <P Name="ZOrder">95</P>
     <P Name="Outputs">1</P>
   </Block>
-  <Block BlockType="Ground" Name=" Ground " SID="4148::112">
+  <Block BlockType="Ground" Name=" Ground " SID="4269::117">
     <P Name="Position">[20, 121, 40, 139]</P>
-    <P Name="ZOrder">92</P>
+    <P Name="ZOrder">97</P>
   </Block>
-  <Block BlockType="S-Function" Name=" SFunction " SID="4148::109">
+  <Block BlockType="S-Function" Name=" SFunction " SID="4269::114">
     <P Name="Tag">Stateflow S-Function 3</P>
     <PortCounts in="1" out="2"/>
     <P Name="Position">[180, 100, 230, 160]</P>
-    <P Name="ZOrder">89</P>
+    <P Name="ZOrder">94</P>
     <P Name="FunctionName">sf_sfun</P>
     <P Name="PortCounts">[1 2]</P>
     <P Name="SFunctionDeploymentMode">off</P>
@@ -4345,39 +3404,39 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4148.xml
       </Port>
     </PortProperties>
   </Block>
-  <Block BlockType="Terminator" Name=" Terminator " SID="4148::111">
+  <Block BlockType="Terminator" Name=" Terminator " SID="4269::116">
     <P Name="Position">[460, 241, 480, 259]</P>
-    <P Name="ZOrder">91</P>
+    <P Name="ZOrder">96</P>
   </Block>
-  <Block BlockType="Outport" Name="unit" SID="4148::113">
+  <Block BlockType="Outport" Name="unit" SID="4269::113">
     <P Name="Position">[460, 101, 480, 119]</P>
     <P Name="ZOrder">93</P>
   </Block>
   <Line>
     <P Name="ZOrder">1</P>
-    <P Name="Src">4148::109#out:1</P>
-    <P Name="Dst">4148::110#in:1</P>
+    <P Name="Src">4269::114#out:1</P>
+    <P Name="Dst">4269::115#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">2</P>
-    <P Name="Src">4148::110#out:1</P>
-    <P Name="Dst">4148::111#in:1</P>
+    <P Name="Src">4269::115#out:1</P>
+    <P Name="Dst">4269::116#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">3</P>
-    <P Name="Src">4148::112#out:1</P>
-    <P Name="Dst">4148::109#in:1</P>
+    <P Name="Src">4269::117#out:1</P>
+    <P Name="Dst">4269::114#in:1</P>
   </Line>
   <Line>
     <P Name="Name">unit</P>
     <P Name="ZOrder">4</P>
     <P Name="Labels">[0, 0]</P>
-    <P Name="Src">4148::109#out:2</P>
-    <P Name="Dst">4148::113#in:1</P>
+    <P Name="Src">4269::114#out:2</P>
+    <P Name="Dst">4269::113#in:1</P>
   </Line>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_4158.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_4279.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[0, 27, 3840, 2160]</P>
@@ -4385,11 +3444,11 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4158.xml
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
   <P Name="ZoomFactor">300</P>
-  <Block BlockType="Inport" Name="target_temperature_in" SID="4159">
+  <Block BlockType="Inport" Name="target_temperature_in" SID="4280">
     <P Name="Position">[-290, 63, -260, 77]</P>
     <P Name="ZOrder">1</P>
   </Block>
-  <Block BlockType="Inport" Name="unit" SID="4160">
+  <Block BlockType="Inport" Name="unit" SID="4281">
     <P Name="Position">[-290, 268, -260, 282]</P>
     <P Name="ZOrder">8</P>
     <P Name="Port">2</P>
@@ -4399,7 +3458,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4158.xml
       </Port>
     </PortProperties>
   </Block>
-  <Block BlockType="Sum" Name="Add" SID="4161">
+  <Block BlockType="Sum" Name="Add" SID="4282">
     <PortCounts in="2" out="1"/>
     <P Name="Position">[45, 34, 70, 101]</P>
     <P Name="ZOrder">12</P>
@@ -4407,21 +3466,21 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4158.xml
     <P Name="OutDataTypeStr">int16</P>
     <P Name="AccumDataTypeStr">int16</P>
   </Block>
-  <Block BlockType="DataTypeConversion" Name="Cast" SID="4162">
+  <Block BlockType="DataTypeConversion" Name="Cast" SID="4283">
     <P Name="Position">[355, -7, 405, 7]</P>
     <P Name="ZOrder">258</P>
     <P Name="OutDataTypeStr">int16</P>
     <P Name="RndMeth">Floor</P>
     <P Name="SaturateOnIntegerOverflow">off</P>
   </Block>
-  <Block BlockType="DataTypeConversion" Name="Cast1" SID="4163">
+  <Block BlockType="DataTypeConversion" Name="Cast1" SID="4284">
     <P Name="Position">[-185, 133, -135, 147]</P>
     <P Name="ZOrder">259</P>
     <P Name="OutDataTypeStr">int16</P>
     <P Name="RndMeth">Floor</P>
     <P Name="SaturateOnIntegerOverflow">off</P>
   </Block>
-  <Block BlockType="Reference" Name="Compare&#xA;To Constant" SID="4164">
+  <Block BlockType="Reference" Name="Compare&#xA;To Constant" SID="4285">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[-60, 35, -30, 65]</P>
     <P Name="ZOrder">9</P>
@@ -4443,7 +3502,7 @@ To Constant</P>
       <P Name="ZeroCross">on</P>
     </InstanceData>
   </Block>
-  <Block BlockType="Reference" Name="Compare&#xA;To Constant1" SID="4165">
+  <Block BlockType="Reference" Name="Compare&#xA;To Constant1" SID="4286">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[-60, 70, -30, 100]</P>
     <P Name="ZOrder">11</P>
@@ -4465,7 +3524,7 @@ To Constant</P>
       <P Name="ZeroCross">on</P>
     </InstanceData>
   </Block>
-  <Block BlockType="DiscreteIntegrator" Name="Discrete-Time&#xA;Integrator" SID="4166">
+  <Block BlockType="DiscreteIntegrator" Name="Discrete-Time&#xA;Integrator" SID="4287">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[130, 52, 165, 88]</P>
     <P Name="ZOrder">7</P>
@@ -4482,7 +3541,7 @@ To Constant</P>
       </Port>
     </PortProperties>
   </Block>
-  <Block BlockType="From" Name="From" SID="4167">
+  <Block BlockType="From" Name="From" SID="4288">
     <P Name="Position">[-185, 168, -135, 182]</P>
     <P Name="ZOrder">23</P>
     <P Name="GotoTag">Unit</P>
@@ -4492,7 +3551,7 @@ To Constant</P>
       </Port>
     </PortProperties>
   </Block>
-  <Block BlockType="From" Name="From1" SID="4168">
+  <Block BlockType="From" Name="From1" SID="4289">
     <P Name="Position">[355, 28, 405, 42]</P>
     <P Name="ZOrder">26</P>
     <P Name="GotoTag">Unit</P>
@@ -4502,186 +3561,186 @@ To Constant</P>
       </Port>
     </PortProperties>
   </Block>
-  <Block BlockType="Gain" Name="Gain" SID="4169">
+  <Block BlockType="Gain" Name="Gain" SID="4290">
     <P Name="Position">[-5, 35, 25, 65]</P>
     <P Name="ZOrder">10</P>
     <P Name="Gain">-1</P>
     <P Name="ParamDataTypeStr">int16</P>
     <P Name="OutDataTypeStr">single</P>
   </Block>
-  <Block BlockType="Goto" Name="Goto" SID="4170">
+  <Block BlockType="Goto" Name="Goto" SID="4291">
     <P Name="Position">[-185, 267, -135, 283]</P>
     <P Name="ZOrder">22</P>
     <P Name="GotoTag">Unit</P>
   </Block>
-  <Block BlockType="SubSystem" Name="Subsystem" SID="4171">
+  <Block BlockType="SubSystem" Name="Subsystem" SID="4292">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[-185, 201, -135, 219]</P>
     <P Name="ZOrder">24</P>
-    <System Ref="system_4171"/>
+    <System Ref="system_4292"/>
   </Block>
-  <Block BlockType="SubSystem" Name="Subsystem1" SID="4175">
+  <Block BlockType="SubSystem" Name="Subsystem1" SID="4296">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[355, 61, 405, 79]</P>
     <P Name="ZOrder">27</P>
-    <System Ref="system_4175"/>
+    <System Ref="system_4296"/>
   </Block>
-  <Block BlockType="Sum" Name="Subtract" SID="4179">
+  <Block BlockType="Sum" Name="Subtract" SID="4300">
     <PortCounts in="2" out="1"/>
     <P Name="Position">[-135, 11, -105, 89]</P>
     <P Name="ZOrder">4</P>
     <P Name="IconShape">rectangular</P>
     <P Name="Inputs">+-</P>
   </Block>
-  <Block BlockType="Switch" Name="Switch" SID="4180">
+  <Block BlockType="Switch" Name="Switch" SID="4301">
     <P Name="Position">[-105, 125, -60, 225]</P>
     <P Name="ZOrder">21</P>
     <P Name="Criteria">u2 &gt; Threshold</P>
     <P Name="InputSameDT">off</P>
     <P Name="SaturateOnIntegerOverflow">off</P>
   </Block>
-  <Block BlockType="Switch" Name="Switch1" SID="4181">
+  <Block BlockType="Switch" Name="Switch1" SID="4302">
     <P Name="Position">[435, -15, 480, 85]</P>
     <P Name="ZOrder">25</P>
     <P Name="Criteria">u2 &gt; Threshold</P>
     <P Name="InputSameDT">off</P>
     <P Name="SaturateOnIntegerOverflow">off</P>
   </Block>
-  <Block BlockType="Outport" Name="target_temperature_out" SID="4182">
+  <Block BlockType="Outport" Name="target_temperature_out" SID="4303">
     <P Name="Position">[70, 168, 100, 182]</P>
     <P Name="ZOrder">-2</P>
   </Block>
-  <Block BlockType="Outport" Name="current_temperature" SID="4183">
+  <Block BlockType="Outport" Name="current_temperature" SID="4304">
     <P Name="Position">[520, 28, 550, 42]</P>
     <P Name="ZOrder">2</P>
     <P Name="Port">2</P>
   </Block>
   <Line>
     <P Name="ZOrder">1</P>
-    <P Name="Src">4163#out:1</P>
-    <P Name="Dst">4180#in:1</P>
+    <P Name="Src">4284#out:1</P>
+    <P Name="Dst">4301#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">2</P>
-    <P Name="Src">4162#out:1</P>
-    <P Name="Dst">4181#in:1</P>
+    <P Name="Src">4283#out:1</P>
+    <P Name="Dst">4302#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">3</P>
-    <P Name="Src">4181#out:1</P>
-    <P Name="Dst">4183#in:1</P>
+    <P Name="Src">4302#out:1</P>
+    <P Name="Dst">4304#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">4</P>
-    <P Name="Src">4175#out:1</P>
-    <P Name="Dst">4181#in:3</P>
+    <P Name="Src">4296#out:1</P>
+    <P Name="Dst">4302#in:3</P>
   </Line>
   <Line>
     <P Name="Name">current temperature in C</P>
     <P Name="ZOrder">5</P>
-    <P Name="Src">4166#out:1</P>
+    <P Name="Src">4287#out:1</P>
     <P Name="Points">[110, 0]</P>
     <Branch>
       <P Name="ZOrder">6</P>
       <P Name="Points">[0, -70]</P>
       <Branch>
         <P Name="ZOrder">7</P>
-        <P Name="Dst">4162#in:1</P>
+        <P Name="Dst">4283#in:1</P>
       </Branch>
       <Branch>
         <P Name="ZOrder">8</P>
         <P Name="Labels">[1, 0]</P>
         <P Name="Points">[-439, 0; 0, 30]</P>
-        <P Name="Dst">4179#in:1</P>
+        <P Name="Dst">4300#in:1</P>
       </Branch>
     </Branch>
     <Branch>
       <P Name="ZOrder">9</P>
-      <P Name="Dst">4175#in:1</P>
+      <P Name="Dst">4296#in:1</P>
     </Branch>
   </Line>
   <Line>
     <P Name="ZOrder">10</P>
-    <P Name="Src">4168#out:1</P>
-    <P Name="Dst">4181#in:2</P>
+    <P Name="Src">4289#out:1</P>
+    <P Name="Dst">4302#in:2</P>
   </Line>
   <Line>
     <P Name="ZOrder">11</P>
-    <P Name="Src">4160#out:1</P>
-    <P Name="Dst">4170#in:1</P>
+    <P Name="Src">4281#out:1</P>
+    <P Name="Dst">4291#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">12</P>
-    <P Name="Src">4167#out:1</P>
-    <P Name="Dst">4180#in:2</P>
+    <P Name="Src">4288#out:1</P>
+    <P Name="Dst">4301#in:2</P>
   </Line>
   <Line>
     <P Name="ZOrder">13</P>
-    <P Name="Src">4159#out:1</P>
+    <P Name="Src">4280#out:1</P>
     <P Name="Points">[42, 0]</P>
     <Branch>
       <P Name="ZOrder">14</P>
-      <P Name="Dst">4179#in:2</P>
+      <P Name="Dst">4300#in:2</P>
     </Branch>
     <Branch>
       <P Name="ZOrder">15</P>
       <P Name="Points">[0, 70]</P>
       <Branch>
         <P Name="ZOrder">16</P>
-        <P Name="Dst">4163#in:1</P>
+        <P Name="Dst">4284#in:1</P>
       </Branch>
       <Branch>
         <P Name="ZOrder">17</P>
         <P Name="Points">[0, 70]</P>
-        <P Name="Dst">4171#in:1</P>
+        <P Name="Dst">4292#in:1</P>
       </Branch>
     </Branch>
   </Line>
   <Line>
     <P Name="ZOrder">18</P>
-    <P Name="Src">4171#out:1</P>
-    <P Name="Dst">4180#in:3</P>
+    <P Name="Src">4292#out:1</P>
+    <P Name="Dst">4301#in:3</P>
   </Line>
   <Line>
     <P Name="ZOrder">19</P>
-    <P Name="Src">4180#out:1</P>
-    <P Name="Dst">4182#in:1</P>
+    <P Name="Src">4301#out:1</P>
+    <P Name="Dst">4303#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">20</P>
-    <P Name="Src">4161#out:1</P>
-    <P Name="Dst">4166#in:1</P>
+    <P Name="Src">4282#out:1</P>
+    <P Name="Dst">4287#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">21</P>
-    <P Name="Src">4165#out:1</P>
-    <P Name="Dst">4161#in:2</P>
+    <P Name="Src">4286#out:1</P>
+    <P Name="Dst">4282#in:2</P>
   </Line>
   <Line>
     <P Name="ZOrder">22</P>
-    <P Name="Src">4169#out:1</P>
-    <P Name="Dst">4161#in:1</P>
+    <P Name="Src">4290#out:1</P>
+    <P Name="Dst">4282#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">23</P>
-    <P Name="Src">4164#out:1</P>
-    <P Name="Dst">4169#in:1</P>
+    <P Name="Src">4285#out:1</P>
+    <P Name="Dst">4290#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">24</P>
-    <P Name="Src">4179#out:1</P>
+    <P Name="Src">4300#out:1</P>
     <P Name="Points">[15, 0]</P>
     <Branch>
       <P Name="ZOrder">25</P>
-      <P Name="Dst">4164#in:1</P>
+      <P Name="Dst">4285#in:1</P>
     </Branch>
     <Branch>
       <P Name="ZOrder">26</P>
       <P Name="Points">[0, 35]</P>
-      <P Name="Dst">4165#in:1</P>
+      <P Name="Dst">4286#in:1</P>
     </Branch>
   </Line>
-  <Annotation SID="4187">
+  <Annotation SID="4308">
     <P Name="Name">Convert to active unit and send to the UI</P>
     <P Name="Position">[-205, 109, 15, 234]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
@@ -4693,10 +3752,10 @@ To Constant</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">4</P>
+    <P Name="ZOrder">-1</P>
     <P Name="FontSize">12</P>
   </Annotation>
-  <Annotation SID="4186">
+  <Annotation SID="4307">
     <P Name="Name">If the current temperature is higher than the
 target temperature, the current temperature
 decreases by one degree C every two seconds.
@@ -4712,10 +3771,10 @@ temperatures are the same nothing happens</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">3</P>
+    <P Name="ZOrder">-2</P>
     <P Name="FontSize">12</P>
   </Annotation>
-  <Annotation SID="4185">
+  <Annotation SID="4306">
     <P Name="Name">This integrator starts at
 16 which is the initial
 temperature, the sample
@@ -4740,10 +3799,10 @@ might look better</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">1</P>
+    <P Name="ZOrder">-3</P>
     <P Name="FontSize">12</P>
   </Annotation>
-  <Annotation SID="4184">
+  <Annotation SID="4305">
     <P Name="Name">Convert the current
 temperature to the selected
 unit and datatype and send
@@ -4758,12 +3817,12 @@ to the UI</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">2</P>
+    <P Name="ZOrder">-4</P>
     <P Name="FontSize">12</P>
   </Annotation>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_4171.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_4292.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[3912, 0, 7680, 2160]</P>
@@ -4771,17 +3830,17 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4171.xml
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
   <P Name="ZoomFactor">400</P>
-  <Block BlockType="Inport" Name="C" SID="4172">
+  <Block BlockType="Inport" Name="C" SID="4293">
     <P Name="Position">[110, 103, 140, 117]</P>
     <P Name="ZOrder">-1</P>
     <P Name="Unit"> degC</P>
   </Block>
-  <Block BlockType="UnitConversion" Name="Unit Conversion" SID="4173">
+  <Block BlockType="UnitConversion" Name="Unit Conversion" SID="4294">
     <P Name="Position">[215, 89, 285, 131]</P>
     <P Name="ZOrder">2</P>
     <P Name="OutputType">Inherit: Inherit via back propagation</P>
   </Block>
-  <Block BlockType="Outport" Name="F" SID="4174">
+  <Block BlockType="Outport" Name="F" SID="4295">
     <P Name="Position">[360, 103, 390, 117]</P>
     <P Name="ZOrder">-2</P>
     <P Name="OutDataTypeStr">int16</P>
@@ -4789,17 +3848,17 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4171.xml
   </Block>
   <Line>
     <P Name="ZOrder">1</P>
-    <P Name="Src">4173#out:1</P>
-    <P Name="Dst">4174#in:1</P>
+    <P Name="Src">4294#out:1</P>
+    <P Name="Dst">4295#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">2</P>
-    <P Name="Src">4172#out:1</P>
-    <P Name="Dst">4173#in:1</P>
+    <P Name="Src">4293#out:1</P>
+    <P Name="Dst">4294#in:1</P>
   </Line>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_4175.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_4296.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[3912, 0, 7680, 2160]</P>
@@ -4807,7 +3866,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4175.xml
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
   <P Name="ZoomFactor">400</P>
-  <Block BlockType="Inport" Name="C" SID="4176">
+  <Block BlockType="Inport" Name="C" SID="4297">
     <P Name="Position">[110, 103, 140, 117]</P>
     <P Name="ZOrder">-1</P>
     <P Name="Unit"> degC</P>
@@ -4817,12 +3876,12 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4175.xml
       </Port>
     </PortProperties>
   </Block>
-  <Block BlockType="UnitConversion" Name="Unit Conversion" SID="4177">
+  <Block BlockType="UnitConversion" Name="Unit Conversion" SID="4298">
     <P Name="Position">[215, 89, 285, 131]</P>
     <P Name="ZOrder">2</P>
     <P Name="OutputType">Inherit: Inherit via back propagation</P>
   </Block>
-  <Block BlockType="Outport" Name="F" SID="4178">
+  <Block BlockType="Outport" Name="F" SID="4299">
     <P Name="Position">[360, 103, 390, 117]</P>
     <P Name="ZOrder">-2</P>
     <P Name="OutDataTypeStr">int16</P>
@@ -4830,33 +3889,34 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4175.xml
   </Block>
   <Line>
     <P Name="ZOrder">1</P>
-    <P Name="Src">4176#out:1</P>
-    <P Name="Dst">4177#in:1</P>
+    <P Name="Src">4297#out:1</P>
+    <P Name="Dst">4298#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">2</P>
-    <P Name="Src">4177#out:1</P>
-    <P Name="Dst">4178#in:1</P>
+    <P Name="Src">4298#out:1</P>
+    <P Name="Dst">4299#in:1</P>
   </Line>
 </System>
 
 __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
-  <P Name="Location">[3912, 0, 7680, 2160]</P>
-  <P Name="ZoomFactor">267</P>
+  <P Name="Location">[1920, 27, 3840, 2160]</P>
+  <P Name="Open">on</P>
+  <P Name="ZoomFactor">250</P>
   <P Name="ReportName">simulink-default.rpt</P>
-  <P Name="SIDHighWatermark">4191</P>
-  <Block BlockType="SubSystem" Name="Crank Example" SID="4069">
+  <P Name="SIDHighWatermark">4311</P>
+  <Block BlockType="SubSystem" Name="Crank Example" SID="4192">
     <PortCounts/>
     <P Name="Position">[590, 991, 775, 1079]</P>
-    <P Name="ZOrder">16</P>
+    <P Name="ZOrder">18</P>
     <P Name="HideAutomaticName">off</P>
-    <System Ref="system_4069"/>
+    <System Ref="system_4192"/>
   </Block>
   <Block BlockType="S-Function" Name="Crank deserialize event" SID="4067">
     <PortCounts in="1" out="1"/>
-    <P Name="Position">[590, 732, 770, 818]</P>
+    <P Name="Position">[590, 737, 775, 823]</P>
     <P Name="ZOrder">14</P>
     <P Name="BackgroundColor">[1.000000, 0.666667, 0.000000]</P>
     <P Name="FunctionName">sfcn_crank_deserialize</P>
@@ -4981,7 +4041,7 @@ Select the event from the list to deserialize.</Description>
   </Block>
   <Block BlockType="S-Function" Name="Crank receive channel" SID="4066">
     <PortCounts out="2"/>
-    <P Name="Position">[590, 599, 770, 686]</P>
+    <P Name="Position">[590, 614, 775, 701]</P>
     <P Name="ZOrder">13</P>
     <P Name="BackgroundColor">[1.000000, 0.666667, 0.000000]</P>
     <P Name="FunctionName">sfcn_crank_receive</P>
@@ -5265,13 +4325,13 @@ Select an event from the now loaded event list</Description>
         events = processCrankHeader(header_text);
         set_param(gcb, &apos;header_text&apos;, header_text);
         set_param(gcb, &apos;header&apos;, char(sprintf(&quot;\&apos;%s\&apos;&quot;,file)));
-        mask.getParameter(&apos;event_name&apos;).TypeOptions = events.names;
         set_param(gcb, &apos;events&apos;, mat2str(events.names));
         set_param(gcb, &apos;fmts&apos;, mat2str(events.fmts));
         set_param(gcb, &apos;num_fields&apos;, mat2str(events.num_fields));
         set_param(gcb, &apos;field_names&apos;, mat2str(events.field_names));
         set_param(gcb, &apos;field_types&apos;, mat2str(events.field_types));
         set_param(gcb, &apos;field_sizes&apos;, mat2str(events.field_sizes));
+        mask.getParameter(&apos;event_name&apos;).TypeOptions = events.names;
     end</Callback>
           </DialogControl>
           <DialogControl Type="TextArea" Name="header_text">
@@ -5301,7 +4361,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
   <Object PropName="BdWindowsInfo" ObjectID="1" ClassName="Simulink.BDWindowsInfo">
     <Object PropName="WindowsInfo" ObjectID="2" ClassName="Simulink.WindowInfo">
       <P Name="IsActive" Class="logical">1</P>
-      <P Name="Location" Class="double">[3912.0, 0.0, 3768.0, 2160.0]</P>
+      <P Name="Location" Class="double">[1920.0, 27.0, 1920.0, 2133.0]</P>
       <Object PropName="ModelBrowserInfo" ObjectID="3" ClassName="Simulink.ModelBrowserInfo">
         <P Name="Visible" Class="logical">1</P>
         <P Name="DockPosition" Class="char">Left</P>
@@ -5313,18 +4373,38 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
       <Object PropName="ExplorerBarInfo" ObjectID="4" ClassName="Simulink.ExplorerBarInfo">
         <P Name="Visible" Class="logical">1</P>
       </Object>
-      <Array PropName="EditorsInfo" Type="Simulink.EditorInfo" Dimension="1*7">
+      <Array PropName="EditorsInfo" Type="Simulink.EditorInfo" Dimension="1*8">
         <Object ObjectID="5">
           <P Name="IsActive" Class="logical">1</P>
           <P Name="IsTabbed" Class="logical">1</P>
-          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">4069</P>
-          <P Name="Extents" Class="double">[3535.0, 1919.0]</P>
-          <P Name="ZoomFactor" Class="double">1.25</P>
-          <P Name="Offset" Class="double">[232.52201791607922, 234.34919849127789]</P>
-          <P Name="SceneRectInView" Class="double">[232.52201791607922, 234.34919849127789, 2828.0, 1535.2]</P>
+          <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
+          <P Name="LoadSaveID" Class="char">0</P>
+          <P Name="Extents" Class="double">[1687.0, 1892.0]</P>
+          <P Name="ZoomFactor" Class="double">2.5</P>
+          <P Name="Offset" Class="double">[416.62290426300638, 484.42423060364479]</P>
+          <P Name="SceneRectInView" Class="double">[416.62290426300638, 484.42423060364479, 674.8, 756.8]</P>
         </Object>
         <Object ObjectID="6">
+          <P Name="IsActive" Class="logical">0</P>
+          <P Name="IsTabbed" Class="logical">0</P>
+          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
+          <P Name="LoadSaveID" Class="char">4192</P>
+          <P Name="Extents" Class="double">[1687.0, 1892.0]</P>
+          <P Name="ZoomFactor" Class="double">2.5</P>
+          <P Name="Offset" Class="double">[1675.8869788579327, 575.65475202529251]</P>
+          <P Name="SceneRectInView" Class="double">[1675.8869788579327, 575.65475202529251, 674.8, 756.8]</P>
+        </Object>
+        <Object ObjectID="7">
+          <P Name="IsActive" Class="logical">0</P>
+          <P Name="IsTabbed" Class="logical">0</P>
+          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
+          <P Name="LoadSaveID" Class="char">4069</P>
+          <P Name="Extents" Class="double">[1687.0, 1892.0]</P>
+          <P Name="ZoomFactor" Class="double">1.25</P>
+          <P Name="Offset" Class="double">[232.52201791607922, 234.34919849127789]</P>
+          <P Name="SceneRectInView" Class="double">[232.52201791607922, 234.34919849127789, 1349.6, 1513.6]</P>
+        </Object>
+        <Object ObjectID="8">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -5334,17 +4414,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-687.28892395138587, 159.59504950494966]</P>
           <P Name="SceneRectInView" Class="double">[-687.28892395138587, 159.59504950494966, 2020.0000000000002, 1096.5714285714287]</P>
         </Object>
-        <Object ObjectID="7">
-          <P Name="IsActive" Class="logical">0</P>
-          <P Name="IsTabbed" Class="logical">0</P>
-          <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
-          <P Name="LoadSaveID" Class="char">0</P>
-          <P Name="Extents" Class="double">[3535.0, 1919.0]</P>
-          <P Name="ZoomFactor" Class="double">2.6654507556018761</P>
-          <P Name="Offset" Class="double">[47.080379835218878, 489.718600754085]</P>
-          <P Name="SceneRectInView" Class="double">[47.080379835218878, 489.718600754085, 1326.2297165200391, 719.95327468230687]</P>
-        </Object>
-        <Object ObjectID="8">
+        <Object ObjectID="9">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -5354,7 +4424,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-348.765625, -233.16666666666669]</P>
           <P Name="SceneRectInView" Class="double">[-348.765625, -233.16666666666669, 1202.3333333333333, 559.33333333333337]</P>
         </Object>
-        <Object ObjectID="9">
+        <Object ObjectID="10">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -5364,7 +4434,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-472.9375, -229.66666666666669]</P>
           <P Name="SceneRectInView" Class="double">[-472.9375, -229.66666666666669, 1202.3333333333333, 559.33333333333337]</P>
         </Object>
-        <Object ObjectID="10">
+        <Object ObjectID="11">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -5374,7 +4444,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[1370.9538172468356, 704.493670886076]</P>
           <P Name="SceneRectInView" Class="double">[1370.9538172468356, 704.493670886076, 1141.4556962025315, 531.01265822784808]</P>
         </Object>
-        <Object ObjectID="11">
+        <Object ObjectID="12">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -5386,7 +4456,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
         </Object>
       </Array>
       <Array PropName="DockComponentsInfo" Type="Simulink.DockComponentInfo" Dimension="1*2">
-        <Object ObjectID="12">
+        <Object ObjectID="13">
           <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
           <P Name="ID" Class="char">Property Inspector</P>
           <P Name="Visible" Class="logical">0</P>
@@ -5398,7 +4468,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Height" Class="int32">480</P>
           <P Name="Minimized" Class="char">Unset</P>
         </Object>
-        <Object ObjectID="13">
+        <Object ObjectID="14">
           <P Name="Type" Class="char">Simulink:Editor:ReferencedFiles</P>
           <P Name="ID" Class="char">Referenced Files</P>
           <P Name="Visible" Class="logical">0</P>
@@ -5412,7 +4482,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Minimized" Class="char">Unset</P>
         </Object>
       </Array>
-      <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAAC9AAAHvPwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQBAAAAeQAAB7wAAABiAP////sAAABgAFMAaQBtAHUAbABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZQBzAAAAAAD/////AAAAiQD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAdABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAAAAwAADj0AAADQ/AEAAAAB+/////8AAAAAAP////8AAAFZAP///wAADfUAAAe8AAAAAQAAAAIAAAABAAAAAvwAAAABAAAAAgAAAAA=</P>
+      <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAAC9AAAHofwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQBAAAAeQAAB6EAAABiAP////sAAABgAFMAaQBtAHUAbABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZQBzAAAAAAD/////AAAAiQD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAdABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAAAAwAADj0AAADQ/AEAAAAB+/////8AAAAAAP////8AAAFZAP///wAABr0AAAehAAAAAQAAAAIAAAABAAAAAvwAAAABAAAAAgAAAAA=</P>
       <Array PropName="PersistedApps" Type="Cell" Dimension="0*1"/>
       <P Name="WindowUuid" Class="char">e00dcbb3-544d-4746-9dee-5afbcc4851be</P>
     </Object>
