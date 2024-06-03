@@ -46,7 +46,7 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
 <cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <cp:category>library</cp:category>
   <dcterms:created xsi:type="dcterms:W3CDTF">2009-09-22T11:41:27Z</dcterms:created>
-  <dc:creator>HANcoder</dc:creator>
+  <dc:creator>GOcontroll</dc:creator>
   <dc:description></dc:description>
   <cp:lastModifiedBy>maud</cp:lastModifiedBy>
   <dcterms:modified xsi:type="dcterms:W3CDTF">2024-05-30T11:13:18Z</dcterms:modified>

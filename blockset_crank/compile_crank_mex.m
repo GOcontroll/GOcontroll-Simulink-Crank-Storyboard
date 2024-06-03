@@ -5,7 +5,7 @@ if contains(mfilePath,'LiveEditorEvaluationHelper')
 end
 %remove the filename from the end
 [path, ~, ~] = fileparts(mfilePath);
-% if sfcn_crank_version doesn't exist or the result of it is false, recompile the mex files
+% if crank_mex_version doesn't exist or the result of it is false, recompile the mex files
 if ~(exist('crank_mex_version', "file") == 3) || ~crank_mex_version()
 	disp("Compiling Crank c mex functions...");
 	% compile mex files
@@ -21,7 +21,7 @@ if ~(exist('crank_mex_version', "file") == 3) || ~crank_mex_version()
 		end
 	end
 	fprintf("\nCompiling crank_mex_version\n");
-	mex(fullfile(path, 'blocks', 'crank_mex_version.c'), '-outdir',fullfile(path, 'blocks'), ['-DVERSION=''"' blockset_crank_version() '"''']) %jank quote stuff to get it into the define correctly
+	mex(fullfile(path, 'blocks', 'crank_mex_version.c'), '-outdir',fullfile(path, 'blocks'), ['-DVERSION="' blockset_crank_version() '"'])
 	disp("Finished compiling Crank c mex functions!");
 end
 %cleanup

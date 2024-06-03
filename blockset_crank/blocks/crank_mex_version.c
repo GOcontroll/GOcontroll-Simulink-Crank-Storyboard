@@ -5,6 +5,9 @@
 #error "VERSION must be passed in by command: -DVERSION=<version>"
 #endif
 
+#define stringify_(x) #x
+#define stringify(x) stringify_(x)
+
 /*
 * This function checks if the version that was stored at compile time equals the current version
 * given by the blockset_crank_version function.
@@ -12,7 +15,7 @@
 */
 void mexFunction( int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]) {
 	mxArray *result, *version_actual;
-	char *version_local_str = VERSION;
+	char *version_local_str = stringify(VERSION);
 	char *version_actual_str;
 	mexCallMATLAB(1, &version_actual, 0, NULL, "blockset_crank_version");
 
