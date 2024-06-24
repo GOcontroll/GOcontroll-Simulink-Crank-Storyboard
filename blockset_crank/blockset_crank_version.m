@@ -30,7 +30,10 @@
 
 function [version] = blockset_crank_version()
 
-version = 'Crank V0.0.8';
+version = 'Crank V0.0.9';
+
+%% V0.0.9 Update 24-6-2024
+%  Fixed the mex version compilation and code so it works on windows aswell
 
 %% V0.0.8 Update 30-5-2024
 %  fixed an issue in the serialize and deserialize function that caused annoying errors to pop up
