@@ -8,7 +8,7 @@
     <param.description>This toolbox enables communication to and from a Crank Storyboard GUI in Simulink.
 This toolbox is not created/maintained by Crank themselves, it is created/maintained by GOcontroll B.V. as a community effort.</param.description>
     <param.screenshot />
-    <param.version>0.0.9</param.version>
+    <param.version>0.0.10</param.version>
     <param.output>${PROJECT_ROOT}/Crank-Storyboard-Simulink.mltbx</param.output>
     <param.products.name>
       <item>MATLAB</item>

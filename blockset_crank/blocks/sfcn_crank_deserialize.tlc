@@ -66,7 +66,8 @@
 	
 	if (%<event_num_set> == %<event_num_in>){ %%scope the definition of *data so it doesnt interfere with the other cases
 		%if SIZE(output_names, 1)
-			%<event_name>_event_t *data = (%<event_name>_event_t *)%<event_data>;
+			%assign struct_name = FEVAL("lower", event_name)
+			%<struct_name>_event_t *data = (%<struct_name>_event_t *)%<event_data>;
 			
 			%foreach outnum = SIZE(output_names, 1)
 				%if LibBlockOutputSignalWidth(outnum + 1) > 1

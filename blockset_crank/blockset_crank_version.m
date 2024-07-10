@@ -30,7 +30,10 @@
 
 function [version] = blockset_crank_version()
 
-version = 'Crank V0.0.9';
+version = 'Crank V0.0.10';
+%% V0.0.10 Update 10-7-2024
+%  Event names can now contain capital letters, the struct names always seem to be lowercase.
+%  Fixed annoying warnings about failing port_label() calls
 
 %% V0.0.9 Update 24-6-2024
 %  Fixed the mex version compilation and code so it works on windows aswell
