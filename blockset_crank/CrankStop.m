@@ -1,0 +1,1 @@
+matlab.addons.enableAddon("Crank-Storyboard-Simulink");

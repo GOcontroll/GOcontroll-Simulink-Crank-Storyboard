@@ -5,7 +5,9 @@ slprj/
 *.elf
 *.slxc
 crank_files/
-.vscode*
 *.mltbx
 *_generated_code/
 *.a2l
+.vscode/*
+!.vscode/*shared.json
+!.vscode/extensions.json

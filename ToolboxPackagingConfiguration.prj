@@ -62,10 +62,9 @@ resources/_Project/*
 .vscode
 .vscode/settings.json
 Crank-Storyboard-Simulink.mltbx
-blockset_crank/blocks/crank_mex_version.mexa64
-blockset_crank/blocks/sfcn_crank_deserialize.mexa64
-blockset_crank/blocks/sfcn_crank_receive.mexa64
-blockset_crank/blocks/sfcn_crank_serialize.mexa64
+blockset_crank/CrankStart.m
+blockset_crank/CrankStop.m
+**/*.mex*
 crank_files/
 doc
 example_code/
@@ -175,7 +174,7 @@ images/</param.exclude.filters>
       <vista>false</vista>
       <linux>true</linux>
       <solaris>false</solaris>
-      <osver>5.15.0-113-generic</osver>
+      <osver>5.15.0-117-generic</osver>
       <os32>false</os32>
       <os64>true</os64>
       <arch>glnxa64</arch>
